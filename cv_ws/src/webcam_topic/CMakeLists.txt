@@ -14,9 +14,12 @@ find_package(cv_bridge REQUIRED)
 
 add_executable(webcam_pub src/webcam_pub.cpp)
 ament_target_dependencies(webcam_pub rclcpp sensor_msgs cv_bridge OpenCV)
+add_executable(webcam_sub src/webcam_sub.cpp)
+ament_target_dependencies(webcam_sub rclcpp sensor_msgs cv_bridge OpenCV)
 
 install(TARGETS
   webcam_pub
+  webcam_sub
   DESTINATION lib/${PROJECT_NAME}
 )
 

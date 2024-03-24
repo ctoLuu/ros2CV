@@ -1,4 +1,5 @@
 /home/stoair/ros2CV/cv_ws/install/webcam_topic/lib/webcam_topic/webcam_pub
+/home/stoair/ros2CV/cv_ws/install/webcam_topic/lib/webcam_topic/webcam_sub
 /home/stoair/ros2CV/cv_ws/install/webcam_topic/share/ament_index/resource_index/package_run_dependencies/webcam_topic
 /home/stoair/ros2CV/cv_ws/install/webcam_topic/share/ament_index/resource_index/parent_prefix_path/webcam_topic
 /home/stoair/ros2CV/cv_ws/install/webcam_topic/share/webcam_topic/environment/ament_prefix_path.sh

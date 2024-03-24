@@ -711,4 +711,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/webcam_topic_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/webcam_pub.dir/DependInfo.cmake"
+  "CMakeFiles/webcam_sub.dir/DependInfo.cmake"
   )

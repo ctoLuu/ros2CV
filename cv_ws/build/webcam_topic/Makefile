@@ -210,6 +210,19 @@ webcam_pub/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/webcam_pub.dir/build.make CMakeFiles/webcam_pub.dir/build
 .PHONY : webcam_pub/fast
 
+#=============================================================================
+# Target rules for targets named webcam_sub
+
+# Build rule for target.
+webcam_sub: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 webcam_sub
+.PHONY : webcam_sub
+
+# fast build rule for target.
+webcam_sub/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/webcam_sub.dir/build.make CMakeFiles/webcam_sub.dir/build
+.PHONY : webcam_sub/fast
+
 src/webcam_pub.o: src/webcam_pub.cpp.o
 .PHONY : src/webcam_pub.o
 
@@ -234,6 +247,30 @@ src/webcam_pub.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/webcam_pub.dir/build.make CMakeFiles/webcam_pub.dir/src/webcam_pub.cpp.s
 .PHONY : src/webcam_pub.cpp.s
 
+src/webcam_sub.o: src/webcam_sub.cpp.o
+.PHONY : src/webcam_sub.o
+
+# target to build an object file
+src/webcam_sub.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/webcam_sub.dir/build.make CMakeFiles/webcam_sub.dir/src/webcam_sub.cpp.o
+.PHONY : src/webcam_sub.cpp.o
+
+src/webcam_sub.i: src/webcam_sub.cpp.i
+.PHONY : src/webcam_sub.i
+
+# target to preprocess a source file
+src/webcam_sub.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/webcam_sub.dir/build.make CMakeFiles/webcam_sub.dir/src/webcam_sub.cpp.i
+.PHONY : src/webcam_sub.cpp.i
+
+src/webcam_sub.s: src/webcam_sub.cpp.s
+.PHONY : src/webcam_sub.s
+
+# target to generate assembly for a file
+src/webcam_sub.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/webcam_sub.dir/build.make CMakeFiles/webcam_sub.dir/src/webcam_sub.cpp.s
+.PHONY : src/webcam_sub.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... uninstall"
 	@echo "... webcam_topic_uninstall"
 	@echo "... webcam_pub"
+	@echo "... webcam_sub"
 	@echo "... src/webcam_pub.o"
 	@echo "... src/webcam_pub.i"
 	@echo "... src/webcam_pub.s"
+	@echo "... src/webcam_sub.o"
+	@echo "... src/webcam_sub.i"
+	@echo "... src/webcam_sub.s"
 .PHONY : help
 
 
