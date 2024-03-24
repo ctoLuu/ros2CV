@@ -1,0 +1,16 @@
+/home/stoair/ros2CV/cv_ws/install/webcam_topic/lib/webcam_topic/webcam_pub
+/home/stoair/ros2CV/cv_ws/install/webcam_topic/share/ament_index/resource_index/package_run_dependencies/webcam_topic
+/home/stoair/ros2CV/cv_ws/install/webcam_topic/share/ament_index/resource_index/parent_prefix_path/webcam_topic
+/home/stoair/ros2CV/cv_ws/install/webcam_topic/share/webcam_topic/environment/ament_prefix_path.sh
+/home/stoair/ros2CV/cv_ws/install/webcam_topic/share/webcam_topic/environment/ament_prefix_path.dsv
+/home/stoair/ros2CV/cv_ws/install/webcam_topic/share/webcam_topic/environment/path.sh
+/home/stoair/ros2CV/cv_ws/install/webcam_topic/share/webcam_topic/environment/path.dsv
+/home/stoair/ros2CV/cv_ws/install/webcam_topic/share/webcam_topic/local_setup.bash
+/home/stoair/ros2CV/cv_ws/install/webcam_topic/share/webcam_topic/local_setup.sh
+/home/stoair/ros2CV/cv_ws/install/webcam_topic/share/webcam_topic/local_setup.zsh
+/home/stoair/ros2CV/cv_ws/install/webcam_topic/share/webcam_topic/local_setup.dsv
+/home/stoair/ros2CV/cv_ws/install/webcam_topic/share/webcam_topic/package.dsv
+/home/stoair/ros2CV/cv_ws/install/webcam_topic/share/ament_index/resource_index/packages/webcam_topic
+/home/stoair/ros2CV/cv_ws/install/webcam_topic/share/webcam_topic/cmake/webcam_topicConfig.cmake
+/home/stoair/ros2CV/cv_ws/install/webcam_topic/share/webcam_topic/cmake/webcam_topicConfig-version.cmake
+/home/stoair/ros2CV/cv_ws/install/webcam_topic/share/webcam_topic/package.xml
