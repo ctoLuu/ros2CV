@@ -1,0 +1,3 @@
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Configuring incomplete, errors occurred!
+See also "/home/stoair/ros2CV/cv_ws/build/topic/CMakeFiles/CMakeOutput.log".

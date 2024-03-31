@@ -1,0 +1,260 @@
+[0.000000] (-) TimerEvent: {}
+[0.000262] (-) JobUnselected: {'identifier': 'topic_interfaces'}
+[0.000346] (-) JobUnselected: {'identifier': 'webcam_topic'}
+[0.000416] (-) JobUnselected: {'identifier': 'yolo_topic'}
+[0.000427] (topic) JobQueued: {'identifier': 'topic', 'dependencies': OrderedDict([('topic_interfaces', '/home/stoair/ros2CV/cv_ws/install/topic_interfaces')])}
+[0.000442] (topic) JobStarted: {'identifier': 'topic'}
+[0.008249] (topic) JobProgress: {'identifier': 'topic', 'progress': 'cmake'}
+[0.008646] (topic) JobProgress: {'identifier': 'topic', 'progress': 'build'}
+[0.009177] (topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/stoair/ros2CV/cv_ws/build/topic', '--', '-j16', '-l16'], 'cwd': '/home/stoair/ros2CV/cv_ws/build/topic', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'stoair'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib:/usr/local/cuda-12.1/lib64:/home/stoair/learn_ws/install/ros_interfaces/lib:/home/stoair/dev_ws/install/learning_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.1/lib64:/usr/local/lib:/usr/local/lib'), ('HOME', '/home/stoair'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/stoair/ros2CV/cv_ws/src'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1146'), ('SYSTEMD_EXEC_PID', '1584'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2650'), ('COLCON_PREFIX_PATH', '/home/stoair/ros2CV/cv_ws/install:/home/stoair/learn_ws/install:/home/stoair/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'stoair'), ('JOURNAL_STREAM', '8:37263'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'stoair'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-12.1/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/stoair/.local/bin:/opt/ros/humble/bin:/home/stoair/anaconda3/bin:/home/stoair/anaconda3/condabin:/usr/local/cuda-12.1/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/stoair/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/stoair-ASUS-TUF-Gaming-F15-FX507VU-FX507VU:@/tmp/.ICE-unix/1515,unix/stoair-ASUS-TUF-Gaming-F15-FX507VU-FX507VU:/tmp/.ICE-unix/1515'), ('INVOCATION_ID', 'fcbd0bdf5e974fffa878b4d5c3060477'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af61594ff0.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/stoair/ros2CV/cv_ws/install/topic_interfaces:/home/stoair/ros2CV/cv_ws/install/webcam_topic:/home/stoair/learn_ws/install/service:/home/stoair/learn_ws/install/own_service:/home/stoair/learn_ws/install/ros_interfaces:/home/stoair/learn_ws/install/helloworld:/home/stoair/learn_ws/install/hellotopic:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic_cpp:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf_cpp:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service_cpp:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_pkg_c:/home/stoair/dev_ws/install/learning_parameter_cpp:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node_cpp:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action_cpp:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_interface:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/stoair/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/stoair/ros2CV/cv_ws/build/topic'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/stoair/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages:/home/stoair/learn_ws/install/ros_interfaces/lib/python3.11/site-packages:/home/stoair/dev_ws/install/learning_urdf/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_topic/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_tf/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_service/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_qos/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_pkg_python/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_parameter/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_node/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_launch/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_action/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:/home/stoair/dev_ws/install/learning_gazebo_fortress/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_gazebo/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_cv/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/stoair/anaconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/stoair/ros2CV/cv_ws/install/topic_interfaces:/home/stoair/ros2CV/cv_ws/install/webcam_topic:/home/stoair/learn_ws/install/service:/home/stoair/learn_ws/install/own_service:/home/stoair/learn_ws/install/ros_interfaces:/home/stoair/learn_ws/install/helloworld:/home/stoair/learn_ws/install/hellotopic:/home/stoair/dev_ws/install/learning_topic_cpp:/home/stoair/dev_ws/install/learning_tf_cpp:/home/stoair/dev_ws/install/learning_service_cpp:/home/stoair/dev_ws/install/learning_pkg_c:/home/stoair/dev_ws/install/learning_parameter_cpp:/home/stoair/dev_ws/install/learning_node_cpp:/home/stoair/dev_ws/install/learning_action_cpp:/home/stoair/dev_ws/install/learning_interface:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble')]), 'shell': False}
+[0.041851] (topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target image_sub\x1b[0m\n'}
+[0.042119] (topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target image_pub\x1b[0m\n'}
+[0.057354] (topic) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/image_pub.dir/src/image_pub.cpp.o\x1b[0m\n'}
+[0.058444] (topic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/image_sub.dir/src/image_sub.cpp.o\x1b[0m\n'}
+[0.099881] (-) TimerEvent: {}
+[0.200213] (-) TimerEvent: {}
+[0.300456] (-) TimerEvent: {}
+[0.400819] (-) TimerEvent: {}
+[0.501158] (-) TimerEvent: {}
+[0.601507] (-) TimerEvent: {}
+[0.701756] (-) TimerEvent: {}
+[0.802073] (-) TimerEvent: {}
+[0.902427] (-) TimerEvent: {}
+[1.002765] (-) TimerEvent: {}
+[1.103102] (-) TimerEvent: {}
+[1.203434] (-) TimerEvent: {}
+[1.303776] (-) TimerEvent: {}
+[1.404139] (-) TimerEvent: {}
+[1.504475] (-) TimerEvent: {}
+[1.604818] (-) TimerEvent: {}
+[1.705086] (-) TimerEvent: {}
+[1.805345] (-) TimerEvent: {}
+[1.905628] (-) TimerEvent: {}
+[2.005912] (-) TimerEvent: {}
+[2.106390] (-) TimerEvent: {}
+[2.206725] (-) TimerEvent: {}
+[2.307164] (-) TimerEvent: {}
+[2.407540] (-) TimerEvent: {}
+[2.507895] (-) TimerEvent: {}
+[2.608212] (-) TimerEvent: {}
+[2.635597] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid imagePub::coord_callback(topic_interfaces::msg::Coord_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.635843] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:36:71:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.635963] (topic) StderrLine: {'line': b'   36 |     void coord_callback(\x1b[01;35m\x1b[Kconst topic_interfaces::msg::Coord::SharedPtr msg\x1b[m\x1b[K)\n'}
+[2.636056] (topic) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.708349] (-) TimerEvent: {}
+[2.729834] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid imageSub::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.730206] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:114:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<topic_interfaces::msg::Coord_<std::allocator<void> > >::publish(char [50])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.730328] (topic) StderrLine: {'line': b'  114 |         \x1b[01;31m\x1b[Kpublisher_->publish(coord)\x1b[m\x1b[K;\n'}
+[2.730587] (topic) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[2.730687] (topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31\x1b[m\x1b[K,\n'}
+[2.730780] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[2.730871] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[2.730956] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.731148] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.731269] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.731359] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.731443] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.731527] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.731615] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.731698] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic/include/global.h:14\x1b[m\x1b[K,\n'}
+[2.731780] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:1\x1b[m\x1b[K:\n'}
+[2.731861] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:251:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::ros_message_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::ros_message_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type> >::type>) [with T = T; MessageT = topic_interfaces::msg::Coord_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.731963] (topic) StderrLine: {'line': b'  251 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(std::unique_ptr<T, ROSMessageTypeDeleter> msg)\n'}
+[2.732046] (topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.732127] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:251:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.732211] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:114:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<T, std::default_delete<topic_interfaces::msg::Coord_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.732306] (topic) StderrLine: {'line': b'  114 |         \x1b[01;36m\x1b[Kpublisher_->publish(coord)\x1b[m\x1b[K;\n'}
+[2.732388] (topic) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[2.732478] (topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31\x1b[m\x1b[K,\n'}
+[2.732560] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[2.732640] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[2.732721] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.732802] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.732882] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.732963] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.733044] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.733125] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.733206] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.733287] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic/include/global.h:14\x1b[m\x1b[K,\n'}
+[2.733368] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:1\x1b[m\x1b[K:\n'}
+[2.733448] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:292:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(const T&) [with T = T; MessageT = topic_interfaces::msg::Coord_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.733541] (topic) StderrLine: {'line': b'  292 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const T & msg)\n'}
+[2.733623] (topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.733703] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:292:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.733788] (topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:57\x1b[m\x1b[K,\n'}
+[2.733867] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:59\x1b[m\x1b[K,\n'}
+[2.733954] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[2.734032] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/specfun.h:45\x1b[m\x1b[K,\n'}
+[2.734110] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/cmath:1935\x1b[m\x1b[K,\n'}
+[2.734187] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Macros.h:679\x1b[m\x1b[K,\n'}
+[2.734264] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:19\x1b[m\x1b[K,\n'}
+[2.734341] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic/include/global.h:4\x1b[m\x1b[K,\n'}
+[2.734419] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:1\x1b[m\x1b[K:\n'}
+[2.734496] (topic) StderrLine: {'line': b'/usr/include/c++/11/type_traits: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<bool _Cond, class _Tp> using enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = void]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.734576] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:292:3:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, topic_interfaces::msg::Coord_<std::allocator<void> > >::value), void> rclcpp::Publisher<topic_interfaces::msg::Coord_<std::allocator<void> > >::publish<T>(const T&) [with T = char [50]]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.734657] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:114:28:\x1b[m\x1b[K   required from here\n'}
+[2.734734] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2579:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.734814] (topic) StderrLine: {'line': b' 2579 |     using \x1b[01;31m\x1b[Kenable_if_t\x1b[m\x1b[K = typename enable_if<_Cond, _Tp>::type;\n'}
+[2.734892] (topic) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.734970] (topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31\x1b[m\x1b[K,\n'}
+[2.735056] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[2.735134] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[2.735211] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.735289] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.735372] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.735450] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.735528] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.735606] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.735690] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.735769] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic/include/global.h:14\x1b[m\x1b[K,\n'}
+[2.735848] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:1\x1b[m\x1b[K:\n'}
+[2.735926] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:322:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::custom_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::custom_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type> >::type>) [with T = T; MessageT = topic_interfaces::msg::Coord_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.736019] (topic) StderrLine: {'line': b'  322 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(std::unique_ptr<T, PublishedTypeDeleter> msg)\n'}
+[2.736098] (topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.736175] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:322:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.736252] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:114:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<T, std::default_delete<topic_interfaces::msg::Coord_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.736333] (topic) StderrLine: {'line': b'  114 |         \x1b[01;36m\x1b[Kpublisher_->publish(coord)\x1b[m\x1b[K;\n'}
+[2.736412] (topic) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[2.736491] (topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31\x1b[m\x1b[K,\n'}
+[2.736570] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[2.736649] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[2.736728] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.736806] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.736884] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.736962] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.737039] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.737124] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.737202] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.737280] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic/include/global.h:14\x1b[m\x1b[K,\n'}
+[2.737358] (topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:1\x1b[m\x1b[K:\n'}
+[2.737436] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:364:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(const T&) [with T = T; MessageT = topic_interfaces::msg::Coord_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.737532] (topic) StderrLine: {'line': b'  364 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const T & msg)\n'}
+[2.737610] (topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.737687] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:364:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.737766] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:383:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rcl_serialized_message_t&) [with MessageT = topic_interfaces::msg::Coord_<std::allocator<void> >; AllocatorT = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_s]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.737847] (topic) StderrLine: {'line': b'  383 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const rcl_serialized_message_t & serialized_msg)\n'}
+[2.737930] (topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.738016] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:383:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kchar [50]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_serialized_message_t&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rcutils_uint8_array_s&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.738102] (topic) StderrLine: {'line': b'  383 |   publish(\x1b[01;36m\x1b[Kconst rcl_serialized_message_t & serialized_msg\x1b[m\x1b[K)\n'}
+[2.738181] (topic) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.738259] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:389:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rclcpp::SerializedMessage&) [with MessageT = topic_interfaces::msg::Coord_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.738339] (topic) StderrLine: {'line': b'  389 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const SerializedMessage & serialized_msg)\n'}
+[2.738418] (topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.738495] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:389:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kchar [50]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::SerializedMessage&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.738579] (topic) StderrLine: {'line': b'  389 |   publish(\x1b[01;36m\x1b[Kconst SerializedMessage & serialized_msg\x1b[m\x1b[K)\n'}
+[2.738666] (topic) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.738749] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:403:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(rclcpp::LoanedMessage<typename rclcpp::TypeAdapter<MessageT>::ros_message_type, AllocatorT>&&) [with MessageT = topic_interfaces::msg::Coord_<std::allocator<void> >; AllocatorT = std::allocator<void>; typename rclcpp::TypeAdapter<MessageT>::ros_message_type = topic_interfaces::msg::Coord_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.738840] (topic) StderrLine: {'line': b'  403 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(rclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg)\n'}
+[2.738924] (topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.739009] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:403:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kchar [50]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::LoanedMessage<topic_interfaces::msg::Coord_<std::allocator<void> >, std::allocator<void> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.739094] (topic) StderrLine: {'line': b'  403 |   publish(\x1b[01;36m\x1b[Krclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg\x1b[m\x1b[K)\n'}
+[2.739176] (topic) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.739260] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid imageSub::drive_servo(char*, int, int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.739346] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:131:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99 clause does not guard... [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation\x07-Wmisleading-indentation\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.739434] (topic) StderrLine: {'line': b'  131 |             \x1b[01;35m\x1b[Kif\x1b[m\x1b[K (count_servo >= times)\n'}
+[2.739518] (topic) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.739605] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:133:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K...this statement, but the latter is misleadingly indented as if it were guarded by the \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.739704] (topic) StderrLine: {'line': b'  133 |                 \x1b[01;36m\x1b[Kmodel_flag\x1b[m\x1b[K = 1;\n'}
+[2.739789] (topic) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.808571] (-) TimerEvent: {}
+[2.908923] (-) TimerEvent: {}
+[3.009287] (-) TimerEvent: {}
+[3.109647] (-) TimerEvent: {}
+[3.209970] (-) TimerEvent: {}
+[3.310286] (-) TimerEvent: {}
+[3.410582] (-) TimerEvent: {}
+[3.511016] (-) TimerEvent: {}
+[3.611452] (-) TimerEvent: {}
+[3.711890] (-) TimerEvent: {}
+[3.812322] (-) TimerEvent: {}
+[3.912742] (-) TimerEvent: {}
+[4.013173] (-) TimerEvent: {}
+[4.113614] (-) TimerEvent: {}
+[4.214051] (-) TimerEvent: {}
+[4.314359] (-) TimerEvent: {}
+[4.360307] (topic) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/image_sub.dir/build.make:76\xef\xbc\x9aCMakeFiles/image_sub.dir/src/image_sub.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[4.360648] (topic) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165\xef\xbc\x9aCMakeFiles/image_sub.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[4.360776] (topic) StderrLine: {'line': b'gmake[1]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[4.414503] (-) TimerEvent: {}
+[4.514919] (-) TimerEvent: {}
+[4.615351] (-) TimerEvent: {}
+[4.715768] (-) TimerEvent: {}
+[4.816198] (-) TimerEvent: {}
+[4.916627] (-) TimerEvent: {}
+[5.017078] (-) TimerEvent: {}
+[5.117540] (-) TimerEvent: {}
+[5.218051] (-) TimerEvent: {}
+[5.318586] (-) TimerEvent: {}
+[5.419039] (-) TimerEvent: {}
+[5.519454] (-) TimerEvent: {}
+[5.619789] (-) TimerEvent: {}
+[5.720134] (-) TimerEvent: {}
+[5.820471] (-) TimerEvent: {}
+[5.920774] (-) TimerEvent: {}
+[6.021079] (-) TimerEvent: {}
+[6.121417] (-) TimerEvent: {}
+[6.221745] (-) TimerEvent: {}
+[6.322055] (-) TimerEvent: {}
+[6.422351] (-) TimerEvent: {}
+[6.522680] (-) TimerEvent: {}
+[6.623103] (-) TimerEvent: {}
+[6.723577] (-) TimerEvent: {}
+[6.824020] (-) TimerEvent: {}
+[6.924433] (-) TimerEvent: {}
+[7.024815] (-) TimerEvent: {}
+[7.124146] (topic) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable image_pub\x1b[0m\n'}
+[7.124889] (-) TimerEvent: {}
+[7.225275] (-) TimerEvent: {}
+[7.325609] (-) TimerEvent: {}
+[7.403150] (topic) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.409\n'}
+[7.425875] (-) TimerEvent: {}
+[7.526484] (-) TimerEvent: {}
+[7.626914] (-) TimerEvent: {}
+[7.727370] (-) TimerEvent: {}
+[7.827636] (-) TimerEvent: {}
+[7.927977] (-) TimerEvent: {}
+[7.992010] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_getinfo@CURL_OPENSSL_4'\n"}
+[7.992423] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_perform@CURL_OPENSSL_4'\n"}
+[7.992644] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_cleanup@CURL_OPENSSL_4'\n"}
+[7.992948] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_global_init@CURL_OPENSSL_4'\n"}
+[7.993541] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_init@CURL_OPENSSL_4'\n"}
+[7.994120] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFReadFromUserBuffer@LIBTIFF_4.0'\n"}
+[7.995494] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileOffsetWithErr@LIBTIFF_4.0'\n"}
+[7.995749] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_remove_handle@CURL_OPENSSL_4'\n"}
+[7.996685] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_addpart@CURL_OPENSSL_4'\n"}
+[7.997172] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_version_info@CURL_OPENSSL_4'\n"}
+[7.997723] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_name@CURL_OPENSSL_4'\n"}
+[7.998226] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_filename@CURL_OPENSSL_4'\n"}
+[7.998547] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_info_read@CURL_OPENSSL_4'\n"}
+[7.999417] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_setopt@CURL_OPENSSL_4'\n"}
+[7.999968] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFDeferStrileArrayWriting@LIBTIFF_4.0'\n"}
+[8.000365] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFForceStrileArrayWriting@LIBTIFF_4.0'\n"}
+[8.000756] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFReadRGBATileExt@LIBTIFF_4.0'\n"}
+[8.002230] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_free@CURL_OPENSSL_4'\n"}
+[8.002429] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_cleanup@CURL_OPENSSL_4'\n"}
+[8.003262] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_data_cb@CURL_OPENSSL_4'\n"}
+[8.004471] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFReadRGBAStripExt@LIBTIFF_4.0'\n"}
+[8.004648] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_perform@CURL_OPENSSL_4'\n"}
+[8.005498] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_init@CURL_OPENSSL_4'\n"}
+[8.006592] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_add_handle@CURL_OPENSSL_4'\n"}
+[8.008305] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileOffset@LIBTIFF_4.0'\n"}
+[8.008820] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileByteCount@LIBTIFF_4.0'\n"}
+[8.009623] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_slist_free_all@CURL_OPENSSL_4'\n"}
+[8.009763] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_easy_strerror@CURL_OPENSSL_4'\n"}
+[8.010434] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileByteCountWithErr@LIBTIFF_4.0'\n"}
+[8.010888] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_slist_append@CURL_OPENSSL_4'\n"}
+[8.011452] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_poll@CURL_OPENSSL_4'\n"}
+[8.011857] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_version@CURL_OPENSSL_4'\n"}
+[8.012305] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_setopt@CURL_OPENSSL_4'\n"}
+[8.012562] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_data@CURL_OPENSSL_4'\n"}
+[8.013250] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_init@CURL_OPENSSL_4'\n"}
+[8.013941] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_wait@CURL_OPENSSL_4'\n"}
+[8.014667] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_global_cleanup@CURL_OPENSSL_4'\n"}
+[8.028189] (-) TimerEvent: {}
+[8.030380] (topic) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[8.032455] (topic) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/image_pub.dir/build.make:250\xef\xbc\x9aimage_pub] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[8.032572] (topic) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139\xef\xbc\x9aCMakeFiles/image_pub.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[8.032824] (topic) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[8.034373] (topic) CommandEnded: {'returncode': 2}
+[8.062752] (topic) JobEnded: {'identifier': 'topic', 'rc': 2}
+[8.073312] (-) EventReactorShutdown: {}

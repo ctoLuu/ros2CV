@@ -1,0 +1,6 @@
+{
+  "package_name": "topic_interfaces",
+  "non_idl_tuples": [
+    "/home/stoair/ros2CV/cv_ws/src/topic_interfaces:msg/Coord.msg"
+  ]
+}

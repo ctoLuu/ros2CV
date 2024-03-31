@@ -1,0 +1,162 @@
+[0.008s] Invoking command in '/home/stoair/ros2CV/cv_ws/build/topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/topic -- -j16 -l16
+[0.027s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.134s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.154s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.155s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.159s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.167s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.178s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.221s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.222s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.311s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.442s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.533s] [31mCMake Error at /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/topic_interfacesConfig.cmake:41 (include):
+[0.533s]   include could not find requested file:
+[0.533s] 
+[0.533s]     /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/rosidl_cmake-extras.cmake
+[0.533s] Call Stack (most recent call first):
+[0.533s]   CMakeLists.txt:26 (find_package)
+[0.533s]   CMakeLists.txt:40 (set_up_dependencies)
+[0.533s] 
+[0.533s] [0m
+[0.533s] [31mCMake Error at /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/topic_interfacesConfig.cmake:41 (include):
+[0.533s]   include could not find requested file:
+[0.533s] 
+[0.533s]     /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/ament_cmake_export_include_directories-extras.cmake
+[0.533s] Call Stack (most recent call first):
+[0.534s]   CMakeLists.txt:26 (find_package)
+[0.534s]   CMakeLists.txt:40 (set_up_dependencies)
+[0.534s] 
+[0.534s] [0m
+[0.534s] [31mCMake Error at /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/topic_interfacesConfig.cmake:41 (include):
+[0.534s]   include could not find requested file:
+[0.534s] 
+[0.534s]     /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/ament_cmake_export_libraries-extras.cmake
+[0.534s] Call Stack (most recent call first):
+[0.534s]   CMakeLists.txt:26 (find_package)
+[0.534s]   CMakeLists.txt:40 (set_up_dependencies)
+[0.534s] 
+[0.534s] [0m
+[0.534s] [31mCMake Error at /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/topic_interfacesConfig.cmake:41 (include):
+[0.534s]   include could not find requested file:
+[0.534s] 
+[0.534s]     /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/ament_cmake_export_targets-extras.cmake
+[0.534s] Call Stack (most recent call first):
+[0.534s]   CMakeLists.txt:26 (find_package)
+[0.534s]   CMakeLists.txt:40 (set_up_dependencies)
+[0.534s] 
+[0.534s] [0m
+[0.534s] [31mCMake Error at /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/topic_interfacesConfig.cmake:41 (include):
+[0.534s]   include could not find requested file:
+[0.534s] 
+[0.534s]     /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.534s] Call Stack (most recent call first):
+[0.535s]   CMakeLists.txt:26 (find_package)
+[0.535s]   CMakeLists.txt:40 (set_up_dependencies)
+[0.535s] 
+[0.535s] [0m
+[0.535s] [31mCMake Error at /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/topic_interfacesConfig.cmake:41 (include):
+[0.535s]   include could not find requested file:
+[0.535s] 
+[0.535s]     /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/ament_cmake_export_dependencies-extras.cmake
+[0.535s] Call Stack (most recent call first):
+[0.535s]   CMakeLists.txt:26 (find_package)
+[0.535s]   CMakeLists.txt:40 (set_up_dependencies)
+[0.535s] 
+[0.535s] [0m
+[0.535s] [31mCMake Error at /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/topic_interfacesConfig.cmake:41 (include):
+[0.535s]   include could not find requested file:
+[0.535s] 
+[0.535s]     /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.535s] Call Stack (most recent call first):
+[0.535s]   CMakeLists.txt:26 (find_package)
+[0.535s]   CMakeLists.txt:40 (set_up_dependencies)
+[0.535s] 
+[0.535s] [0m
+[0.535s] -- Found topic_interfaces: 0.0.0 (/home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core)
+[0.538s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.552s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.554s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.557s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.565s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.576s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.615s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.618s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.715s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.832s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.932s] -- Found topic_interfaces: 0.0.0 (/home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core)
+[0.933s] [31mCMake Error at /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/topic_interfacesConfig.cmake:41 (include):
+[0.933s]   include could not find requested file:
+[0.933s] 
+[0.933s]     /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/rosidl_cmake-extras.cmake
+[0.933s] Call Stack (most recent call first):
+[0.933s]   CMakeLists.txt:26 (find_package)
+[0.933s]   CMakeLists.txt:43 (set_up_dependencies)
+[0.933s] 
+[0.933s] [0m
+[0.933s] [31mCMake Error at /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/topic_interfacesConfig.cmake:41 (include):
+[0.933s]   include could not find requested file:
+[0.933s] 
+[0.934s]     /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/ament_cmake_export_include_directories-extras.cmake
+[0.934s] Call Stack (most recent call first):
+[0.934s]   CMakeLists.txt:26 (find_package)
+[0.934s]   CMakeLists.txt:43 (set_up_dependencies)
+[0.934s] 
+[0.934s] [0m
+[0.934s] [31mCMake Error at /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/topic_interfacesConfig.cmake:41 (include):
+[0.934s]   include could not find requested file:
+[0.934s] 
+[0.934s]     /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/ament_cmake_export_libraries-extras.cmake
+[0.934s] Call Stack (most recent call first):
+[0.934s]   CMakeLists.txt:26 (find_package)
+[0.935s]   CMakeLists.txt:43 (set_up_dependencies)
+[0.935s] 
+[0.935s] [0m
+[0.935s] [31mCMake Error at /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/topic_interfacesConfig.cmake:41 (include):
+[0.935s]   include could not find requested file:
+[0.935s] 
+[0.935s]     /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/ament_cmake_export_targets-extras.cmake
+[0.935s] Call Stack (most recent call first):
+[0.935s]   CMakeLists.txt:26 (find_package)
+[0.935s]   CMakeLists.txt:43 (set_up_dependencies)
+[0.935s] 
+[0.935s] [0m
+[0.936s] [31mCMake Error at /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/topic_interfacesConfig.cmake:41 (include):
+[0.936s]   include could not find requested file:
+[0.936s] 
+[0.936s]     /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.936s] Call Stack (most recent call first):
+[0.936s]   CMakeLists.txt:26 (find_package)
+[0.936s]   CMakeLists.txt:43 (set_up_dependencies)
+[0.936s] 
+[0.936s] [0m
+[0.936s] [31mCMake Error at /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/topic_interfacesConfig.cmake:41 (include):
+[0.936s]   include could not find requested file:
+[0.937s] 
+[0.937s]     /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/ament_cmake_export_dependencies-extras.cmake
+[0.937s] Call Stack (most recent call first):
+[0.937s]   CMakeLists.txt:26 (find_package)
+[0.937s]   CMakeLists.txt:43 (set_up_dependencies)
+[0.937s] 
+[0.937s] [0m
+[0.937s] [31mCMake Error at /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/topic_interfacesConfig.cmake:41 (include):
+[0.937s]   include could not find requested file:
+[0.937s] 
+[0.937s]     /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.937s] Call Stack (most recent call first):
+[0.937s]   CMakeLists.txt:26 (find_package)
+[0.938s]   CMakeLists.txt:43 (set_up_dependencies)
+[0.938s] 
+[0.938s] [0m
+[0.938s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.999s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.999s] -- Configured cppcheck include dirs: /home/stoair/ros2CV/cv_ws/src/topic/include
+[0.999s] -- Configured cppcheck exclude dirs and/or files: 
+[1.000s] -- Added test 'lint_cmake' to check CMake code style
+[1.000s] -- Added test 'uncrustify' to check C / C++ code style
+[1.000s] -- Configured uncrustify additional arguments: 
+[1.000s] -- Added test 'xmllint' to check XML markup files
+[1.001s] -- Configuring incomplete, errors occurred!
+[1.001s] See also "/home/stoair/ros2CV/cv_ws/build/topic/CMakeFiles/CMakeOutput.log".
+[1.007s] gmake: *** [Makefile:308：cmake_check_build_system] 错误 1
+[1.009s] Invoked command in '/home/stoair/ros2CV/cv_ws/build/topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/topic -- -j16 -l16

@@ -1,0 +1,19 @@
+[31mCMake Error at CMakeLists.txt:32 (add_library):
+  add_library cannot create target "image_pub" because another target with
+  the same name already exists.  The existing target is an executable created
+  in source directory "/home/stoair/ros2CV/cv_ws/src/topic".  See
+  documentation for policy CMP0002 for more details.
+Call Stack (most recent call first):
+  CMakeLists.txt:53 (set_up_dependencies)
+
+[0m
+[31mCMake Error at CMakeLists.txt:32 (add_library):
+  add_library cannot create target "image_sub" because another target with
+  the same name already exists.  The existing target is an executable created
+  in source directory "/home/stoair/ros2CV/cv_ws/src/topic".  See
+  documentation for policy CMP0002 for more details.
+Call Stack (most recent call first):
+  CMakeLists.txt:57 (set_up_dependencies)
+
+[0m
+gmake: *** [Makefile:349：cmake_check_build_system] 错误 1

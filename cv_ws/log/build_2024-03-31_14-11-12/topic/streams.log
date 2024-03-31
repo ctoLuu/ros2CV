@@ -1,0 +1,22 @@
+[0.008s] Invoking command in '/home/stoair/ros2CV/cv_ws/build/topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/topic -- -j16 -l16
+[0.039s] [31mCMake Error at CMakeLists.txt:21 (find_package):
+[0.039s]   By not providing "Findtopic_interfaces.cmake" in CMAKE_MODULE_PATH this
+[0.039s]   project has asked CMake to find a package configuration file provided by
+[0.039s]   "topic_interfaces", but CMake did not find one.
+[0.039s] 
+[0.039s]   Could not find a package configuration file provided by "topic_interfaces"
+[0.039s]   with any of the following names:
+[0.039s] 
+[0.039s]     topic_interfacesConfig.cmake
+[0.039s]     topic_interfaces-config.cmake
+[0.039s] 
+[0.039s]   Add the installation prefix of "topic_interfaces" to CMAKE_PREFIX_PATH or
+[0.039s]   set "topic_interfaces_DIR" to a directory containing one of the above
+[0.039s]   files.  If "topic_interfaces" provides a separate development package or
+[0.039s]   SDK, be sure it has been installed.
+[0.039s] 
+[0.039s] [0m
+[0.039s] -- Configuring incomplete, errors occurred!
+[0.039s] See also "/home/stoair/ros2CV/cv_ws/build/topic/CMakeFiles/CMakeOutput.log".
+[0.040s] gmake: *** [Makefile:308：cmake_check_build_system] 错误 1
+[0.041s] Invoked command in '/home/stoair/ros2CV/cv_ws/build/topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/topic -- -j16 -l16

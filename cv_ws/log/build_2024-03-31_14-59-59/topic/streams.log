@@ -1,0 +1,56 @@
+[0.010s] Invoking command in '/home/stoair/ros2CV/cv_ws/build/topic': AMENT_PREFIX_PATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces:/home/stoair/ros2CV/cv_ws/install/webcam_topic:/home/stoair/learn_ws/install/service:/home/stoair/learn_ws/install/own_service:/home/stoair/learn_ws/install/ros_interfaces:/home/stoair/learn_ws/install/helloworld:/home/stoair/learn_ws/install/hellotopic:/home/stoair/dev_ws/install/learning_topic_cpp:/home/stoair/dev_ws/install/learning_tf_cpp:/home/stoair/dev_ws/install/learning_service_cpp:/home/stoair/dev_ws/install/learning_pkg_c:/home/stoair/dev_ws/install/learning_parameter_cpp:/home/stoair/dev_ws/install/learning_node_cpp:/home/stoair/dev_ws/install/learning_action_cpp:/home/stoair/dev_ws/install/learning_interface:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib:/usr/local/cuda-12.1/lib64:/home/stoair/learn_ws/install/ros_interfaces/lib:/home/stoair/dev_ws/install/learning_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.1/lib64:/usr/local/lib:/usr/local/lib PYTHONPATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/topic -- -j16 -l16
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target image_sub[0m
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target image_pub[0m
+[0.057s] [ 25%] [32mBuilding CXX object CMakeFiles/image_sub.dir/src/image_sub.cpp.o[0m
+[0.058s] [ 50%] [32m[1mLinking CXX executable image_pub[0m
+[0.232s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.409
+[0.572s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_getinfo@CURL_OPENSSL_4'
+[0.572s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_perform@CURL_OPENSSL_4'
+[0.573s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_cleanup@CURL_OPENSSL_4'
+[0.573s] /usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_global_init@CURL_OPENSSL_4'
+[0.574s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_init@CURL_OPENSSL_4'
+[0.574s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFReadFromUserBuffer@LIBTIFF_4.0'
+[0.575s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileOffsetWithErr@LIBTIFF_4.0'
+[0.576s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_remove_handle@CURL_OPENSSL_4'
+[0.577s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_addpart@CURL_OPENSSL_4'
+[0.577s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_version_info@CURL_OPENSSL_4'
+[0.578s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_name@CURL_OPENSSL_4'
+[0.578s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_filename@CURL_OPENSSL_4'
+[0.579s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_info_read@CURL_OPENSSL_4'
+[0.580s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_setopt@CURL_OPENSSL_4'
+[0.580s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFDeferStrileArrayWriting@LIBTIFF_4.0'
+[0.581s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFForceStrileArrayWriting@LIBTIFF_4.0'
+[0.581s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFReadRGBATileExt@LIBTIFF_4.0'
+[0.582s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_free@CURL_OPENSSL_4'
+[0.583s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_cleanup@CURL_OPENSSL_4'
+[0.584s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_data_cb@CURL_OPENSSL_4'
+[0.585s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFReadRGBAStripExt@LIBTIFF_4.0'
+[0.585s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_perform@CURL_OPENSSL_4'
+[0.586s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_init@CURL_OPENSSL_4'
+[0.587s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_add_handle@CURL_OPENSSL_4'
+[0.589s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileOffset@LIBTIFF_4.0'
+[0.589s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileByteCount@LIBTIFF_4.0'
+[0.590s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_slist_free_all@CURL_OPENSSL_4'
+[0.590s] /usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_easy_strerror@CURL_OPENSSL_4'
+[0.591s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileByteCountWithErr@LIBTIFF_4.0'
+[0.592s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_slist_append@CURL_OPENSSL_4'
+[0.592s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_poll@CURL_OPENSSL_4'
+[0.593s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_version@CURL_OPENSSL_4'
+[0.593s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_setopt@CURL_OPENSSL_4'
+[0.593s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_data@CURL_OPENSSL_4'
+[0.594s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_init@CURL_OPENSSL_4'
+[0.595s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_wait@CURL_OPENSSL_4'
+[0.595s] /usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_global_cleanup@CURL_OPENSSL_4'
+[0.612s] collect2: error: ld returned 1 exit status
+[0.614s] gmake[2]: *** [CMakeFiles/image_pub.dir/build.make:250：image_pub] 错误 1
+[0.614s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/image_pub.dir/all] 错误 2
+[0.614s] gmake[1]: *** 正在等待未完成的任务....
+[2.692s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:[m[K In member function ‘[01m[Kvoid imageSub::timer_callback()[m[K’:
+[2.692s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:115:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kstr[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd[m[K’?
+[2.692s]   115 |         sscanf([01;31m[Kstr[m[K, "%d,%d,%d", &message.x, &message.y, &message.flag_servo);
+[2.692s]       |                [01;31m[K^~~[m[K
+[2.692s]       |                [32m[Kstd[m[K
+[4.305s] gmake[2]: *** [CMakeFiles/image_sub.dir/build.make:76：CMakeFiles/image_sub.dir/src/image_sub.cpp.o] 错误 1
+[4.305s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/image_sub.dir/all] 错误 2
+[4.305s] gmake: *** [Makefile:146：all] 错误 2
+[4.308s] Invoked command in '/home/stoair/ros2CV/cv_ws/build/topic' returned '2': AMENT_PREFIX_PATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces:/home/stoair/ros2CV/cv_ws/install/webcam_topic:/home/stoair/learn_ws/install/service:/home/stoair/learn_ws/install/own_service:/home/stoair/learn_ws/install/ros_interfaces:/home/stoair/learn_ws/install/helloworld:/home/stoair/learn_ws/install/hellotopic:/home/stoair/dev_ws/install/learning_topic_cpp:/home/stoair/dev_ws/install/learning_tf_cpp:/home/stoair/dev_ws/install/learning_service_cpp:/home/stoair/dev_ws/install/learning_pkg_c:/home/stoair/dev_ws/install/learning_parameter_cpp:/home/stoair/dev_ws/install/learning_node_cpp:/home/stoair/dev_ws/install/learning_action_cpp:/home/stoair/dev_ws/install/learning_interface:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib:/usr/local/cuda-12.1/lib64:/home/stoair/learn_ws/install/ros_interfaces/lib:/home/stoair/dev_ws/install/learning_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.1/lib64:/usr/local/lib:/usr/local/lib PYTHONPATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/topic -- -j16 -l16

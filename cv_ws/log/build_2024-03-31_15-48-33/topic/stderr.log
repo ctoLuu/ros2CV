@@ -1,0 +1,8 @@
+In file included from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:1[m[K:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic/./include/global.h:14:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/image.hpp: 没有那个文件或目录
+   14 | #include [01;31m[K"sensor_msgs/msg/image.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/yolo_lib.dir/build.make:76：CMakeFiles/yolo_lib.dir/src/yolo.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:89：CMakeFiles/yolo_lib.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

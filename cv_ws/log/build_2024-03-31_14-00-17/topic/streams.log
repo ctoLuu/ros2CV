@@ -1,0 +1,76 @@
+[0.009s] Invoking command in '/home/stoair/ros2CV/cv_ws/build/topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/stoair/ros2CV/cv_ws/src/topic -DCMAKE_INSTALL_PREFIX=/home/stoair/ros2CV/cv_ws/install/topic
+[0.060s] -- The C compiler identification is GNU 12.3.0
+[0.115s] -- The CXX compiler identification is GNU 11.4.0
+[0.122s] -- Detecting C compiler ABI info
+[0.182s] -- Detecting C compiler ABI info - done
+[0.192s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.193s] -- Detecting C compile features
+[0.193s] -- Detecting C compile features - done
+[0.197s] -- Detecting CXX compiler ABI info
+[0.301s] -- Detecting CXX compiler ABI info - done
+[0.308s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.309s] -- Detecting CXX compile features
+[0.309s] -- Detecting CXX compile features - done
+[0.312s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.614s] -- Found Python3: /home/stoair/anaconda3/bin/python3 (found version "3.11.5") found components: Interpreter 
+[0.710s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.757s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.763s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.771s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.785s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.803s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.881s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.885s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.973s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.996s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.034s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.047s] -- Looking for pthread.h
+[1.108s] -- Looking for pthread.h - found
+[1.109s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.172s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.174s] -- Found Threads: TRUE  
+[1.347s] -- Found CUDA: /usr/local/cuda-12.1 (found suitable exact version "12.1") 
+[1.361s] -- Found OpenCV: /usr/local (found version "4.9.0") 
+[1.364s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.477s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.493s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.494s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.498s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.506s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.521s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.564s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.565s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.656s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.781s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.879s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.974s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.974s] -- Configured cppcheck include dirs: /home/stoair/ros2CV/cv_ws/src/topic/include
+[1.974s] -- Configured cppcheck exclude dirs and/or files: 
+[1.975s] -- Added test 'lint_cmake' to check CMake code style
+[1.976s] -- Added test 'uncrustify' to check C / C++ code style
+[1.976s] -- Configured uncrustify additional arguments: 
+[1.976s] -- Added test 'xmllint' to check XML markup files
+[1.977s] -- Configuring done
+[1.991s] -- Generating done
+[1.992s] -- Build files have been written to: /home/stoair/ros2CV/cv_ws/build/topic
+[2.000s] Invoked command in '/home/stoair/ros2CV/cv_ws/build/topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/stoair/ros2CV/cv_ws/src/topic -DCMAKE_INSTALL_PREFIX=/home/stoair/ros2CV/cv_ws/install/topic
+[2.002s] Invoking command in '/home/stoair/ros2CV/cv_ws/build/topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/topic -- -j16 -l16
+[2.059s] [ 25%] [32mBuilding CXX object CMakeFiles/image_sub.dir/src/image_sub.cpp.o[0m
+[2.059s] [ 50%] [32mBuilding CXX object CMakeFiles/image_pub.dir/src/image_pub.cpp.o[0m
+[2.068s] In file included from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:1[m[K:
+[2.068s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/include/global.h:4:10:[m[K [01;31m[Kfatal error: [m[KEigen/Core: 没有那个文件或目录
+[2.068s]     4 | #include [01;31m[K<Eigen/Core>[m[K
+[2.068s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[2.068s] In file included from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:1[m[K:
+[2.068s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/include/global.h:4:10:[m[K [01;31m[Kfatal error: [m[KEigen/Core: 没有那个文件或目录
+[2.068s]     4 | #include [01;31m[K<Eigen/Core>[m[K
+[2.068s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[2.068s] compilation terminated.
+[2.068s] compilation terminated.
+[2.069s] gmake[2]: *** [CMakeFiles/image_sub.dir/build.make:76：CMakeFiles/image_sub.dir/src/image_sub.cpp.o] 错误 1
+[2.069s] gmake[2]: *** [CMakeFiles/image_pub.dir/build.make:76：CMakeFiles/image_pub.dir/src/image_pub.cpp.o] 错误 1
+[2.069s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/image_sub.dir/all] 错误 2
+[2.069s] gmake[1]: *** 正在等待未完成的任务....
+[2.069s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/image_pub.dir/all] 错误 2
+[2.069s] gmake: *** [Makefile:146：all] 错误 2
+[2.071s] Invoked command in '/home/stoair/ros2CV/cv_ws/build/topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/topic -- -j16 -l16

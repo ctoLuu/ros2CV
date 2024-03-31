@@ -1,0 +1,127 @@
+[31mCMake Error at /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/topic_interfacesConfig.cmake:41 (include):
+  include could not find requested file:
+
+    /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/rosidl_cmake-extras.cmake
+Call Stack (most recent call first):
+  CMakeLists.txt:26 (find_package)
+  CMakeLists.txt:40 (set_up_dependencies)
+
+[0m
+[31mCMake Error at /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/topic_interfacesConfig.cmake:41 (include):
+  include could not find requested file:
+
+    /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/ament_cmake_export_include_directories-extras.cmake
+Call Stack (most recent call first):
+  CMakeLists.txt:26 (find_package)
+  CMakeLists.txt:40 (set_up_dependencies)
+
+[0m
+[31mCMake Error at /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/topic_interfacesConfig.cmake:41 (include):
+  include could not find requested file:
+
+    /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/ament_cmake_export_libraries-extras.cmake
+Call Stack (most recent call first):
+  CMakeLists.txt:26 (find_package)
+  CMakeLists.txt:40 (set_up_dependencies)
+
+[0m
+[31mCMake Error at /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/topic_interfacesConfig.cmake:41 (include):
+  include could not find requested file:
+
+    /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/ament_cmake_export_targets-extras.cmake
+Call Stack (most recent call first):
+  CMakeLists.txt:26 (find_package)
+  CMakeLists.txt:40 (set_up_dependencies)
+
+[0m
+[31mCMake Error at /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/topic_interfacesConfig.cmake:41 (include):
+  include could not find requested file:
+
+    /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/rosidl_cmake_export_typesupport_targets-extras.cmake
+Call Stack (most recent call first):
+  CMakeLists.txt:26 (find_package)
+  CMakeLists.txt:40 (set_up_dependencies)
+
+[0m
+[31mCMake Error at /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/topic_interfacesConfig.cmake:41 (include):
+  include could not find requested file:
+
+    /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/ament_cmake_export_dependencies-extras.cmake
+Call Stack (most recent call first):
+  CMakeLists.txt:26 (find_package)
+  CMakeLists.txt:40 (set_up_dependencies)
+
+[0m
+[31mCMake Error at /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/topic_interfacesConfig.cmake:41 (include):
+  include could not find requested file:
+
+    /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/rosidl_cmake_export_typesupport_libraries-extras.cmake
+Call Stack (most recent call first):
+  CMakeLists.txt:26 (find_package)
+  CMakeLists.txt:40 (set_up_dependencies)
+
+[0m
+[31mCMake Error at /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/topic_interfacesConfig.cmake:41 (include):
+  include could not find requested file:
+
+    /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/rosidl_cmake-extras.cmake
+Call Stack (most recent call first):
+  CMakeLists.txt:26 (find_package)
+  CMakeLists.txt:43 (set_up_dependencies)
+
+[0m
+[31mCMake Error at /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/topic_interfacesConfig.cmake:41 (include):
+  include could not find requested file:
+
+    /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/ament_cmake_export_include_directories-extras.cmake
+Call Stack (most recent call first):
+  CMakeLists.txt:26 (find_package)
+  CMakeLists.txt:43 (set_up_dependencies)
+
+[0m
+[31mCMake Error at /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/topic_interfacesConfig.cmake:41 (include):
+  include could not find requested file:
+
+    /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/ament_cmake_export_libraries-extras.cmake
+Call Stack (most recent call first):
+  CMakeLists.txt:26 (find_package)
+  CMakeLists.txt:43 (set_up_dependencies)
+
+[0m
+[31mCMake Error at /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/topic_interfacesConfig.cmake:41 (include):
+  include could not find requested file:
+
+    /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/ament_cmake_export_targets-extras.cmake
+Call Stack (most recent call first):
+  CMakeLists.txt:26 (find_package)
+  CMakeLists.txt:43 (set_up_dependencies)
+
+[0m
+[31mCMake Error at /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/topic_interfacesConfig.cmake:41 (include):
+  include could not find requested file:
+
+    /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/rosidl_cmake_export_typesupport_targets-extras.cmake
+Call Stack (most recent call first):
+  CMakeLists.txt:26 (find_package)
+  CMakeLists.txt:43 (set_up_dependencies)
+
+[0m
+[31mCMake Error at /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/topic_interfacesConfig.cmake:41 (include):
+  include could not find requested file:
+
+    /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/ament_cmake_export_dependencies-extras.cmake
+Call Stack (most recent call first):
+  CMakeLists.txt:26 (find_package)
+  CMakeLists.txt:43 (set_up_dependencies)
+
+[0m
+[31mCMake Error at /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/topic_interfacesConfig.cmake:41 (include):
+  include could not find requested file:
+
+    /home/stoair/ros2CV/cv_ws/build/topic_interfaces/ament_cmake_core/rosidl_cmake_export_typesupport_libraries-extras.cmake
+Call Stack (most recent call first):
+  CMakeLists.txt:26 (find_package)
+  CMakeLists.txt:43 (set_up_dependencies)
+
+[0m
+gmake: *** [Makefile:308：cmake_check_build_system] 错误 1

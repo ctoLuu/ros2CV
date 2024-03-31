@@ -1,0 +1,275 @@
+[0.000000] (-) TimerEvent: {}
+[0.000179] (-) JobUnselected: {'identifier': 'topic_interfaces'}
+[0.000283] (-) JobUnselected: {'identifier': 'webcam_topic'}
+[0.000311] (-) JobUnselected: {'identifier': 'yolo_topic'}
+[0.000367] (topic) JobQueued: {'identifier': 'topic', 'dependencies': OrderedDict([('topic_interfaces', '/home/stoair/ros2CV/cv_ws/install/topic_interfaces')])}
+[0.000382] (topic) JobStarted: {'identifier': 'topic'}
+[0.007752] (topic) JobProgress: {'identifier': 'topic', 'progress': 'cmake'}
+[0.008154] (topic) JobProgress: {'identifier': 'topic', 'progress': 'build'}
+[0.008662] (topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/stoair/ros2CV/cv_ws/build/topic', '--', '-j16', '-l16'], 'cwd': '/home/stoair/ros2CV/cv_ws/build/topic', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'stoair'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib:/usr/local/cuda-12.1/lib64:/home/stoair/learn_ws/install/ros_interfaces/lib:/home/stoair/dev_ws/install/learning_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.1/lib64:/usr/local/lib:/usr/local/lib'), ('HOME', '/home/stoair'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/stoair/ros2CV/cv_ws/src'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1146'), ('SYSTEMD_EXEC_PID', '1584'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2650'), ('COLCON_PREFIX_PATH', '/home/stoair/ros2CV/cv_ws/install:/home/stoair/learn_ws/install:/home/stoair/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'stoair'), ('JOURNAL_STREAM', '8:37263'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'stoair'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-12.1/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/stoair/.local/bin:/opt/ros/humble/bin:/home/stoair/anaconda3/bin:/home/stoair/anaconda3/condabin:/usr/local/cuda-12.1/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/stoair/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/stoair-ASUS-TUF-Gaming-F15-FX507VU-FX507VU:@/tmp/.ICE-unix/1515,unix/stoair-ASUS-TUF-Gaming-F15-FX507VU-FX507VU:/tmp/.ICE-unix/1515'), ('INVOCATION_ID', 'fcbd0bdf5e974fffa878b4d5c3060477'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af61594ff0.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/stoair/ros2CV/cv_ws/install/topic_interfaces:/home/stoair/ros2CV/cv_ws/install/webcam_topic:/home/stoair/learn_ws/install/service:/home/stoair/learn_ws/install/own_service:/home/stoair/learn_ws/install/ros_interfaces:/home/stoair/learn_ws/install/helloworld:/home/stoair/learn_ws/install/hellotopic:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic_cpp:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf_cpp:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service_cpp:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_pkg_c:/home/stoair/dev_ws/install/learning_parameter_cpp:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node_cpp:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action_cpp:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_interface:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/stoair/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/stoair/ros2CV/cv_ws/build/topic'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/stoair/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages:/home/stoair/learn_ws/install/ros_interfaces/lib/python3.11/site-packages:/home/stoair/dev_ws/install/learning_urdf/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_topic/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_tf/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_service/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_qos/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_pkg_python/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_parameter/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_node/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_launch/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_action/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:/home/stoair/dev_ws/install/learning_gazebo_fortress/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_gazebo/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_cv/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/stoair/anaconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/stoair/ros2CV/cv_ws/install/topic_interfaces:/home/stoair/ros2CV/cv_ws/install/webcam_topic:/home/stoair/learn_ws/install/service:/home/stoair/learn_ws/install/own_service:/home/stoair/learn_ws/install/ros_interfaces:/home/stoair/learn_ws/install/helloworld:/home/stoair/learn_ws/install/hellotopic:/home/stoair/dev_ws/install/learning_topic_cpp:/home/stoair/dev_ws/install/learning_tf_cpp:/home/stoair/dev_ws/install/learning_service_cpp:/home/stoair/dev_ws/install/learning_pkg_c:/home/stoair/dev_ws/install/learning_parameter_cpp:/home/stoair/dev_ws/install/learning_node_cpp:/home/stoair/dev_ws/install/learning_action_cpp:/home/stoair/dev_ws/install/learning_interface:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble')]), 'shell': False}
+[0.027898] (topic) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.099408] (-) TimerEvent: {}
+[0.157233] (topic) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.158748] (topic) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.162582] (topic) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.170397] (topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.181036] (topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199590] (-) TimerEvent: {}
+[0.220428] (topic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.222072] (topic) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299819] (-) TimerEvent: {}
+[0.323663] (topic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400050] (-) TimerEvent: {}
+[0.449870] (topic) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.500189] (-) TimerEvent: {}
+[0.544289] (topic) StdoutLine: {'line': b'-- Found topic_interfaces: 0.0.0 (/home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/cmake)\n'}
+[0.557738] (topic) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.600385] (-) TimerEvent: {}
+[0.626792] (topic) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.628245] (topic) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.632100] (topic) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.639583] (topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.650372] (topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.687957] (topic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.689408] (topic) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700536] (-) TimerEvent: {}
+[0.777659] (topic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.800678] (-) TimerEvent: {}
+[0.890988] (topic) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.900825] (-) TimerEvent: {}
+[0.991436] (topic) StdoutLine: {'line': b'-- Found topic_interfaces: 0.0.0 (/home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/cmake)\n'}
+[1.001011] (-) TimerEvent: {}
+[1.003979] (topic) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.101152] (-) TimerEvent: {}
+[1.124093] (topic) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.124340] (topic) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/stoair/ros2CV/cv_ws/src/topic/include\n'}
+[1.124442] (topic) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.124594] (topic) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.125052] (topic) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.125145] (topic) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.125211] (topic) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.125827] (topic) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.140122] (topic) StdoutLine: {'line': b'-- Generating done\n'}
+[1.141468] (topic) StdoutLine: {'line': b'-- Build files have been written to: /home/stoair/ros2CV/cv_ws/build/topic\n'}
+[1.164053] (topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target image_sub\x1b[0m\n'}
+[1.164293] (topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target image_pub\x1b[0m\n'}
+[1.180536] (topic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/image_pub.dir/src/image_pub.cpp.o\x1b[0m\n'}
+[1.180767] (topic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/image_pub.dir/src/yolo.cpp.o\x1b[0m\n'}
+[1.180869] (topic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/image_sub.dir/src/image_sub.cpp.o\x1b[0m\n'}
+[1.182717] (topic) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/image_sub.dir/src/yolo.cpp.o\x1b[0m\n'}
+[1.201250] (-) TimerEvent: {}
+[1.301563] (-) TimerEvent: {}
+[1.402003] (-) TimerEvent: {}
+[1.502352] (-) TimerEvent: {}
+[1.602671] (-) TimerEvent: {}
+[1.702983] (-) TimerEvent: {}
+[1.803421] (-) TimerEvent: {}
+[1.903774] (-) TimerEvent: {}
+[2.004208] (-) TimerEvent: {}
+[2.104527] (-) TimerEvent: {}
+[2.204902] (-) TimerEvent: {}
+[2.305234] (-) TimerEvent: {}
+[2.405545] (-) TimerEvent: {}
+[2.505898] (-) TimerEvent: {}
+[2.606252] (-) TimerEvent: {}
+[2.706603] (-) TimerEvent: {}
+[2.806938] (-) TimerEvent: {}
+[2.907262] (-) TimerEvent: {}
+[3.007619] (-) TimerEvent: {}
+[3.107926] (-) TimerEvent: {}
+[3.208279] (-) TimerEvent: {}
+[3.308557] (-) TimerEvent: {}
+[3.408863] (-) TimerEvent: {}
+[3.509243] (-) TimerEvent: {}
+[3.609583] (-) TimerEvent: {}
+[3.710013] (-) TimerEvent: {}
+[3.810445] (-) TimerEvent: {}
+[3.858452] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Yolo::target(cv::Mat, std::vector<Output>, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.858708] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:271:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids variable length array \xe2\x80\x98\x1b[01m\x1b[Kdst\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla\x07-Wvla\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.858817] (topic) StderrLine: {'line': b'  271 |         Mat \x1b[01;35m\x1b[Kdst\x1b[m\x1b[K[result.size()];\n'}
+[3.858908] (topic) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.858994] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:272:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Output>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.859087] (topic) StderrLine: {'line': b'  272 |         for (int i = 0; \x1b[01;35m\x1b[Ki < result.size()\x1b[m\x1b[K; i++)\n'}
+[3.859179] (topic) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.859434] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:277:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcolor_num\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.859583] (topic) StderrLine: {'line': b'  277 |                 int \x1b[01;35m\x1b[Kcolor_num\x1b[m\x1b[K = i;\n'}
+[3.859682] (topic) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.859774] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:285:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcenter_x\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.859866] (topic) StderrLine: {'line': b'  285 |                 int \x1b[01;35m\x1b[Kcenter_x\x1b[m\x1b[K = left[i] + (result[i].box.width / 2);\n'}
+[3.859952] (topic) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.860038] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:286:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcenter_y\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.860125] (topic) StderrLine: {'line': b'  286 |                 int \x1b[01;35m\x1b[Kcenter_y\x1b[m\x1b[K = top[i] + (result[i].box.height / 2);\n'}
+[3.860210] (topic) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.910589] (-) TimerEvent: {}
+[3.915968] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Yolo::target(cv::Mat, std::vector<Output>, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.916130] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:271:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids variable length array \xe2\x80\x98\x1b[01m\x1b[Kdst\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla\x07-Wvla\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.916196] (topic) StderrLine: {'line': b'  271 |         Mat \x1b[01;35m\x1b[Kdst\x1b[m\x1b[K[result.size()];\n'}
+[3.916238] (topic) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.916277] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:272:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Output>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.916324] (topic) StderrLine: {'line': b'  272 |         for (int i = 0; \x1b[01;35m\x1b[Ki < result.size()\x1b[m\x1b[K; i++)\n'}
+[3.916360] (topic) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.916813] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:277:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcolor_num\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.916978] (topic) StderrLine: {'line': b'  277 |                 int \x1b[01;35m\x1b[Kcolor_num\x1b[m\x1b[K = i;\n'}
+[3.917080] (topic) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.917175] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:285:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcenter_x\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.917272] (topic) StderrLine: {'line': b'  285 |                 int \x1b[01;35m\x1b[Kcenter_x\x1b[m\x1b[K = left[i] + (result[i].box.width / 2);\n'}
+[3.917361] (topic) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.917472] (topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:286:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcenter_y\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.917563] (topic) StderrLine: {'line': b'  286 |                 int \x1b[01;35m\x1b[Kcenter_y\x1b[m\x1b[K = top[i] + (result[i].box.height / 2);\n'}
+[3.917650] (topic) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.010736] (-) TimerEvent: {}
+[4.111088] (-) TimerEvent: {}
+[4.211388] (-) TimerEvent: {}
+[4.311743] (-) TimerEvent: {}
+[4.412103] (-) TimerEvent: {}
+[4.512449] (-) TimerEvent: {}
+[4.612810] (-) TimerEvent: {}
+[4.713135] (-) TimerEvent: {}
+[4.813465] (-) TimerEvent: {}
+[4.913908] (-) TimerEvent: {}
+[5.014278] (-) TimerEvent: {}
+[5.114638] (-) TimerEvent: {}
+[5.214981] (-) TimerEvent: {}
+[5.315398] (-) TimerEvent: {}
+[5.415747] (-) TimerEvent: {}
+[5.516049] (-) TimerEvent: {}
+[5.616413] (-) TimerEvent: {}
+[5.716784] (-) TimerEvent: {}
+[5.817138] (-) TimerEvent: {}
+[5.917572] (-) TimerEvent: {}
+[6.017922] (-) TimerEvent: {}
+[6.118339] (-) TimerEvent: {}
+[6.218791] (-) TimerEvent: {}
+[6.319200] (-) TimerEvent: {}
+[6.419552] (-) TimerEvent: {}
+[6.519874] (-) TimerEvent: {}
+[6.620326] (-) TimerEvent: {}
+[6.720694] (-) TimerEvent: {}
+[6.820992] (-) TimerEvent: {}
+[6.921322] (-) TimerEvent: {}
+[7.021660] (-) TimerEvent: {}
+[7.122009] (-) TimerEvent: {}
+[7.222541] (-) TimerEvent: {}
+[7.322886] (-) TimerEvent: {}
+[7.423237] (-) TimerEvent: {}
+[7.523554] (-) TimerEvent: {}
+[7.623978] (-) TimerEvent: {}
+[7.724277] (-) TimerEvent: {}
+[7.824618] (-) TimerEvent: {}
+[7.924921] (-) TimerEvent: {}
+[8.025276] (-) TimerEvent: {}
+[8.125656] (-) TimerEvent: {}
+[8.226066] (-) TimerEvent: {}
+[8.326409] (-) TimerEvent: {}
+[8.426817] (-) TimerEvent: {}
+[8.527152] (-) TimerEvent: {}
+[8.627471] (-) TimerEvent: {}
+[8.727878] (-) TimerEvent: {}
+[8.828281] (-) TimerEvent: {}
+[8.928717] (-) TimerEvent: {}
+[9.029046] (-) TimerEvent: {}
+[9.073829] (topic) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable image_sub\x1b[0m\n'}
+[9.129201] (-) TimerEvent: {}
+[9.229651] (-) TimerEvent: {}
+[9.305348] (topic) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable image_pub\x1b[0m\n'}
+[9.329891] (-) TimerEvent: {}
+[9.371342] (topic) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.409\n'}
+[9.374132] (topic) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.409\n'}
+[9.430034] (-) TimerEvent: {}
+[9.493572] (topic) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.409\n'}
+[9.493933] (topic) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.409\n'}
+[9.530185] (-) TimerEvent: {}
+[9.630627] (-) TimerEvent: {}
+[9.731063] (-) TimerEvent: {}
+[9.831503] (-) TimerEvent: {}
+[9.841262] (topic) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/image_pub.dir/src/yolo.cpp.o: warning: relocation against `flag_servo' in read-only section `.text'\n"}
+[9.931668] (-) TimerEvent: {}
+[9.940764] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_getinfo@CURL_OPENSSL_4'\n"}
+[9.941375] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_perform@CURL_OPENSSL_4'\n"}
+[9.941752] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_cleanup@CURL_OPENSSL_4'\n"}
+[9.942264] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_global_init@CURL_OPENSSL_4'\n"}
+[9.943126] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_init@CURL_OPENSSL_4'\n"}
+[9.943738] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFReadFromUserBuffer@LIBTIFF_4.0'\n"}
+[9.945265] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileOffsetWithErr@LIBTIFF_4.0'\n"}
+[9.945830] (topic) StderrLine: {'line': b"/usr/bin/ld: /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_remove_handle@CURL_OPENSSL_4'\n"}
+[9.945969] (topic) StderrLine: {'line': b"CMakeFiles/image_pub.dir/src/yolo.cpp.o: in function `Yolo::drawPred(cv::Mat, std::vector<Output, std::allocator<Output> >, std::vector<cv::Scalar_<double>, std::allocator<cv::Scalar_<double> > >, int)':\n"}
+[9.946064] (topic) StderrLine: {'line': b"yolo.cpp:(.text+0x1585): undefined reference to `flag_servo'\n"}
+[9.946709] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_addpart@CURL_OPENSSL_4'\n"}
+[9.947399] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_version_info@CURL_OPENSSL_4'\n"}
+[9.948070] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_name@CURL_OPENSSL_4'\n"}
+[9.948804] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_filename@CURL_OPENSSL_4'\n"}
+[9.949264] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_info_read@CURL_OPENSSL_4'\n"}
+[9.950212] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_setopt@CURL_OPENSSL_4'\n"}
+[9.950850] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFDeferStrileArrayWriting@LIBTIFF_4.0'\n"}
+[9.951489] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFForceStrileArrayWriting@LIBTIFF_4.0'\n"}
+[9.952069] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFReadRGBATileExt@LIBTIFF_4.0'\n"}
+[9.953486] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_free@CURL_OPENSSL_4'\n"}
+[9.953726] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_cleanup@CURL_OPENSSL_4'\n"}
+[9.954707] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_data_cb@CURL_OPENSSL_4'\n"}
+[9.955994] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFReadRGBAStripExt@LIBTIFF_4.0'\n"}
+[9.956280] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_perform@CURL_OPENSSL_4'\n"}
+[9.957418] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_init@CURL_OPENSSL_4'\n"}
+[9.958693] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_add_handle@CURL_OPENSSL_4'\n"}
+[9.960843] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileOffset@LIBTIFF_4.0'\n"}
+[9.961205] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_getinfo@CURL_OPENSSL_4'\n"}
+[9.961445] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileByteCount@LIBTIFF_4.0'\n"}
+[9.962175] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_perform@CURL_OPENSSL_4'\n"}
+[9.962322] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_slist_free_all@CURL_OPENSSL_4'\n"}
+[9.962795] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_cleanup@CURL_OPENSSL_4'\n"}
+[9.962955] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_easy_strerror@CURL_OPENSSL_4'\n"}
+[9.963512] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_global_init@CURL_OPENSSL_4'\n"}
+[9.963626] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileByteCountWithErr@LIBTIFF_4.0'\n"}
+[9.964295] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_slist_append@CURL_OPENSSL_4'\n"}
+[9.964456] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_init@CURL_OPENSSL_4'\n"}
+[9.964792] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_poll@CURL_OPENSSL_4'\n"}
+[9.965357] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_version@CURL_OPENSSL_4'\n"}
+[9.965727] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFReadFromUserBuffer@LIBTIFF_4.0'\n"}
+[9.965886] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_setopt@CURL_OPENSSL_4'\n"}
+[9.966419] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_data@CURL_OPENSSL_4'\n"}
+[9.967083] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_init@CURL_OPENSSL_4'\n"}
+[9.967924] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_wait@CURL_OPENSSL_4'\n"}
+[9.968478] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileOffsetWithErr@LIBTIFF_4.0'\n"}
+[9.968641] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_global_cleanup@CURL_OPENSSL_4'\n"}
+[9.969483] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_remove_handle@CURL_OPENSSL_4'\n"}
+[9.971245] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_addpart@CURL_OPENSSL_4'\n"}
+[9.972222] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_version_info@CURL_OPENSSL_4'\n"}
+[9.973617] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_name@CURL_OPENSSL_4'\n"}
+[9.975077] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_filename@CURL_OPENSSL_4'\n"}
+[9.975818] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_info_read@CURL_OPENSSL_4'\n"}
+[9.977507] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_setopt@CURL_OPENSSL_4'\n"}
+[9.978082] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFDeferStrileArrayWriting@LIBTIFF_4.0'\n"}
+[9.978559] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFForceStrileArrayWriting@LIBTIFF_4.0'\n"}
+[9.978881] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFReadRGBATileExt@LIBTIFF_4.0'\n"}
+[9.980334] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_free@CURL_OPENSSL_4'\n"}
+[9.980608] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_cleanup@CURL_OPENSSL_4'\n"}
+[9.981379] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_data_cb@CURL_OPENSSL_4'\n"}
+[9.982601] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFReadRGBAStripExt@LIBTIFF_4.0'\n"}
+[9.982973] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_perform@CURL_OPENSSL_4'\n"}
+[9.983832] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_init@CURL_OPENSSL_4'\n"}
+[9.985250] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_add_handle@CURL_OPENSSL_4'\n"}
+[9.986133] (topic) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[9.987084] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileOffset@LIBTIFF_4.0'\n"}
+[9.987571] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileByteCount@LIBTIFF_4.0'\n"}
+[9.988601] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_slist_free_all@CURL_OPENSSL_4'\n"}
+[9.988970] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_easy_strerror@CURL_OPENSSL_4'\n"}
+[9.989756] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileByteCountWithErr@LIBTIFF_4.0'\n"}
+[9.990311] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_slist_append@CURL_OPENSSL_4'\n"}
+[9.990874] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_poll@CURL_OPENSSL_4'\n"}
+[9.991302] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_version@CURL_OPENSSL_4'\n"}
+[9.991918] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_setopt@CURL_OPENSSL_4'\n"}
+[9.992261] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_data@CURL_OPENSSL_4'\n"}
+[9.992918] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_init@CURL_OPENSSL_4'\n"}
+[9.993799] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_wait@CURL_OPENSSL_4'\n"}
+[9.994429] (topic) StderrLine: {'line': b"/usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_global_cleanup@CURL_OPENSSL_4'\n"}
+[9.995560] (topic) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/image_sub.dir/build.make:266\xef\xbc\x9aimage_sub] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[9.995850] (topic) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165\xef\xbc\x9aCMakeFiles/image_sub.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[9.995930] (topic) StderrLine: {'line': b'gmake[1]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[10.007687] (topic) StderrLine: {'line': b'/usr/bin/ld: warning: creating DT_TEXTREL in a PIE\n'}
+[10.014232] (topic) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[10.015695] (topic) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/image_pub.dir/build.make:266\xef\xbc\x9aimage_pub] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[10.016022] (topic) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:87\xef\xbc\x9aCMakeFiles/image_pub.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[10.016236] (topic) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[10.017919] (topic) CommandEnded: {'returncode': 2}
+[10.031855] (-) TimerEvent: {}
+[10.050244] (topic) JobEnded: {'identifier': 'topic', 'rc': 2}
+[10.060936] (-) EventReactorShutdown: {}
