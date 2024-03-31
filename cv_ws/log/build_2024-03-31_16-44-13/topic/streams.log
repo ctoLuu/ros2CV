@@ -1,0 +1,114 @@
+[0.013s] Invoking command in '/home/stoair/ros2CV/cv_ws/build/topic': AMENT_PREFIX_PATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces:/home/stoair/ros2CV/cv_ws/install/webcam_topic:/home/stoair/learn_ws/install/service:/home/stoair/learn_ws/install/own_service:/home/stoair/learn_ws/install/ros_interfaces:/home/stoair/learn_ws/install/helloworld:/home/stoair/learn_ws/install/hellotopic:/home/stoair/dev_ws/install/learning_topic_cpp:/home/stoair/dev_ws/install/learning_tf_cpp:/home/stoair/dev_ws/install/learning_service_cpp:/home/stoair/dev_ws/install/learning_pkg_c:/home/stoair/dev_ws/install/learning_parameter_cpp:/home/stoair/dev_ws/install/learning_node_cpp:/home/stoair/dev_ws/install/learning_action_cpp:/home/stoair/dev_ws/install/learning_interface:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib:/usr/local/cuda-12.1/lib64:/home/stoair/learn_ws/install/ros_interfaces/lib:/home/stoair/dev_ws/install/learning_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.1/lib64:/usr/local/lib:/usr/local/lib PYTHONPATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/topic -- -j16 -l16
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target image_sub[0m
+[0.058s] [ 16%] [32mBuilding CXX object CMakeFiles/image_pub.dir/src/yolo.cpp.o[0m
+[0.058s] [ 33%] [32mBuilding CXX object CMakeFiles/image_pub.dir/src/image_pub.cpp.o[0m
+[0.063s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:1:9:[m[K [01;35m[Kwarning: [m[K#pragma once in main file
+[0.064s]     1 | #pragma [01;35m[Konce[m[K
+[0.064s]       |         [01;35m[K^~~~[m[K
+[0.067s] [ 50%] [32mBuilding CXX object CMakeFiles/image_sub.dir/src/yolo.cpp.o[0m
+[0.073s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:1:9:[m[K [01;35m[Kwarning: [m[K#pragma once in main file
+[0.073s]     1 | #pragma [01;35m[Konce[m[K
+[0.073s]       |         [01;35m[K^~~~[m[K
+[3.431s] [ 66%] [32m[1mLinking CXX executable image_sub[0m
+[3.621s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.409
+[3.621s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.409
+[3.978s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_getinfo@CURL_OPENSSL_4'
+[3.979s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_perform@CURL_OPENSSL_4'
+[3.979s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_cleanup@CURL_OPENSSL_4'
+[3.980s] /usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_global_init@CURL_OPENSSL_4'
+[3.980s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_init@CURL_OPENSSL_4'
+[3.981s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFReadFromUserBuffer@LIBTIFF_4.0'
+[3.983s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileOffsetWithErr@LIBTIFF_4.0'
+[3.983s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_remove_handle@CURL_OPENSSL_4'
+[3.984s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_addpart@CURL_OPENSSL_4'
+[3.985s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_version_info@CURL_OPENSSL_4'
+[3.985s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_name@CURL_OPENSSL_4'
+[3.986s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_filename@CURL_OPENSSL_4'
+[3.987s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_info_read@CURL_OPENSSL_4'
+[3.987s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_setopt@CURL_OPENSSL_4'
+[3.988s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFDeferStrileArrayWriting@LIBTIFF_4.0'
+[3.989s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFForceStrileArrayWriting@LIBTIFF_4.0'
+[3.989s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFReadRGBATileExt@LIBTIFF_4.0'
+[3.990s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_free@CURL_OPENSSL_4'
+[3.991s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_cleanup@CURL_OPENSSL_4'
+[3.991s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_data_cb@CURL_OPENSSL_4'
+[3.993s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFReadRGBAStripExt@LIBTIFF_4.0'
+[3.993s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_perform@CURL_OPENSSL_4'
+[3.994s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_init@CURL_OPENSSL_4'
+[3.995s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_add_handle@CURL_OPENSSL_4'
+[3.997s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileOffset@LIBTIFF_4.0'
+[3.997s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileByteCount@LIBTIFF_4.0'
+[3.998s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_slist_free_all@CURL_OPENSSL_4'
+[3.999s] /usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_easy_strerror@CURL_OPENSSL_4'
+[4.000s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileByteCountWithErr@LIBTIFF_4.0'
+[4.000s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_slist_append@CURL_OPENSSL_4'
+[4.001s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_poll@CURL_OPENSSL_4'
+[4.001s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_version@CURL_OPENSSL_4'
+[4.002s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_setopt@CURL_OPENSSL_4'
+[4.002s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_data@CURL_OPENSSL_4'
+[4.003s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_init@CURL_OPENSSL_4'
+[4.004s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_wait@CURL_OPENSSL_4'
+[4.004s] /usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_global_cleanup@CURL_OPENSSL_4'
+[4.021s] collect2: error: ld returned 1 exit status
+[4.023s] gmake[2]: *** [CMakeFiles/image_sub.dir/build.make:266：image_sub] 错误 1
+[4.023s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/image_sub.dir/all] 错误 2
+[4.023s] gmake[1]: *** 正在等待未完成的任务....
+[7.581s] [ 83%] [32m[1mLinking CXX executable image_pub[0m
+[7.618s] /usr/bin/ld: CMakeFiles/image_pub.dir/src/yolo.cpp.o: in function `Yolo::readModel(cv::dnn::dnn4_v20231225::Net&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, bool)':
+[7.620s] yolo.cpp:(.text+0x0): multiple definition of `Yolo::readModel(cv::dnn::dnn4_v20231225::Net&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, bool)'; CMakeFiles/image_pub.dir/src/image_pub.cpp.o:image_pub.cpp:(.text+0x6a): first defined here
+[7.620s] /usr/bin/ld: CMakeFiles/image_pub.dir/src/yolo.cpp.o: in function `Yolo::Detect(cv::Mat&, cv::dnn::dnn4_v20231225::Net&, std::vector<Output, std::allocator<Output> >&, int)':
+[7.620s] yolo.cpp:(.text+0x204): multiple definition of `Yolo::Detect(cv::Mat&, cv::dnn::dnn4_v20231225::Net&, std::vector<Output, std::allocator<Output> >&, int)'; CMakeFiles/image_pub.dir/src/image_pub.cpp.o:image_pub.cpp:(.text+0x26e): first defined here
+[7.621s] /usr/bin/ld: CMakeFiles/image_pub.dir/src/yolo.cpp.o: in function `Yolo::drawPred(cv::Mat, std::vector<Output, std::allocator<Output> >, std::vector<cv::Scalar_<double>, std::allocator<cv::Scalar_<double> > >, int)':
+[7.621s] yolo.cpp:(.text+0xf9a): multiple definition of `Yolo::drawPred(cv::Mat, std::vector<Output, std::allocator<Output> >, std::vector<cv::Scalar_<double>, std::allocator<cv::Scalar_<double> > >, int)'; CMakeFiles/image_pub.dir/src/image_pub.cpp.o:image_pub.cpp:(.text+0x1004): first defined here
+[7.621s] /usr/bin/ld: CMakeFiles/image_pub.dir/src/yolo.cpp.o: in function `Yolo::target(cv::Mat, std::vector<Output, std::allocator<Output> >, int)':
+[7.621s] yolo.cpp:(.text+0x1694): multiple definition of `Yolo::target(cv::Mat, std::vector<Output, std::allocator<Output> >, int)'; CMakeFiles/image_pub.dir/src/image_pub.cpp.o:image_pub.cpp:(.text+0x16fe): first defined here
+[7.778s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.409
+[7.778s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.409
+[8.035s] /usr/bin/ld: CMakeFiles/image_pub.dir/src/yolo.cpp.o: warning: relocation against `flag_servo' in read-only section `.text'
+[8.105s] /usr/bin/ld: CMakeFiles/image_pub.dir/src/image_pub.cpp.o: in function `Yolo::drawPred(cv::Mat, std::vector<Output, std::allocator<Output> >, std::vector<cv::Scalar_<double>, std::allocator<cv::Scalar_<double> > >, int)':
+[8.105s] image_pub.cpp:(.text+0x15ef): undefined reference to `flag_servo'
+[8.117s] /usr/bin/ld: CMakeFiles/image_pub.dir/src/yolo.cpp.o: in function `Yolo::drawPred(cv::Mat, std::vector<Output, std::allocator<Output> >, std::vector<cv::Scalar_<double>, std::allocator<cv::Scalar_<double> > >, int)':
+[8.118s] yolo.cpp:(.text+0x1585): undefined reference to `flag_servo'
+[8.124s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_getinfo@CURL_OPENSSL_4'
+[8.124s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_perform@CURL_OPENSSL_4'
+[8.125s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_cleanup@CURL_OPENSSL_4'
+[8.125s] /usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_global_init@CURL_OPENSSL_4'
+[8.126s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_init@CURL_OPENSSL_4'
+[8.126s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFReadFromUserBuffer@LIBTIFF_4.0'
+[8.128s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileOffsetWithErr@LIBTIFF_4.0'
+[8.128s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_remove_handle@CURL_OPENSSL_4'
+[8.129s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_addpart@CURL_OPENSSL_4'
+[8.130s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_version_info@CURL_OPENSSL_4'
+[8.131s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_name@CURL_OPENSSL_4'
+[8.132s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_filename@CURL_OPENSSL_4'
+[8.132s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_info_read@CURL_OPENSSL_4'
+[8.133s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_setopt@CURL_OPENSSL_4'
+[8.133s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFDeferStrileArrayWriting@LIBTIFF_4.0'
+[8.134s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFForceStrileArrayWriting@LIBTIFF_4.0'
+[8.134s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFReadRGBATileExt@LIBTIFF_4.0'
+[8.136s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_free@CURL_OPENSSL_4'
+[8.136s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_cleanup@CURL_OPENSSL_4'
+[8.137s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_data_cb@CURL_OPENSSL_4'
+[8.138s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFReadRGBAStripExt@LIBTIFF_4.0'
+[8.139s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_perform@CURL_OPENSSL_4'
+[8.140s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_init@CURL_OPENSSL_4'
+[8.141s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_add_handle@CURL_OPENSSL_4'
+[8.143s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileOffset@LIBTIFF_4.0'
+[8.143s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileByteCount@LIBTIFF_4.0'
+[8.144s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_slist_free_all@CURL_OPENSSL_4'
+[8.145s] /usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_easy_strerror@CURL_OPENSSL_4'
+[8.145s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileByteCountWithErr@LIBTIFF_4.0'
+[8.146s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_slist_append@CURL_OPENSSL_4'
+[8.147s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_poll@CURL_OPENSSL_4'
+[8.147s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_version@CURL_OPENSSL_4'
+[8.148s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_setopt@CURL_OPENSSL_4'
+[8.148s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_data@CURL_OPENSSL_4'
+[8.149s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_init@CURL_OPENSSL_4'
+[8.150s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_wait@CURL_OPENSSL_4'
+[8.151s] /usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_global_cleanup@CURL_OPENSSL_4'
+[8.162s] /usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+[8.169s] collect2: error: ld returned 1 exit status
+[8.170s] gmake[2]: *** [CMakeFiles/image_pub.dir/build.make:266：image_pub] 错误 1
+[8.170s] gmake[1]: *** [CMakeFiles/Makefile2:87：CMakeFiles/image_pub.dir/all] 错误 2
+[8.171s] gmake: *** [Makefile:146：all] 错误 2
+[8.173s] Invoked command in '/home/stoair/ros2CV/cv_ws/build/topic' returned '2': AMENT_PREFIX_PATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces:/home/stoair/ros2CV/cv_ws/install/webcam_topic:/home/stoair/learn_ws/install/service:/home/stoair/learn_ws/install/own_service:/home/stoair/learn_ws/install/ros_interfaces:/home/stoair/learn_ws/install/helloworld:/home/stoair/learn_ws/install/hellotopic:/home/stoair/dev_ws/install/learning_topic_cpp:/home/stoair/dev_ws/install/learning_tf_cpp:/home/stoair/dev_ws/install/learning_service_cpp:/home/stoair/dev_ws/install/learning_pkg_c:/home/stoair/dev_ws/install/learning_parameter_cpp:/home/stoair/dev_ws/install/learning_node_cpp:/home/stoair/dev_ws/install/learning_action_cpp:/home/stoair/dev_ws/install/learning_interface:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib:/usr/local/cuda-12.1/lib64:/home/stoair/learn_ws/install/ros_interfaces/lib:/home/stoair/dev_ws/install/learning_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.1/lib64:/usr/local/lib:/usr/local/lib PYTHONPATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/topic -- -j16 -l16

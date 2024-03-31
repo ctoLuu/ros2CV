@@ -1,0 +1,145 @@
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.409
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.409
+/usr/bin/ld: CMakeFiles/image_sub.dir/src/image_sub.cpp.o: in function `imageSub::handle_image(cv::Mat, Yolo)':
+image_sub.cpp:(.text._ZN8imageSub12handle_imageEN2cv3MatE4Yolo[_ZN8imageSub12handle_imageEN2cv3MatE4Yolo]+0x419): undefined reference to `Yolo::Detect(cv::Mat&, cv::dnn::dnn4_v20231225::Net&, std::vector<Output, std::allocator<Output> >&, int)'
+/usr/bin/ld: image_sub.cpp:(.text._ZN8imageSub12handle_imageEN2cv3MatE4Yolo[_ZN8imageSub12handle_imageEN2cv3MatE4Yolo]+0x4a4): undefined reference to `Yolo::drawPred(cv::Mat, std::vector<Output, std::allocator<Output> >, std::vector<cv::Scalar_<double>, std::allocator<cv::Scalar_<double> > >, int)'
+/usr/bin/ld: image_sub.cpp:(.text._ZN8imageSub12handle_imageEN2cv3MatE4Yolo[_ZN8imageSub12handle_imageEN2cv3MatE4Yolo]+0x52b): undefined reference to `Yolo::Detect(cv::Mat&, cv::dnn::dnn4_v20231225::Net&, std::vector<Output, std::allocator<Output> >&, int)'
+/usr/bin/ld: /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_getinfo@CURL_OPENSSL_4'
+image_sub.cpp:(.text._ZN8imageSub12handle_imageEN2cv3MatE4Yolo[_ZN8imageSub12handle_imageEN2cv3MatE4Yolo]+0x588): undefined reference to `Yolo::target(cv::Mat, std::vector<Output, std::allocator<Output> >, int)'
+/usr/bin/ld: image_sub.cpp:(.text._ZN8imageSub12handle_imageEN2cv3MatE4Yolo[_ZN8imageSub12handle_imageEN2cv3MatE4Yolo]+0x626): undefined reference to `Yolo::drawPred(cv::Mat, std::vector<Output, std::allocator<Output> >, std::vector<cv::Scalar_<double>, std::allocator<cv::Scalar_<double> > >, int)'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_perform@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_cleanup@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_global_init@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_init@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFReadFromUserBuffer@LIBTIFF_4.0'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileOffsetWithErr@LIBTIFF_4.0'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_remove_handle@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_addpart@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_version_info@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_name@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_filename@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_info_read@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_setopt@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFDeferStrileArrayWriting@LIBTIFF_4.0'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFForceStrileArrayWriting@LIBTIFF_4.0'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFReadRGBATileExt@LIBTIFF_4.0'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_free@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_cleanup@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_data_cb@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFReadRGBAStripExt@LIBTIFF_4.0'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_perform@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_init@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_add_handle@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileOffset@LIBTIFF_4.0'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileByteCount@LIBTIFF_4.0'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_slist_free_all@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_easy_strerror@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_getinfo@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileByteCountWithErr@LIBTIFF_4.0'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_perform@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_slist_append@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_cleanup@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_poll@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_global_init@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_version@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_init@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_setopt@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFReadFromUserBuffer@LIBTIFF_4.0'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_data@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_init@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileOffsetWithErr@LIBTIFF_4.0'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_wait@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_remove_handle@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_global_cleanup@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_addpart@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_version_info@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_name@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_filename@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_info_read@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_setopt@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFDeferStrileArrayWriting@LIBTIFF_4.0'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFForceStrileArrayWriting@LIBTIFF_4.0'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFReadRGBATileExt@LIBTIFF_4.0'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_free@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_cleanup@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_data_cb@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFReadRGBAStripExt@LIBTIFF_4.0'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_perform@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_init@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_add_handle@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileOffset@LIBTIFF_4.0'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileByteCount@LIBTIFF_4.0'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_slist_free_all@CURL_OPENSSL_4'
+collect2: error: ld returned 1 exit status
+/usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_easy_strerror@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileByteCountWithErr@LIBTIFF_4.0'
+gmake[2]: *** [CMakeFiles/image_pub.dir/build.make:250：image_pub] 错误 1
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_slist_append@CURL_OPENSSL_4'
+gmake[1]: *** [CMakeFiles/Makefile2:141：CMakeFiles/image_pub.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_poll@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_version@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_setopt@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_data@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_init@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_wait@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_global_cleanup@CURL_OPENSSL_4'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/image_sub.dir/build.make:250：image_sub] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:167：CMakeFiles/image_sub.dir/all] 错误 2
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:[m[K In member function ‘[01m[Kbool Yolo::Detect(cv::Mat&, cv::dnn::dnn4_v20231225::Net&, std::vector<Output>&, int)[m[K’:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:205:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  205 |         for (int i = 0; [01;35m[Ki < nms_result.size()[m[K; i++)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:[m[K In member function ‘[01m[Kcv::Mat Yolo::drawPred(cv::Mat, std::vector<Output>, std::vector<cv::Scalar_<double> >, int)[m[K’:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:225:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Output>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  225 |         for (int i = 0; [01;35m[Ki < result.size()[m[K; i++)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:230:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcolor_num[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  230 |                 int [01;35m[Kcolor_num[m[K = i;
+      |                     [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:255:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kleft_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  255 |         int [01;35m[Kleft_x[m[K = left[left_max] + result[left_max].box.width/2, left_y = top[left_max] + result[left_max].box.height/2;
+      |             [01;35m[K^~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:255:69:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kleft_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  255 |         int left_x = left[left_max] + result[left_max].box.width/2, [01;35m[Kleft_y[m[K = top[left_max] + result[left_max].box.height/2;
+      |                                                                     [01;35m[K^~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:257:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kup_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  257 |         int [01;35m[Kup_x[m[K = left[up_max] + result[up_max].box.width/2, up_y = top[up_max] + result[up_max].box.height/2;
+      |             [01;35m[K^~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:257:63:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kup_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  257 |         int up_x = left[up_max] + result[up_max].box.width/2, [01;35m[Kup_y[m[K = top[up_max] + result[up_max].box.height/2;
+      |                                                               [01;35m[K^~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:258:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdown_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  258 |         int [01;35m[Kdown_x[m[K = left[down_max] + result[down_max].box.width/2, down_y = top[down_max] + result[down_max].box.height/2;
+      |             [01;35m[K^~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:258:69:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdown_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  258 |         int down_x = left[down_max] + result[down_max].box.width/2, [01;35m[Kdown_y[m[K = top[down_max] + result[down_max].box.height/2;
+      |                                                                     [01;35m[K^~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:[m[K In member function ‘[01m[Kvoid Yolo::target(cv::Mat, std::vector<Output>, int)[m[K’:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:272:13:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kdst[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  272 |         Mat [01;35m[Kdst[m[K[result.size()];
+      |             [01;35m[K^~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:273:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Output>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  273 |         for (int i = 0; [01;35m[Ki < result.size()[m[K; i++)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:278:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcolor_num[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  278 |                 int [01;35m[Kcolor_num[m[K = i;
+      |                     [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:286:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcenter_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  286 |                 int [01;35m[Kcenter_x[m[K = left[i] + (result[i].box.width / 2);
+      |                     [01;35m[K^~~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:287:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcenter_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  287 |                 int [01;35m[Kcenter_y[m[K = top[i] + (result[i].box.height / 2);
+      |                     [01;35m[K^~~~~~~~[m[K
+/usr/bin/ld: CMakeFiles/yolo.dir/src/yolo.cpp.o: warning: relocation against `coord' in read-only section `.text'
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+/usr/bin/ld: CMakeFiles/yolo.dir/src/yolo.cpp.o: in function `Yolo::drawPred(cv::Mat, std::vector<Output, std::allocator<Output> >, std::vector<cv::Scalar_<double>, std::allocator<cv::Scalar_<double> > >, int)':
+yolo.cpp:(.text+0x1710): undefined reference to `flag_servo'
+/usr/bin/ld: yolo.cpp:(.text+0x1734): undefined reference to `coord'
+/usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/yolo.dir/build.make:250：yolo] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/yolo.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

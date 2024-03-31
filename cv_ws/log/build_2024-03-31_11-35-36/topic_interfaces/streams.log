@@ -1,0 +1,226 @@
+[0.008s] Invoking command in '/home/stoair/ros2CV/cv_ws/build/topic_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/stoair/ros2CV/cv_ws/src/topic_interfaces -DCMAKE_INSTALL_PREFIX=/home/stoair/ros2CV/cv_ws/install/topic_interfaces
+[0.051s] -- The C compiler identification is GNU 12.3.0
+[0.093s] -- The CXX compiler identification is GNU 11.4.0
+[0.100s] -- Detecting C compiler ABI info
+[0.165s] -- Detecting C compiler ABI info - done
+[0.176s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.176s] -- Detecting C compile features
+[0.177s] -- Detecting C compile features - done
+[0.181s] -- Detecting CXX compiler ABI info
+[0.260s] -- Detecting CXX compiler ABI info - done
+[0.266s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.266s] -- Detecting CXX compile features
+[0.267s] -- Detecting CXX compile features - done
+[0.273s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.539s] -- Found Python3: /home/stoair/anaconda3/bin/python3 (found version "3.11.5") found components: Interpreter 
+[0.654s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.666s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.678s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.716s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.948s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.094s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.294s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.311s] -- Found PythonInterp: /home/stoair/anaconda3/bin/python3 (found suitable version "3.11.5", minimum required is "3.6") 
+[1.313s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.335s] -- Found PythonLibs: /home/stoair/anaconda3/lib/libpython3.11.so (found suitable version "3.11.5", minimum required is "3.5") 
+[1.335s] -- Using PYTHON_EXECUTABLE: /home/stoair/anaconda3/bin/python3
+[1.335s] -- Using PYTHON_INCLUDE_DIRS: /home/stoair/anaconda3/include/python3.11
+[1.335s] -- Using PYTHON_LIBRARIES: /home/stoair/anaconda3/lib/libpython3.11.so
+[1.358s] -- Found PythonExtra: .so  
+[1.481s] -- Using numpy include directory: /home/stoair/.local/lib/python3.11/site-packages/numpy/core/include
+[1.493s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.514s] -- Added test 'lint_cmake' to check CMake code style
+[1.515s] -- Added test 'xmllint' to check XML markup files
+[1.517s] -- Configuring done
+[1.533s] -- Generating done
+[1.535s] -- Build files have been written to: /home/stoair/ros2CV/cv_ws/build/topic_interfaces
+[1.540s] Invoked command in '/home/stoair/ros2CV/cv_ws/build/topic_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/stoair/ros2CV/cv_ws/src/topic_interfaces -DCMAKE_INSTALL_PREFIX=/home/stoair/ros2CV/cv_ws/install/topic_interfaces
+[1.541s] Invoking command in '/home/stoair/ros2CV/cv_ws/build/topic_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/topic_interfaces -- -j16 -l16
+[1.571s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.577s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.582s] [  6%] Built target ament_cmake_python_copy_topic_interfaces
+[1.721s] [  6%] Built target topic_interfaces__cpp
+[1.724s] [  9%] [32mBuilding C object CMakeFiles/topic_interfaces__rosidl_generator_c.dir/rosidl_generator_c/topic_interfaces/msg/detail/coord__functions.c.o[0m
+[1.725s] running egg_info
+[1.725s] creating topic_interfaces.egg-info
+[1.728s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.730s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.732s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.736s] writing topic_interfaces.egg-info/PKG-INFO
+[1.737s] writing dependency_links to topic_interfaces.egg-info/dependency_links.txt
+[1.737s] writing top-level names to topic_interfaces.egg-info/top_level.txt
+[1.737s] writing manifest file 'topic_interfaces.egg-info/SOURCES.txt'
+[1.762s] [ 22%] [32m[1mLinking C shared library libtopic_interfaces__rosidl_generator_c.so[0m
+[1.777s] reading manifest file 'topic_interfaces.egg-info/SOURCES.txt'
+[1.777s] writing manifest file 'topic_interfaces.egg-info/SOURCES.txt'
+[1.797s] [ 22%] Built target ament_cmake_python_build_topic_interfaces_egg
+[1.803s] [ 22%] Built target topic_interfaces__rosidl_generator_c
+[1.811s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.816s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.816s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.885s] [ 35%] [32mBuilding CXX object CMakeFiles/topic_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/topic_interfaces/msg/detail/dds_fastrtps/coord__type_support.cpp.o[0m
+[1.887s] [ 38%] [32mBuilding CXX object CMakeFiles/topic_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/topic_interfaces/msg/coord__type_support.cpp.o[0m
+[1.889s] [ 41%] [32mBuilding CXX object CMakeFiles/topic_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/topic_interfaces/msg/detail/coord__type_support.cpp.o[0m
+[1.974s] [ 45%] [32mBuilding CXX object CMakeFiles/topic_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/topic_interfaces/msg/detail/coord__type_support_c.cpp.o[0m
+[2.006s] [ 48%] [32mBuilding C object CMakeFiles/topic_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/topic_interfaces/msg/detail/coord__type_support.c.o[0m
+[2.031s] [ 51%] [32m[1mLinking C shared library libtopic_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.045s] [ 54%] [32m[1mLinking CXX shared library libtopic_interfaces__rosidl_typesupport_cpp.so[0m
+[2.056s] [ 54%] Built target topic_interfaces__rosidl_typesupport_introspection_c
+[2.065s] [ 58%] [32mBuilding CXX object CMakeFiles/topic_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/topic_interfaces/msg/coord__type_support.cpp.o[0m
+[2.073s] [ 58%] Built target topic_interfaces__rosidl_typesupport_cpp
+[2.094s] [ 61%] [32m[1mLinking CXX shared library libtopic_interfaces__rosidl_typesupport_c.so[0m
+[2.112s] [ 64%] [32m[1mLinking CXX shared library libtopic_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.121s] [ 64%] Built target topic_interfaces__rosidl_typesupport_c
+[2.124s] [ 67%] [32m[1mLinking CXX shared library libtopic_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.141s] [ 67%] Built target topic_interfaces__rosidl_typesupport_introspection_cpp
+[2.178s] [ 67%] Built target topic_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.202s] [ 70%] [32m[1mLinking CXX shared library libtopic_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.257s] [ 70%] Built target topic_interfaces__rosidl_typesupport_fastrtps_c
+[2.273s] [ 70%] Built target topic_interfaces
+[2.300s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.480s] [ 74%] Built target topic_interfaces__py
+[2.496s] [ 77%] [32mBuilding C object CMakeFiles/topic_interfaces__rosidl_generator_py.dir/rosidl_generator_py/topic_interfaces/msg/_coord_s.c.o[0m
+[2.584s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/topic_interfaces/libtopic_interfaces__rosidl_generator_py.so[0m
+[2.618s] [ 80%] Built target topic_interfaces__rosidl_generator_py
+[2.635s] [ 83%] [32mBuilding C object CMakeFiles/topic_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/topic_interfaces/_topic_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.636s] [ 87%] [32mBuilding C object CMakeFiles/topic_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/topic_interfaces/_topic_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.637s] [ 90%] [32mBuilding C object CMakeFiles/topic_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/topic_interfaces/_topic_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.698s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/topic_interfaces/topic_interfaces_s__rosidl_typesupport_introspection_c.cpython-311-x86_64-linux-gnu.so[0m
+[2.699s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/topic_interfaces/topic_interfaces_s__rosidl_typesupport_c.cpython-311-x86_64-linux-gnu.so[0m
+[2.714s] [100%] [32m[1mLinking C shared library rosidl_generator_py/topic_interfaces/topic_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-311-x86_64-linux-gnu.so[0m
+[2.720s] [100%] Built target topic_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.720s] [100%] Built target topic_interfaces__rosidl_typesupport_c__pyext
+[2.740s] [100%] Built target topic_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.749s] Invoked command in '/home/stoair/ros2CV/cv_ws/build/topic_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/topic_interfaces -- -j16 -l16
+[2.821s] Invoking command in '/home/stoair/ros2CV/cv_ws/build/topic_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/stoair/ros2CV/cv_ws/build/topic_interfaces
+[2.831s] -- Install configuration: ""
+[2.831s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/ament_index/resource_index/rosidl_interfaces/topic_interfaces
+[2.831s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces
+[2.832s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces/msg
+[2.832s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.832s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces/msg/coord.h
+[2.832s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces/msg/detail
+[2.832s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces/msg/detail/coord__functions.c
+[2.840s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces/msg/detail/coord__functions.h
+[2.840s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces/msg/detail/coord__struct.h
+[2.840s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces/msg/detail/coord__type_support.h
+[2.841s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/environment/library_path.sh
+[2.841s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/environment/library_path.dsv
+[2.841s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/libtopic_interfaces__rosidl_generator_c.so
+[2.844s] -- Set runtime path of "/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/libtopic_interfaces__rosidl_generator_c.so" to ""
+[2.844s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces
+[2.844s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces/msg
+[2.844s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.844s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces/msg/detail
+[2.845s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces/msg/detail/coord__rosidl_typesupport_fastrtps_c.h
+[2.845s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/libtopic_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.846s] -- Set runtime path of "/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/libtopic_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.847s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces
+[2.847s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces/msg
+[2.847s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.847s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces/msg/detail
+[2.847s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces/msg/detail/coord__rosidl_typesupport_introspection_c.h
+[2.848s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces/msg/detail/coord__type_support.c
+[2.848s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/libtopic_interfaces__rosidl_typesupport_introspection_c.so
+[2.848s] -- Set runtime path of "/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/libtopic_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.848s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/libtopic_interfaces__rosidl_typesupport_c.so
+[2.850s] -- Set runtime path of "/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/libtopic_interfaces__rosidl_typesupport_c.so" to ""
+[2.850s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces
+[2.850s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces/msg
+[2.851s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces/msg/coord.hpp
+[2.851s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces/msg/detail
+[2.851s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces/msg/detail/coord__builder.hpp
+[2.851s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces/msg/detail/coord__struct.hpp
+[2.851s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces/msg/detail/coord__traits.hpp
+[2.851s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces
+[2.852s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces/msg
+[2.852s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.852s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces/msg/detail
+[2.852s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces/msg/detail/coord__rosidl_typesupport_fastrtps_cpp.hpp
+[2.852s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces/msg/detail/dds_fastrtps
+[2.853s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/libtopic_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.853s] -- Set runtime path of "/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/libtopic_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.853s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces
+[2.853s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces/msg
+[2.853s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces/msg/detail
+[2.853s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces/msg/detail/coord__rosidl_typesupport_introspection_cpp.hpp
+[2.853s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/topic_interfaces/topic_interfaces/msg/detail/coord__type_support.cpp
+[2.854s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/libtopic_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.854s] -- Set runtime path of "/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/libtopic_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.854s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/libtopic_interfaces__rosidl_typesupport_cpp.so
+[2.856s] -- Set runtime path of "/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/libtopic_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.856s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/environment/pythonpath.sh
+[2.856s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/environment/pythonpath.dsv
+[2.857s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages/topic_interfaces-0.0.0-py3.11.egg-info
+[2.857s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages/topic_interfaces-0.0.0-py3.11.egg-info/PKG-INFO
+[2.857s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages/topic_interfaces-0.0.0-py3.11.egg-info/dependency_links.txt
+[2.857s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages/topic_interfaces-0.0.0-py3.11.egg-info/top_level.txt
+[2.857s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages/topic_interfaces-0.0.0-py3.11.egg-info/SOURCES.txt
+[2.858s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages/topic_interfaces
+[2.858s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages/topic_interfaces/__init__.py
+[2.858s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages/topic_interfaces/msg
+[2.858s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages/topic_interfaces/msg/_coord.py
+[2.859s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages/topic_interfaces/msg/_coord_s.c
+[2.859s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages/topic_interfaces/msg/__init__.py
+[2.859s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages/topic_interfaces/_topic_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.859s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages/topic_interfaces/_topic_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.859s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages/topic_interfaces/_topic_interfaces_s.ep.rosidl_typesupport_c.c
+[2.859s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages/topic_interfaces/libtopic_interfaces__rosidl_generator_py.so
+[2.860s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages/topic_interfaces/topic_interfaces_s__rosidl_typesupport_introspection_c.cpython-311-x86_64-linux-gnu.so
+[2.860s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages/topic_interfaces/topic_interfaces_s__rosidl_typesupport_c.cpython-311-x86_64-linux-gnu.so
+[2.860s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages/topic_interfaces/topic_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-311-x86_64-linux-gnu.so
+[2.896s] Listing '/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages/topic_interfaces'...
+[2.896s] Compiling '/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages/topic_interfaces/__init__.py'...
+[2.896s] Listing '/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages/topic_interfaces/msg'...
+[2.896s] Compiling '/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages/topic_interfaces/msg/__init__.py'...
+[2.896s] Compiling '/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages/topic_interfaces/msg/_coord.py'...
+[2.900s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages/topic_interfaces/topic_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-311-x86_64-linux-gnu.so
+[2.900s] -- Set runtime path of "/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages/topic_interfaces/topic_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-311-x86_64-linux-gnu.so" to ""
+[2.900s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages/topic_interfaces/topic_interfaces_s__rosidl_typesupport_introspection_c.cpython-311-x86_64-linux-gnu.so
+[2.901s] -- Set runtime path of "/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages/topic_interfaces/topic_interfaces_s__rosidl_typesupport_introspection_c.cpython-311-x86_64-linux-gnu.so" to ""
+[2.901s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages/topic_interfaces/topic_interfaces_s__rosidl_typesupport_c.cpython-311-x86_64-linux-gnu.so
+[2.901s] -- Set runtime path of "/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages/topic_interfaces/topic_interfaces_s__rosidl_typesupport_c.cpython-311-x86_64-linux-gnu.so" to ""
+[2.901s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/libtopic_interfaces__rosidl_generator_py.so
+[2.901s] -- Set runtime path of "/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/libtopic_interfaces__rosidl_generator_py.so" to ""
+[2.901s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/msg/Coord.idl
+[2.902s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/msg/Coord.msg
+[2.902s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/ament_index/resource_index/package_run_dependencies/topic_interfaces
+[2.902s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/ament_index/resource_index/parent_prefix_path/topic_interfaces
+[2.902s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/environment/ament_prefix_path.sh
+[2.902s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/environment/ament_prefix_path.dsv
+[2.902s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/environment/path.sh
+[2.902s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/environment/path.dsv
+[2.902s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/local_setup.bash
+[2.902s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/local_setup.sh
+[2.902s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/local_setup.zsh
+[2.903s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/local_setup.dsv
+[2.903s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/package.dsv
+[2.903s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/ament_index/resource_index/packages/topic_interfaces
+[2.903s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/cmake/export_topic_interfaces__rosidl_generator_cExport.cmake
+[2.903s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/cmake/export_topic_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.903s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/cmake/export_topic_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.903s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/cmake/export_topic_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.903s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/cmake/topic_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.903s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/cmake/topic_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.903s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/cmake/topic_interfaces__rosidl_typesupport_cExport.cmake
+[2.904s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/cmake/topic_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.904s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/cmake/export_topic_interfaces__rosidl_generator_cppExport.cmake
+[2.904s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/cmake/export_topic_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.904s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/cmake/export_topic_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.904s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/cmake/topic_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.904s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/cmake/topic_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.904s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/cmake/topic_interfaces__rosidl_typesupport_cppExport.cmake
+[2.904s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/cmake/topic_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.904s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/cmake/export_topic_interfaces__rosidl_generator_pyExport.cmake
+[2.905s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/cmake/export_topic_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.905s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.905s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.905s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.905s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.905s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.905s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.905s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.906s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/cmake/topic_interfacesConfig.cmake
+[2.906s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/cmake/topic_interfacesConfig-version.cmake
+[2.906s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/package.xml
+[2.906s] Invoked command in '/home/stoair/ros2CV/cv_ws/build/topic_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/stoair/ros2CV/cv_ws/build/topic_interfaces

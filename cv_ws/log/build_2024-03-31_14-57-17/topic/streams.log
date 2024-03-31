@@ -1,0 +1,300 @@
+[0.020s] Invoking command in '/home/stoair/ros2CV/cv_ws/build/topic': AMENT_PREFIX_PATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces:/home/stoair/ros2CV/cv_ws/install/webcam_topic:/home/stoair/learn_ws/install/service:/home/stoair/learn_ws/install/own_service:/home/stoair/learn_ws/install/ros_interfaces:/home/stoair/learn_ws/install/helloworld:/home/stoair/learn_ws/install/hellotopic:/home/stoair/dev_ws/install/learning_topic_cpp:/home/stoair/dev_ws/install/learning_tf_cpp:/home/stoair/dev_ws/install/learning_service_cpp:/home/stoair/dev_ws/install/learning_pkg_c:/home/stoair/dev_ws/install/learning_parameter_cpp:/home/stoair/dev_ws/install/learning_node_cpp:/home/stoair/dev_ws/install/learning_action_cpp:/home/stoair/dev_ws/install/learning_interface:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib:/usr/local/cuda-12.1/lib64:/home/stoair/learn_ws/install/ros_interfaces/lib:/home/stoair/dev_ws/install/learning_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.1/lib64:/usr/local/lib:/usr/local/lib PYTHONPATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/topic -- -j16 -l16
+[0.044s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.148s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.182s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.183s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.187s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.195s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.206s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.248s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.249s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.347s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.477s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.579s] -- Found topic_interfaces: 0.0.0 (/home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/cmake)
+[0.595s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.609s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.611s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.615s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.623s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.633s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.672s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.673s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.762s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.878s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.968s] -- Found topic_interfaces: 0.0.0 (/home/stoair/ros2CV/cv_ws/install/topic_interfaces/share/topic_interfaces/cmake)
+[0.980s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.046s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.046s] -- Configured cppcheck include dirs: /home/stoair/ros2CV/cv_ws/src/topic/include
+[1.046s] -- Configured cppcheck exclude dirs and/or files: 
+[1.046s] -- Added test 'lint_cmake' to check CMake code style
+[1.047s] -- Added test 'uncrustify' to check C / C++ code style
+[1.047s] -- Configured uncrustify additional arguments: 
+[1.047s] -- Added test 'xmllint' to check XML markup files
+[1.047s] -- Configuring done
+[1.061s] -- Generating done
+[1.062s] -- Build files have been written to: /home/stoair/ros2CV/cv_ws/build/topic
+[1.082s] [35m[1mConsolidate compiler generated dependencies of target image_pub[0m
+[1.082s] [35m[1mConsolidate compiler generated dependencies of target image_sub[0m
+[1.097s] [ 50%] [32mBuilding CXX object CMakeFiles/image_pub.dir/src/image_pub.cpp.o[0m
+[1.097s] [ 50%] [32mBuilding CXX object CMakeFiles/image_sub.dir/src/image_sub.cpp.o[0m
+[3.710s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:[m[K In member function ‘[01m[Kvoid imageSub::timer_callback()[m[K’:
+[3.710s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:117:21:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgetline(std::string&, std::string&, char)[m[K’
+[3.710s]   117 |         [01;31m[Kstd::getline(iss, x_str, ',')[m[K;
+[3.710s]       |         [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[3.710s] In file included from [01m[K/usr/include/c++/11/string:56[m[K,
+[3.710s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[3.710s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[3.711s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[3.711s]                  from [01m[K/usr/include/c++/11/istream:38[m[K,
+[3.711s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[3.711s]                  from [01m[K/usr/include/c++/11/complex:45[m[K,
+[3.711s]                  from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+[3.711s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/include/global.h:4[m[K,
+[3.711s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:1[m[K:
+[3.711s] [01m[K/usr/include/c++/11/bits/basic_string.tcc:1557:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, _CharT)[m[K’
+[3.711s]  1557 |     [01;36m[Kgetline[m[K(basic_istream<_CharT, _Traits>& __in,
+[3.712s]       |     [01;36m[K^~~~~~~[m[K
+[3.712s] [01m[K/usr/include/c++/11/bits/basic_string.tcc:1557:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.712s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:117:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+[3.712s]   117 |         [01;36m[Kstd::getline(iss, x_str, ',')[m[K;
+[3.712s]       |         [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[3.712s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[3.712s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[3.712s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[3.712s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[3.712s]                  from [01m[K/usr/include/c++/11/istream:38[m[K,
+[3.712s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[3.713s]                  from [01m[K/usr/include/c++/11/complex:45[m[K,
+[3.713s]                  from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+[3.713s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/include/global.h:4[m[K,
+[3.713s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:1[m[K:
+[3.713s] [01m[K/usr/include/c++/11/bits/basic_string.h:6571:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[3.713s]  6571 |     [01;36m[Kgetline[m[K(basic_istream<_CharT, _Traits>& __is,
+[3.713s]       |     [01;36m[K^~~~~~~[m[K
+[3.713s] [01m[K/usr/include/c++/11/bits/basic_string.h:6571:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.713s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:117:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+[3.713s]   117 |         [01;36m[Kstd::getline(iss, x_str, ',')[m[K;
+[3.713s]       |         [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[3.714s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[3.714s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[3.714s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[3.714s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[3.714s]                  from [01m[K/usr/include/c++/11/istream:38[m[K,
+[3.714s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[3.714s]                  from [01m[K/usr/include/c++/11/complex:45[m[K,
+[3.714s]                  from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+[3.714s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/include/global.h:4[m[K,
+[3.714s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:1[m[K:
+[3.714s] [01m[K/usr/include/c++/11/bits/basic_string.h:6579:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, _CharT)[m[K’
+[3.715s]  6579 |     [01;36m[Kgetline[m[K(basic_istream<_CharT, _Traits>&& __is,
+[3.715s]       |     [01;36m[K^~~~~~~[m[K
+[3.715s] [01m[K/usr/include/c++/11/bits/basic_string.h:6579:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.715s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:117:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+[3.715s]   117 |         [01;36m[Kstd::getline(iss, x_str, ',')[m[K;
+[3.715s]       |         [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[3.715s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[3.715s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[3.715s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[3.715s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[3.715s]                  from [01m[K/usr/include/c++/11/istream:38[m[K,
+[3.715s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[3.716s]                  from [01m[K/usr/include/c++/11/complex:45[m[K,
+[3.716s]                  from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+[3.716s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/include/global.h:4[m[K,
+[3.716s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:1[m[K:
+[3.716s] [01m[K/usr/include/c++/11/bits/basic_string.h:6586:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[3.716s]  6586 |     [01;36m[Kgetline[m[K(basic_istream<_CharT, _Traits>&& __is,
+[3.716s]       |     [01;36m[K^~~~~~~[m[K
+[3.716s] [01m[K/usr/include/c++/11/bits/basic_string.h:6586:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.716s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:117:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+[3.716s]   117 |         [01;36m[Kstd::getline(iss, x_str, ',')[m[K;
+[3.716s]       |         [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[3.716s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:118:21:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgetline(std::string&, std::string&, char)[m[K’
+[3.717s]   118 |         [01;31m[Kstd::getline(iss, y_str, ',')[m[K;
+[3.717s]       |         [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[3.717s] In file included from [01m[K/usr/include/c++/11/string:56[m[K,
+[3.717s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[3.717s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[3.717s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[3.717s]                  from [01m[K/usr/include/c++/11/istream:38[m[K,
+[3.717s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[3.717s]                  from [01m[K/usr/include/c++/11/complex:45[m[K,
+[3.717s]                  from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+[3.717s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/include/global.h:4[m[K,
+[3.717s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:1[m[K:
+[3.718s] [01m[K/usr/include/c++/11/bits/basic_string.tcc:1557:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, _CharT)[m[K’
+[3.718s]  1557 |     [01;36m[Kgetline[m[K(basic_istream<_CharT, _Traits>& __in,
+[3.718s]       |     [01;36m[K^~~~~~~[m[K
+[3.718s] [01m[K/usr/include/c++/11/bits/basic_string.tcc:1557:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.718s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:118:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+[3.718s]   118 |         [01;36m[Kstd::getline(iss, y_str, ',')[m[K;
+[3.718s]       |         [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[3.718s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[3.718s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[3.718s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[3.718s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[3.718s]                  from [01m[K/usr/include/c++/11/istream:38[m[K,
+[3.718s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[3.719s]                  from [01m[K/usr/include/c++/11/complex:45[m[K,
+[3.719s]                  from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+[3.719s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/include/global.h:4[m[K,
+[3.719s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:1[m[K:
+[3.719s] [01m[K/usr/include/c++/11/bits/basic_string.h:6571:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[3.719s]  6571 |     [01;36m[Kgetline[m[K(basic_istream<_CharT, _Traits>& __is,
+[3.719s]       |     [01;36m[K^~~~~~~[m[K
+[3.719s] [01m[K/usr/include/c++/11/bits/basic_string.h:6571:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.719s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:118:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+[3.719s]   118 |         [01;36m[Kstd::getline(iss, y_str, ',')[m[K;
+[3.719s]       |         [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[3.719s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[3.720s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[3.720s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[3.720s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[3.720s]                  from [01m[K/usr/include/c++/11/istream:38[m[K,
+[3.720s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[3.720s]                  from [01m[K/usr/include/c++/11/complex:45[m[K,
+[3.720s]                  from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+[3.720s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/include/global.h:4[m[K,
+[3.720s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:1[m[K:
+[3.720s] [01m[K/usr/include/c++/11/bits/basic_string.h:6579:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, _CharT)[m[K’
+[3.720s]  6579 |     [01;36m[Kgetline[m[K(basic_istream<_CharT, _Traits>&& __is,
+[3.720s]       |     [01;36m[K^~~~~~~[m[K
+[3.721s] [01m[K/usr/include/c++/11/bits/basic_string.h:6579:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.721s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:118:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+[3.721s]   118 |         [01;36m[Kstd::getline(iss, y_str, ',')[m[K;
+[3.721s]       |         [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[3.721s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[3.721s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[3.721s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[3.721s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[3.721s]                  from [01m[K/usr/include/c++/11/istream:38[m[K,
+[3.721s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[3.721s]                  from [01m[K/usr/include/c++/11/complex:45[m[K,
+[3.722s]                  from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+[3.722s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/include/global.h:4[m[K,
+[3.722s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:1[m[K:
+[3.722s] [01m[K/usr/include/c++/11/bits/basic_string.h:6586:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[3.722s]  6586 |     [01;36m[Kgetline[m[K(basic_istream<_CharT, _Traits>&& __is,
+[3.722s]       |     [01;36m[K^~~~~~~[m[K
+[3.722s] [01m[K/usr/include/c++/11/bits/basic_string.h:6586:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.722s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:118:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+[3.722s]   118 |         [01;36m[Kstd::getline(iss, y_str, ',')[m[K;
+[3.722s]       |         [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[3.722s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:119:21:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgetline(std::string&, std::string&)[m[K’
+[3.722s]   119 |         [01;31m[Kstd::getline(iss, flag_servo_str)[m[K;
+[3.722s]       |         [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.723s] In file included from [01m[K/usr/include/c++/11/string:56[m[K,
+[3.723s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[3.723s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[3.723s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[3.723s]                  from [01m[K/usr/include/c++/11/istream:38[m[K,
+[3.723s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[3.723s]                  from [01m[K/usr/include/c++/11/complex:45[m[K,
+[3.723s]                  from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+[3.723s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/include/global.h:4[m[K,
+[3.723s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:1[m[K:
+[3.723s] [01m[K/usr/include/c++/11/bits/basic_string.tcc:1557:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, _CharT)[m[K’
+[3.723s]  1557 |     [01;36m[Kgetline[m[K(basic_istream<_CharT, _Traits>& __in,
+[3.723s]       |     [01;36m[K^~~~~~~[m[K
+[3.724s] [01m[K/usr/include/c++/11/bits/basic_string.tcc:1557:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.724s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:119:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+[3.724s]   119 |         [01;36m[Kstd::getline(iss, flag_servo_str)[m[K;
+[3.724s]       |         [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.724s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[3.724s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[3.724s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[3.724s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[3.724s]                  from [01m[K/usr/include/c++/11/istream:38[m[K,
+[3.724s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[3.724s]                  from [01m[K/usr/include/c++/11/complex:45[m[K,
+[3.724s]                  from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+[3.724s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/include/global.h:4[m[K,
+[3.725s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:1[m[K:
+[3.725s] [01m[K/usr/include/c++/11/bits/basic_string.h:6571:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[3.725s]  6571 |     [01;36m[Kgetline[m[K(basic_istream<_CharT, _Traits>& __is,
+[3.725s]       |     [01;36m[K^~~~~~~[m[K
+[3.725s] [01m[K/usr/include/c++/11/bits/basic_string.h:6571:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.725s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:119:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+[3.725s]   119 |         [01;36m[Kstd::getline(iss, flag_servo_str)[m[K;
+[3.725s]       |         [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.725s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[3.725s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[3.725s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[3.725s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[3.725s]                  from [01m[K/usr/include/c++/11/istream:38[m[K,
+[3.726s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[3.726s]                  from [01m[K/usr/include/c++/11/complex:45[m[K,
+[3.726s]                  from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+[3.726s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/include/global.h:4[m[K,
+[3.726s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:1[m[K:
+[3.726s] [01m[K/usr/include/c++/11/bits/basic_string.h:6579:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, _CharT)[m[K’
+[3.726s]  6579 |     [01;36m[Kgetline[m[K(basic_istream<_CharT, _Traits>&& __is,
+[3.726s]       |     [01;36m[K^~~~~~~[m[K
+[3.726s] [01m[K/usr/include/c++/11/bits/basic_string.h:6579:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.726s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:119:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+[3.726s]   119 |         [01;36m[Kstd::getline(iss, flag_servo_str)[m[K;
+[3.726s]       |         [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[3.726s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[3.727s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[3.727s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[3.727s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[3.727s]                  from [01m[K/usr/include/c++/11/istream:38[m[K,
+[3.727s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[3.727s]                  from [01m[K/usr/include/c++/11/complex:45[m[K,
+[3.727s]                  from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+[3.727s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/include/global.h:4[m[K,
+[3.727s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:1[m[K:
+[3.727s] [01m[K/usr/include/c++/11/bits/basic_string.h:6586:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[3.727s]  6586 |     [01;36m[Kgetline[m[K(basic_istream<_CharT, _Traits>&& __is,
+[3.727s]       |     [01;36m[K^~~~~~~[m[K
+[3.727s] [01m[K/usr/include/c++/11/bits/basic_string.h:6586:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.728s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:119:21:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kstd::basic_istream<_CharT, _Traits>[m[K’
+[3.728s]   119 |         [01;36m[Kstd::getline(iss, flag_servo_str)[m[K;
+[3.728s]       |         [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[5.443s] gmake[2]: *** [CMakeFiles/image_sub.dir/build.make:76：CMakeFiles/image_sub.dir/src/image_sub.cpp.o] 错误 1
+[5.443s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/image_sub.dir/all] 错误 2
+[5.443s] gmake[1]: *** 正在等待未完成的任务....
+[8.108s] [ 75%] [32m[1mLinking CXX executable image_pub[0m
+[8.305s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.409
+[8.649s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_getinfo@CURL_OPENSSL_4'
+[8.650s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_perform@CURL_OPENSSL_4'
+[8.650s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_cleanup@CURL_OPENSSL_4'
+[8.650s] /usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_global_init@CURL_OPENSSL_4'
+[8.651s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_init@CURL_OPENSSL_4'
+[8.651s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFReadFromUserBuffer@LIBTIFF_4.0'
+[8.652s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileOffsetWithErr@LIBTIFF_4.0'
+[8.653s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_remove_handle@CURL_OPENSSL_4'
+[8.654s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_addpart@CURL_OPENSSL_4'
+[8.654s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_version_info@CURL_OPENSSL_4'
+[8.655s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_name@CURL_OPENSSL_4'
+[8.656s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_filename@CURL_OPENSSL_4'
+[8.656s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_info_read@CURL_OPENSSL_4'
+[8.657s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_setopt@CURL_OPENSSL_4'
+[8.657s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFDeferStrileArrayWriting@LIBTIFF_4.0'
+[8.658s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFForceStrileArrayWriting@LIBTIFF_4.0'
+[8.658s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFReadRGBATileExt@LIBTIFF_4.0'
+[8.660s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_free@CURL_OPENSSL_4'
+[8.660s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_cleanup@CURL_OPENSSL_4'
+[8.661s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_data_cb@CURL_OPENSSL_4'
+[8.662s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFReadRGBAStripExt@LIBTIFF_4.0'
+[8.662s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_perform@CURL_OPENSSL_4'
+[8.663s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_init@CURL_OPENSSL_4'
+[8.664s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_add_handle@CURL_OPENSSL_4'
+[8.666s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileOffset@LIBTIFF_4.0'
+[8.666s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileByteCount@LIBTIFF_4.0'
+[8.667s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_slist_free_all@CURL_OPENSSL_4'
+[8.668s] /usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_easy_strerror@CURL_OPENSSL_4'
+[8.668s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `TIFFGetStrileByteCountWithErr@LIBTIFF_4.0'
+[8.669s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_slist_append@CURL_OPENSSL_4'
+[8.669s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_poll@CURL_OPENSSL_4'
+[8.670s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_version@CURL_OPENSSL_4'
+[8.670s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_setopt@CURL_OPENSSL_4'
+[8.670s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_data@CURL_OPENSSL_4'
+[8.671s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_init@CURL_OPENSSL_4'
+[8.672s] /usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_wait@CURL_OPENSSL_4'
+[8.672s] /usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_global_cleanup@CURL_OPENSSL_4'
+[8.688s] collect2: error: ld returned 1 exit status
+[8.690s] gmake[2]: *** [CMakeFiles/image_pub.dir/build.make:250：image_pub] 错误 1
+[8.690s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/image_pub.dir/all] 错误 2
+[8.690s] gmake: *** [Makefile:146：all] 错误 2
+[8.692s] Invoked command in '/home/stoair/ros2CV/cv_ws/build/topic' returned '2': AMENT_PREFIX_PATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces:/home/stoair/ros2CV/cv_ws/install/webcam_topic:/home/stoair/learn_ws/install/service:/home/stoair/learn_ws/install/own_service:/home/stoair/learn_ws/install/ros_interfaces:/home/stoair/learn_ws/install/helloworld:/home/stoair/learn_ws/install/hellotopic:/home/stoair/dev_ws/install/learning_topic_cpp:/home/stoair/dev_ws/install/learning_tf_cpp:/home/stoair/dev_ws/install/learning_service_cpp:/home/stoair/dev_ws/install/learning_pkg_c:/home/stoair/dev_ws/install/learning_parameter_cpp:/home/stoair/dev_ws/install/learning_node_cpp:/home/stoair/dev_ws/install/learning_action_cpp:/home/stoair/dev_ws/install/learning_interface:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib:/usr/local/cuda-12.1/lib64:/home/stoair/learn_ws/install/ros_interfaces/lib:/home/stoair/dev_ws/install/learning_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.1/lib64:/usr/local/lib:/usr/local/lib PYTHONPATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/topic -- -j16 -l16

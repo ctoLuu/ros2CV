@@ -13,6 +13,7 @@
 #include "sensor_msgs/msg/image.hpp"
 #include "rclcpp/rclcpp.hpp"
 #include "cv_bridge/cv_bridge.h"
+#include <vector>
 
 using namespace Eigen;
 using namespace std;

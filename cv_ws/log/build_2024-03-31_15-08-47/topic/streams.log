@@ -1,0 +1,142 @@
+[0.009s] Invoking command in '/home/stoair/ros2CV/cv_ws/build/topic': AMENT_PREFIX_PATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces:/home/stoair/ros2CV/cv_ws/install/webcam_topic:/home/stoair/learn_ws/install/service:/home/stoair/learn_ws/install/own_service:/home/stoair/learn_ws/install/ros_interfaces:/home/stoair/learn_ws/install/helloworld:/home/stoair/learn_ws/install/hellotopic:/home/stoair/dev_ws/install/learning_topic_cpp:/home/stoair/dev_ws/install/learning_tf_cpp:/home/stoair/dev_ws/install/learning_service_cpp:/home/stoair/dev_ws/install/learning_pkg_c:/home/stoair/dev_ws/install/learning_parameter_cpp:/home/stoair/dev_ws/install/learning_node_cpp:/home/stoair/dev_ws/install/learning_action_cpp:/home/stoair/dev_ws/install/learning_interface:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib:/usr/local/cuda-12.1/lib64:/home/stoair/learn_ws/install/ros_interfaces/lib:/home/stoair/dev_ws/install/learning_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.1/lib64:/usr/local/lib:/usr/local/lib PYTHONPATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/topic -- -j16 -l16
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target yolo[0m
+[0.052s] [ 33%] [32mBuilding CXX object CMakeFiles/image_sub.dir/src/image_sub.cpp.o[0m
+[0.052s] [ 33%] [32mBuilding CXX object CMakeFiles/image_pub.dir/src/image_pub.cpp.o[0m
+[0.059s] [ 50%] [32m[1mLinking CXX executable yolo[0m
+[0.282s] /usr/bin/ld: CMakeFiles/yolo.dir/src/yolo.cpp.o: warning: relocation against `coord' in read-only section `.text'
+[0.304s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.304s] (.text+0x1b): undefined reference to `main'
+[0.304s] /usr/bin/ld: CMakeFiles/yolo.dir/src/yolo.cpp.o: in function `Yolo::drawPred(cv::Mat, std::vector<Output, std::allocator<Output> >, std::vector<cv::Scalar_<double>, std::allocator<cv::Scalar_<double> > >, int)':
+[0.304s] yolo.cpp:(.text+0x170c): undefined reference to `flag_servo'
+[0.304s] /usr/bin/ld: yolo.cpp:(.text+0x1730): undefined reference to `coord'
+[0.312s] /usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+[0.314s] collect2: error: ld returned 1 exit status
+[0.316s] gmake[2]: *** [CMakeFiles/yolo.dir/build.make:250：yolo] 错误 1
+[0.316s] gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/yolo.dir/all] 错误 2
+[0.316s] gmake[1]: *** 正在等待未完成的任务....
+[2.512s] In file included from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:1[m[K,
+[2.512s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:2[m[K:
+[2.512s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/include/global.h:42:8:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstruct Output[m[K’
+[2.513s]    42 | struct [01;31m[KOutput[m[K {
+[2.513s]       |        [01;31m[K^~~~~~[m[K
+[2.513s] In file included from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:1[m[K:
+[2.513s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/include/global.h:42:8:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kstruct Output[m[K’
+[2.513s]    42 | struct [01;36m[KOutput[m[K {
+[2.513s]       |        [01;36m[K^~~~~~[m[K
+[2.513s] In file included from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:1[m[K,
+[2.513s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:2[m[K:
+[2.513s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/include/global.h:48:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass Yolo[m[K’
+[2.513s]    48 | class [01;31m[KYolo[m[K {
+[2.513s]       |       [01;31m[K^~~~[m[K
+[2.513s] In file included from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:1[m[K:
+[2.513s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/include/global.h:48:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass Yolo[m[K’
+[2.513s]    48 | class [01;36m[KYolo[m[K {
+[2.513s]       |       [01;36m[K^~~~[m[K
+[2.520s] In file included from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:2[m[K:
+[2.520s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:[m[K In member function ‘[01m[Kcv::Mat Yolo::drawPred(cv::Mat, std::vector<Output>, std::vector<cv::Scalar_<double> >, int)[m[K’:
+[2.520s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:225:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Output>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.520s]   225 |         for (int i = 0; [01;35m[Ki < result.size()[m[K; i++)
+[2.520s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[2.521s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:230:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcolor_num[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.521s]   230 |                 int [01;35m[Kcolor_num[m[K = i;
+[2.521s]       |                     [01;35m[K^~~~~~~~~[m[K
+[2.521s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:255:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kleft_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.521s]   255 |         int [01;35m[Kleft_x[m[K = left[left_max] + result[left_max].box.width/2, left_y = top[left_max] + result[left_max].box.height/2;
+[2.521s]       |             [01;35m[K^~~~~~[m[K
+[2.521s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:255:69:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kleft_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.521s]   255 |         int left_x = left[left_max] + result[left_max].box.width/2, [01;35m[Kleft_y[m[K = top[left_max] + result[left_max].box.height/2;
+[2.521s]       |                                                                     [01;35m[K^~~~~~[m[K
+[2.521s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:257:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kup_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.521s]   257 |         int [01;35m[Kup_x[m[K = left[up_max] + result[up_max].box.width/2, up_y = top[up_max] + result[up_max].box.height/2;
+[2.521s]       |             [01;35m[K^~~~[m[K
+[2.521s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:257:63:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kup_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.522s]   257 |         int up_x = left[up_max] + result[up_max].box.width/2, [01;35m[Kup_y[m[K = top[up_max] + result[up_max].box.height/2;
+[2.522s]       |                                                               [01;35m[K^~~~[m[K
+[2.522s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:258:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdown_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.522s]   258 |         int [01;35m[Kdown_x[m[K = left[down_max] + result[down_max].box.width/2, down_y = top[down_max] + result[down_max].box.height/2;
+[2.522s]       |             [01;35m[K^~~~~~[m[K
+[2.522s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:258:69:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdown_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.522s]   258 |         int down_x = left[down_max] + result[down_max].box.width/2, [01;35m[Kdown_y[m[K = top[down_max] + result[down_max].box.height/2;
+[2.522s]       |                                                                     [01;35m[K^~~~~~[m[K
+[2.522s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:[m[K In member function ‘[01m[Kvoid Yolo::target(cv::Mat, std::vector<Output>, int)[m[K’:
+[2.522s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:272:13:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kdst[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[2.522s]   272 |         Mat [01;35m[Kdst[m[K[result.size()];
+[2.522s]       |             [01;35m[K^~~[m[K
+[2.522s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:273:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Output>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.522s]   273 |         for (int i = 0; [01;35m[Ki < result.size()[m[K; i++)
+[2.522s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[2.522s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:278:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcolor_num[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.522s]   278 |                 int [01;35m[Kcolor_num[m[K = i;
+[2.523s]       |                     [01;35m[K^~~~~~~~~[m[K
+[2.523s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:286:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcenter_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.523s]   286 |                 int [01;35m[Kcenter_x[m[K = left[i] + (result[i].box.width / 2);
+[2.523s]       |                     [01;35m[K^~~~~~~~[m[K
+[2.523s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:287:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcenter_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.523s]   287 |                 int [01;35m[Kcenter_y[m[K = top[i] + (result[i].box.height / 2);
+[2.523s]       |                     [01;35m[K^~~~~~~~[m[K
+[2.563s] In file included from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:1[m[K,
+[2.563s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:2[m[K:
+[2.563s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/include/global.h:42:8:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstruct Output[m[K’
+[2.563s]    42 | struct [01;31m[KOutput[m[K {
+[2.563s]       |        [01;31m[K^~~~~~[m[K
+[2.563s] In file included from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:1[m[K:
+[2.563s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/include/global.h:42:8:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kstruct Output[m[K’
+[2.563s]    42 | struct [01;36m[KOutput[m[K {
+[2.563s]       |        [01;36m[K^~~~~~[m[K
+[2.563s] In file included from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:1[m[K,
+[2.563s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:2[m[K:
+[2.563s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/include/global.h:48:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass Yolo[m[K’
+[2.563s]    48 | class [01;31m[KYolo[m[K {
+[2.563s]       |       [01;31m[K^~~~[m[K
+[2.563s] In file included from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:1[m[K:
+[2.563s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/include/global.h:48:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass Yolo[m[K’
+[2.564s]    48 | class [01;36m[KYolo[m[K {
+[2.564s]       |       [01;36m[K^~~~[m[K
+[2.570s] In file included from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:2[m[K:
+[2.570s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:[m[K In member function ‘[01m[Kcv::Mat Yolo::drawPred(cv::Mat, std::vector<Output>, std::vector<cv::Scalar_<double> >, int)[m[K’:
+[2.570s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:225:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Output>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.571s]   225 |         for (int i = 0; [01;35m[Ki < result.size()[m[K; i++)
+[2.571s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[2.571s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:230:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcolor_num[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.571s]   230 |                 int [01;35m[Kcolor_num[m[K = i;
+[2.571s]       |                     [01;35m[K^~~~~~~~~[m[K
+[2.571s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:255:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kleft_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.571s]   255 |         int [01;35m[Kleft_x[m[K = left[left_max] + result[left_max].box.width/2, left_y = top[left_max] + result[left_max].box.height/2;
+[2.571s]       |             [01;35m[K^~~~~~[m[K
+[2.571s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:255:69:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kleft_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.572s]   255 |         int left_x = left[left_max] + result[left_max].box.width/2, [01;35m[Kleft_y[m[K = top[left_max] + result[left_max].box.height/2;
+[2.572s]       |                                                                     [01;35m[K^~~~~~[m[K
+[2.572s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:257:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kup_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.572s]   257 |         int [01;35m[Kup_x[m[K = left[up_max] + result[up_max].box.width/2, up_y = top[up_max] + result[up_max].box.height/2;
+[2.572s]       |             [01;35m[K^~~~[m[K
+[2.572s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:257:63:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kup_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.572s]   257 |         int up_x = left[up_max] + result[up_max].box.width/2, [01;35m[Kup_y[m[K = top[up_max] + result[up_max].box.height/2;
+[2.572s]       |                                                               [01;35m[K^~~~[m[K
+[2.572s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:258:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdown_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.572s]   258 |         int [01;35m[Kdown_x[m[K = left[down_max] + result[down_max].box.width/2, down_y = top[down_max] + result[down_max].box.height/2;
+[2.572s]       |             [01;35m[K^~~~~~[m[K
+[2.572s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:258:69:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdown_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.572s]   258 |         int down_x = left[down_max] + result[down_max].box.width/2, [01;35m[Kdown_y[m[K = top[down_max] + result[down_max].box.height/2;
+[2.572s]       |                                                                     [01;35m[K^~~~~~[m[K
+[2.572s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:[m[K In member function ‘[01m[Kvoid Yolo::target(cv::Mat, std::vector<Output>, int)[m[K’:
+[2.572s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:272:13:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kdst[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[2.572s]   272 |         Mat [01;35m[Kdst[m[K[result.size()];
+[2.572s]       |             [01;35m[K^~~[m[K
+[2.572s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:273:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Output>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.572s]   273 |         for (int i = 0; [01;35m[Ki < result.size()[m[K; i++)
+[2.572s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[2.572s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:278:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcolor_num[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.572s]   278 |                 int [01;35m[Kcolor_num[m[K = i;
+[2.572s]       |                     [01;35m[K^~~~~~~~~[m[K
+[2.572s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:286:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcenter_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.573s]   286 |                 int [01;35m[Kcenter_x[m[K = left[i] + (result[i].box.width / 2);
+[2.573s]       |                     [01;35m[K^~~~~~~~[m[K
+[2.573s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/yolo.cpp:287:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcenter_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.573s]   287 |                 int [01;35m[Kcenter_y[m[K = top[i] + (result[i].box.height / 2);
+[2.573s]       |                     [01;35m[K^~~~~~~~[m[K
+[4.190s] gmake[2]: *** [CMakeFiles/image_pub.dir/build.make:76：CMakeFiles/image_pub.dir/src/image_pub.cpp.o] 错误 1
+[4.191s] gmake[1]: *** [CMakeFiles/Makefile2:141：CMakeFiles/image_pub.dir/all] 错误 2
+[4.315s] gmake[2]: *** [CMakeFiles/image_sub.dir/build.make:76：CMakeFiles/image_sub.dir/src/image_sub.cpp.o] 错误 1
+[4.315s] gmake[1]: *** [CMakeFiles/Makefile2:167：CMakeFiles/image_sub.dir/all] 错误 2
+[4.315s] gmake: *** [Makefile:146：all] 错误 2
+[4.318s] Invoked command in '/home/stoair/ros2CV/cv_ws/build/topic' returned '2': AMENT_PREFIX_PATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces:/home/stoair/ros2CV/cv_ws/install/webcam_topic:/home/stoair/learn_ws/install/service:/home/stoair/learn_ws/install/own_service:/home/stoair/learn_ws/install/ros_interfaces:/home/stoair/learn_ws/install/helloworld:/home/stoair/learn_ws/install/hellotopic:/home/stoair/dev_ws/install/learning_topic_cpp:/home/stoair/dev_ws/install/learning_tf_cpp:/home/stoair/dev_ws/install/learning_service_cpp:/home/stoair/dev_ws/install/learning_pkg_c:/home/stoair/dev_ws/install/learning_parameter_cpp:/home/stoair/dev_ws/install/learning_node_cpp:/home/stoair/dev_ws/install/learning_action_cpp:/home/stoair/dev_ws/install/learning_interface:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib:/usr/local/cuda-12.1/lib64:/home/stoair/learn_ws/install/ros_interfaces/lib:/home/stoair/dev_ws/install/learning_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.1/lib64:/usr/local/lib:/usr/local/lib PYTHONPATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/topic -- -j16 -l16

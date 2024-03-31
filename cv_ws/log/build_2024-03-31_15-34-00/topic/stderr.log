@@ -1,0 +1,41 @@
+[31mCMake Error at CMakeLists.txt:36 (add_library):
+  Cannot find source file:
+
+    yolo.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+
+[0m
+[31mCMake Error at CMakeLists.txt:39 (add_executable):
+  Cannot find source file:
+
+    image_pub.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+
+[0m
+[31mCMake Error at CMakeLists.txt:43 (add_executable):
+  Cannot find source file:
+
+    image_sub.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+
+[0m
+[31mCMake Error at CMakeLists.txt:36 (add_library):
+  No SOURCES given to target: yolo_lib
+
+[0m
+[31mCMake Error at CMakeLists.txt:39 (add_executable):
+  No SOURCES given to target: image_pub
+
+[0m
+[31mCMake Error at CMakeLists.txt:43 (add_executable):
+  No SOURCES given to target: image_sub
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+gmake: *** [Makefile:349：cmake_check_build_system] 错误 1
