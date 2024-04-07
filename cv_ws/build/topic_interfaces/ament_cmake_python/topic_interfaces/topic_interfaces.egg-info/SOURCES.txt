@@ -4,3 +4,5 @@ topic_interfaces.egg-info/PKG-INFO
 topic_interfaces.egg-info/SOURCES.txt
 topic_interfaces.egg-info/dependency_links.txt
 topic_interfaces.egg-info/top_level.txt
+topic_interfaces/msg/__init__.py
+topic_interfaces/msg/_coord.py

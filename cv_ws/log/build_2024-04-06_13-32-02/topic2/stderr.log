@@ -1,0 +1,118 @@
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:24:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+   24 |     rclcpp::Subscription<[01;31m[Ktopic_interfaces[m[K::msg::Coord>::SharedPtr subscriber_;
+      |                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                          [32m[Krcl_interfaces[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:24:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   24 |     rclcpp::Subscription<topic_interfaces::msg::Coord[01;31m[K>[m[K::SharedPtr subscriber_;
+      |                                                      [01;31m[K^[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:24:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:24:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:24:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:24:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   24 |     rclcpp::Subscription<topic_interfaces::msg::Coord>::[01;31m[KSharedPtr[m[K subscriber_;
+      |                                                         [01;31m[K^~~~~~~~~[m[K
+      |                                                                  [32m[K;[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:24:67:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber_[m[K’ does not name a type
+   24 |     rclcpp::Subscription<topic_interfaces::msg::Coord>::SharedPtr [01;31m[Ksubscriber_[m[K;
+      |                                                                   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:40:31:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_interfaces[m[K’ does not name a type
+   40 |     void coord_callback(const [01;31m[Ktopic_interfaces[m[K::msg::Coord::SharedPtr msg)
+      |                               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:40:52:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   40 |     void coord_callback(const topic_interfaces::msg[01;31m[K::[m[KCoord::SharedPtr msg)
+      |                                                    [01;31m[K^~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:40:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   40 |     void coord_callback[34m[K([m[Kconst topic_interfaces::msg[01;31m[K:[m[K[32m[K:[m[KCoord::SharedPtr msg)
+      |                        [34m[K~[m[K                           [01;31m[K^[m[K[32m[K~[m[K
+      |                                                    [32m[K)[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:40:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   40 |     void coord_callback(const topic_interfaces::[01;31m[Kmsg[m[K::Coord::SharedPtr msg)
+      |                                                 [01;31m[K^~~[m[K
+      |                                                    [32m[K;[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:40:54:[m[K [01;31m[Kerror: [m[K‘[01m[KCoord[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type; did you mean ‘[01m[Kcoord[m[K’?
+   40 |     void coord_callback(const topic_interfaces::msg::[01;31m[KCoord[m[K::SharedPtr msg)
+      |                                                      [01;31m[K^~~~~[m[K
+      |                                                      [32m[Kcoord[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:[m[K In constructor ‘[01m[KimagePub::imagePub()[m[K’:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber_[m[K’ was not declared in this scope
+   16 |         [01;31m[Ksubscriber_[m[K = this->create_subscription<topic_interfaces::msg::Coord>("coord", 10, std::bind(&imagePub::coord_callback, this, std::placeholders::_1));
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:16:49:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+   16 |         subscriber_ = this->create_subscription<[01;31m[Ktopic_interfaces[m[K::msg::Coord>("coord", 10, std::bind(&imagePub::coord_callback, this, std::placeholders::_1));
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                                 [32m[Krcl_interfaces[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:16:29:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   16 |         subscriber_ = this->[01;31m[Kcreate_subscription<topic_interfaces::msg::Coord>[m[K("coord", 10, std::bind(&imagePub::coord_callback, this, std::placeholders::_1));
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:16:78:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KimagePub::create_subscription<<expression error> >(const char [6], int, std::_Bind_helper<false, void (imagePub::*)(...), imagePub*, const std::_Placeholder<1>&>::type)[m[K’
+   16 |         subscriber_ = [01;31m[Kthis->create_subscription<topic_interfaces::msg::Coord>("coord", 10, std::bind(&imagePub::coord_callback, this, std::placeholders::_1))[m[K;
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:16:78:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   16 |         subscriber_ = [01;31m[Kthis->create_subscription<topic_interfaces::msg::Coord>("coord", 10, std::bind(&imagePub::coord_callback, this, std::placeholders::_1))[m[K;
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:32:23:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+   32 |     rclcpp::Publisher<[01;31m[Ktopic_interfaces[m[K::msg::Coord>::SharedPtr publisher_;
+      |                       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                       [32m[Krcl_interfaces[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:32:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   32 |     rclcpp::Publisher<topic_interfaces::msg::Coord[01;31m[K>[m[K::SharedPtr publisher_;
+      |                                                   [01;31m[K^[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:32:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   32 |     rclcpp::Publisher<topic_interfaces::msg::Coord>::[01;31m[KSharedPtr[m[K publisher_;
+      |                                                      [01;31m[K^~~~~~~~~[m[K
+      |                                                               [32m[K;[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:32:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   32 |     rclcpp::Publisher<topic_interfaces::msg::Coord>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                                                [01;31m[K^~~~~~~~~~[m[K
+      |                                                                [32m[Krmw_publisher_t[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:[m[K In member function ‘[01m[Kvoid imageSub::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:80:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   80 |         [01;31m[Kpublisher_[m[K = this->create_publisher<topic_interfaces::msg::Coord>("coord", 10);
+      |         [01;31m[K^~~~~~~~~~[m[K
+      |         [32m[Krmw_publisher_t[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:80:45:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+   80 |         publisher_ = this->create_publisher<[01;31m[Ktopic_interfaces[m[K::msg::Coord>("coord", 10);
+      |                                             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                             [32m[Krcl_interfaces[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:80:28:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   80 |         publisher_ = this->[01;31m[Kcreate_publisher<topic_interfaces::msg::Coord>[m[K("coord", 10);
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:80:74:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KimageSub::create_publisher<<expression error> >(const char [6], int)[m[K’
+   80 |         publisher_ = [01;31m[Kthis->create_publisher<topic_interfaces::msg::Coord>("coord", 10)[m[K;
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:80:74:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   80 |         publisher_ = [01;31m[Kthis->create_publisher<topic_interfaces::msg::Coord>("coord", 10)[m[K;
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:[m[K In member function ‘[01m[Kvoid imageSub::timer_callback()[m[K’:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:118:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_interfaces[m[K’ has not been declared
+  118 |         [01;31m[Ktopic_interfaces[m[K::msg::Coord message;
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:119:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+  119 |         sscanf(coord, "%d,%d,%d", &[01;31m[Kmessage[m[K.x, &message.y, &message.flag_servo);
+      |                                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:120:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+  120 |         [01;31m[Kpublisher_[m[K->publish(message);
+      |         [01;31m[K^~~~~~~~~~[m[K
+      |         [32m[Krmw_publisher_t[m[K
+gmake[2]: *** [CMakeFiles/image_pub.dir/build.make:76：CMakeFiles/image_pub.dir/src/image_pub.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/image_pub.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake[2]: *** [CMakeFiles/image_sub.dir/build.make:76：CMakeFiles/image_sub.dir/src/image_sub.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/image_sub.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

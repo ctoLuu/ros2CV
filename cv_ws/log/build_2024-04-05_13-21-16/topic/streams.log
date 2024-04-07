@@ -1,0 +1,192 @@
+[0.010s] Invoking command in '/home/stoair/ros2CV/cv_ws/build/topic': CMAKE_PREFIX_PATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces:/home/stoair/ros2CV/cv_ws/install/webcam_topic:/home/stoair/learn_ws/install/service:/home/stoair/learn_ws/install/own_service:/home/stoair/learn_ws/install/ros_interfaces:/home/stoair/learn_ws/install/helloworld:/home/stoair/learn_ws/install/hellotopic:/home/stoair/dev_ws/install/learning_topic_cpp:/home/stoair/dev_ws/install/learning_tf_cpp:/home/stoair/dev_ws/install/learning_service_cpp:/home/stoair/dev_ws/install/learning_pkg_c:/home/stoair/dev_ws/install/learning_parameter_cpp:/home/stoair/dev_ws/install/learning_node_cpp:/home/stoair/dev_ws/install/learning_action_cpp:/home/stoair/dev_ws/install/learning_interface:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib:/usr/local/cuda-12.1/lib64:/home/stoair/learn_ws/install/ros_interfaces/lib:/home/stoair/dev_ws/install/learning_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.1/lib64:/usr/local/lib:/usr/local/lib /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/topic -- -j16 -l16
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target image_sub[0m
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target image_pub[0m
+[0.051s] [ 16%] [32mBuilding CXX object CMakeFiles/image_sub.dir/src/image_sub.cpp.o[0m
+[0.052s] [ 33%] [32mBuilding CXX object CMakeFiles/image_pub.dir/src/image_pub.cpp.o[0m
+[1.020s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:9:25:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[1.020s]     9 | class imagePub : public [01;31m[Krclcpp[m[K::Node
+[1.020s]       |                         [01;31m[K^~~~~~[m[K
+[1.020s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:9:33:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KNode[m[K’
+[1.020s]     9 | class imagePub : public rclcpp::[01;31m[KNode[m[K
+[1.020s]       |                                 [01;31m[K^~~~[m[K
+[1.020s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:11:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+[1.020s]    11 | [01;31m[Kpublic[m[K:
+[1.020s]       | [01;31m[K^~~~~~[m[K
+[1.021s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:11:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[1.021s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:10:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.021s]    10 | [01;36m[K{[m[K
+[1.021s]       | [01;36m[K^[m[K
+[1.021s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:22:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+[1.021s]    22 | [01;31m[Kprivate[m[K:
+[1.021s]       | [01;31m[K^~~~~~~[m[K
+[1.022s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:24:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+[1.022s]    24 |     [01;31m[Krclcpp[m[K::Subscription<topic_interfaces::msg::Coord>::SharedPtr subscriber_;
+[1.022s]       |     [01;31m[K^~~~~~[m[K
+[1.022s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:25:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+[1.022s]    25 |     [01;31m[Krclcpp[m[K::TimerBase::SharedPtr timer_;
+[1.022s]       |     [01;31m[K^~~~~~[m[K
+[1.022s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:[m[K In function ‘[01m[Kvoid timer_callback()[m[K’:
+[1.023s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:34:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv_bridge[m[K’ has not been declared
+[1.023s]    34 |             auto img_msg = [01;31m[Kcv_bridge[m[K::CvImage(std_msgs::msg::Header(), "bgr8", frame).toImageMsg();
+[1.023s]       |                            [01;31m[K^~~~~~~~~[m[K
+[1.023s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:34:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ has not been declared
+[1.023s]    34 |             auto img_msg = cv_bridge::CvImage([01;31m[Kstd_msgs[m[K::msg::Header(), "bgr8", frame).toImageMsg();
+[1.023s]       |                                               [01;31m[K^~~~~~~~[m[K
+[1.025s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:35:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope
+[1.025s]    35 |             [01;31m[Kpublisher_[m[K->publish(*img_msg);
+[1.026s]       |             [01;31m[K^~~~~~~~~~[m[K
+[1.026s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:37:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.026s]    37 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Publishing video frame");
+[1.026s]       |                     [01;31m[K^~~~[m[K
+[1.029s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:37:9:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+[1.029s]    37 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing video frame");
+[1.029s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.030s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:[m[K At global scope:
+[1.031s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:40:31:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_interfaces[m[K’ does not name a type
+[1.031s]    40 |     void coord_callback(const [01;31m[Ktopic_interfaces[m[K::msg::Coord::SharedPtr msg)
+[1.031s]       |                               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.031s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:40:52:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[1.031s]    40 |     void coord_callback(const topic_interfaces::msg[01;31m[K::[m[KCoord::SharedPtr msg)
+[1.031s]       |                                                    [01;31m[K^~[m[K
+[1.031s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:40:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[1.031s]    40 |     void coord_callback[34m[K([m[Kconst topic_interfaces::msg[01;31m[K:[m[K[32m[K:[m[KCoord::SharedPtr msg)
+[1.031s]       |                        [34m[K~[m[K                           [01;31m[K^[m[K[32m[K~[m[K
+[1.031s]       |                                                    [32m[K)[m[K
+[1.031s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:40:52:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+[1.031s]    40 |     void coord_callback(const topic_interfaces::msg[01;31m[K::[m[KCoord::SharedPtr msg)
+[1.032s]       |                                                    [01;31m[K^~[m[K
+[1.032s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:47:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[1.032s]    47 | [01;31m[K}[m[K;
+[1.032s]       | [01;31m[K^[m[K
+[1.032s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.032s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:51:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[1.032s]    51 |     [01;31m[Krclcpp[m[K::init(argc, argv);
+[1.032s]       |     [01;31m[K^~~~~~[m[K
+[1.032s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:53:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[1.032s]    53 |     [01;31m[Krclcpp[m[K::spin(node);
+[1.032s]       |     [01;31m[K^~~~~~[m[K
+[1.033s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:54:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[1.033s]    54 |     [01;31m[Krclcpp[m[K::shutdown();
+[1.033s]       |     [01;31m[K^~~~~~[m[K
+[1.037s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:22:25:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[1.038s]    22 | class imageSub : public [01;31m[Krclcpp[m[K::Node
+[1.038s]       |                         [01;31m[K^~~~~~[m[K
+[1.038s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:22:33:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KNode[m[K’
+[1.038s]    22 | class imageSub : public rclcpp::[01;31m[KNode[m[K
+[1.038s]       |                                 [01;31m[K^~~~[m[K
+[1.038s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:24:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+[1.038s]    24 | [01;31m[Kpublic[m[K:
+[1.038s]       | [01;31m[K^~~~~~[m[K
+[1.039s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:24:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[1.039s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:23:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.039s]    23 | [01;36m[K{[m[K
+[1.039s]       | [01;36m[K^[m[K
+[1.039s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:30:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+[1.039s]    30 | [01;31m[Kprivate[m[K:
+[1.039s]       | [01;31m[K^~~~~~~[m[K
+[1.039s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+[1.039s]    32 |     [01;31m[Krclcpp[m[K::Publisher<topic_interfaces::msg::Coord>::SharedPtr publisher_;
+[1.040s]       |     [01;31m[K^~~~~~[m[K
+[1.040s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:33:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+[1.040s]    33 |     [01;31m[Krclcpp[m[K::TimerBase::SharedPtr timer_;
+[1.040s]       |     [01;31m[K^~~~~~[m[K
+[1.043s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:55:31:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ does not name a type
+[1.043s]    55 |     void image_callback(const [01;31m[Ksensor_msgs[m[K::msg::Image::SharedPtr msg)
+[1.043s]       |                               [01;31m[K^~~~~~~~~~~[m[K
+[1.043s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:55:47:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[1.043s]    55 |     void image_callback(const sensor_msgs::msg[01;31m[K::[m[KImage::SharedPtr msg)
+[1.044s]       |                                               [01;31m[K^~[m[K
+[1.044s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:55:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[1.044s]    55 |     void image_callback[34m[K([m[Kconst sensor_msgs::msg[01;31m[K:[m[K[32m[K:[m[KImage::SharedPtr msg)
+[1.044s]       |                        [34m[K~[m[K                      [01;31m[K^[m[K[32m[K~[m[K
+[1.044s]       |                                               [32m[K)[m[K
+[1.044s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:55:47:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+[1.044s]    55 |     void image_callback(const sensor_msgs::msg[01;31m[K::[m[KImage::SharedPtr msg)
+[1.044s]       |                                               [01;31m[K^~[m[K
+[1.045s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:[m[K In function ‘[01m[Kvoid timer_callback()[m[K’:
+[1.045s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:118:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_interfaces[m[K’ has not been declared
+[1.045s]   118 |         [01;31m[Ktopic_interfaces[m[K::msg::Coord message;
+[1.045s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.048s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:119:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+[1.048s]   119 |         sscanf(coord, "%d,%d,%d", &[01;31m[Kmessage[m[K.x, &message.y, &message.flag_servo);
+[1.048s]       |                                    [01;31m[K^~~~~~~[m[K
+[1.051s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:120:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope
+[1.051s]   120 |         [01;31m[Kpublisher_[m[K->publish(message);
+[1.051s]       |         [01;31m[K^~~~~~~~~~[m[K
+[1.051s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:121:21:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.051s]   121 |         RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "publish coord");
+[1.051s]       |                     [01;31m[K^~~~[m[K
+[1.054s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:121:9:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+[1.055s]   121 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "publish coord");
+[1.055s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[1.058s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:[m[K In function ‘[01m[Kvoid drive_servo(char*, int, int, int)[m[K’:
+[1.058s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:130:17:[m[K [01;31m[Kerror: [m[K‘[01m[KcalculateDistance[m[K’ was not declared in this scope
+[1.058s]   130 |             r = [01;31m[KcalculateDistance[m[K(x, y, target_x, target_y);
+[1.058s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.059s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:[m[K At global scope:
+[1.059s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:152:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[1.059s]   152 | [01;31m[K}[m[K;
+[1.059s]       | [01;31m[K^[m[K
+[1.059s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.059s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:159:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[1.059s]   159 |     [01;31m[Krclcpp[m[K::init(argc, argv);
+[1.059s]       |     [01;31m[K^~~~~~[m[K
+[1.060s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:161:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[1.060s]   161 |     [01;31m[Krclcpp[m[K::spin(node);
+[1.060s]       |     [01;31m[K^~~~~~[m[K
+[1.060s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:162:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[1.060s]   162 |     [01;31m[Krclcpp[m[K::shutdown();
+[1.060s]       |     [01;31m[K^~~~~~[m[K
+[1.201s] In file included from [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:60[m[K,
+[1.201s]                  from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+[1.201s]                  from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.201s]                  from [01m[K/usr/local/include/opencv2/core/cvstd_wrapper.hpp:11[m[K,
+[1.202s]                  from [01m[K/usr/local/include/opencv2/core/cvstd.hpp:81[m[K,
+[1.202s]                  from [01m[K/usr/local/include/opencv2/core/base.hpp:58[m[K,
+[1.202s]                  from [01m[K/usr/local/include/opencv2/core.hpp:53[m[K,
+[1.202s]                  from [01m[K/usr/local/include/opencv2/opencv.hpp:52[m[K,
+[1.202s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/./include/global.h:7[m[K,
+[1.202s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:1[m[K:
+[1.202s] /usr/include/c++/11/ext/aligned_buffer.h: In instantiation of ‘[01m[Kstruct __gnu_cxx::__aligned_buffer<imagePub>[m[K’:
+[1.202s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:506:35:[m[K   required from ‘[01m[Kclass std::_Sp_counted_ptr_inplace<imagePub, std::allocator<imagePub>, __gnu_cxx::_S_atomic>::_Impl[m[K’
+[1.202s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:567:13:[m[K   required from ‘[01m[Kclass std::_Sp_counted_ptr_inplace<imagePub, std::allocator<imagePub>, __gnu_cxx::_S_atomic>[m[K’
+[1.202s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:647:43:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = imagePub; _Alloc = std::allocator<imagePub>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[1.202s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<imagePub>; _Args = {}; _Tp = imagePub; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[1.202s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<imagePub>; _Args = {}; _Tp = imagePub][m[K’
+[1.203s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = imagePub; _Alloc = std::allocator<imagePub>; _Args = {}][m[K’
+[1.203s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = imagePub; _Args = {}][m[K’
+[1.203s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_pub.cpp:52:43:[m[K   required from here
+[1.203s] [01m[K/usr/include/c++/11/ext/aligned_buffer.h:91:28:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[KimagePub[m[K’
+[1.203s]    91 |     : std::aligned_storage<[01;31m[Ksizeof(_Tp)[m[K, __alignof__(_Tp)>
+[1.203s]       |                            [01;31m[K^~~~~~~~~~~[m[K
+[1.203s] [01m[K/usr/include/c++/11/ext/aligned_buffer.h:91:28:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[KimagePub[m[K’
+[1.344s] In file included from [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:60[m[K,
+[1.344s]                  from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+[1.344s]                  from [01m[K/usr/include/c++/11/memory:77[m[K,
+[1.344s]                  from [01m[K/usr/local/include/opencv2/core/cvstd_wrapper.hpp:11[m[K,
+[1.344s]                  from [01m[K/usr/local/include/opencv2/core/cvstd.hpp:81[m[K,
+[1.344s]                  from [01m[K/usr/local/include/opencv2/core/base.hpp:58[m[K,
+[1.344s]                  from [01m[K/usr/local/include/opencv2/core.hpp:53[m[K,
+[1.344s]                  from [01m[K/usr/local/include/opencv2/opencv.hpp:52[m[K,
+[1.344s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/./include/global.h:7[m[K,
+[1.344s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:1[m[K:
+[1.344s] /usr/include/c++/11/ext/aligned_buffer.h: In instantiation of ‘[01m[Kstruct __gnu_cxx::__aligned_buffer<imageSub>[m[K’:
+[1.345s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:506:35:[m[K   required from ‘[01m[Kclass std::_Sp_counted_ptr_inplace<imageSub, std::allocator<imageSub>, __gnu_cxx::_S_atomic>::_Impl[m[K’
+[1.345s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:567:13:[m[K   required from ‘[01m[Kclass std::_Sp_counted_ptr_inplace<imageSub, std::allocator<imageSub>, __gnu_cxx::_S_atomic>[m[K’
+[1.345s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:647:43:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = imageSub; _Alloc = std::allocator<imageSub>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[1.345s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<imageSub>; _Args = {}; _Tp = imageSub; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[1.345s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<imageSub>; _Args = {}; _Tp = imageSub][m[K’
+[1.345s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = imageSub; _Alloc = std::allocator<imageSub>; _Args = {}][m[K’
+[1.345s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = imageSub; _Args = {}][m[K’
+[1.345s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic/src/image_sub.cpp:160:43:[m[K   required from here
+[1.345s] [01m[K/usr/include/c++/11/ext/aligned_buffer.h:91:28:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[KimageSub[m[K’
+[1.345s]    91 |     : std::aligned_storage<[01;31m[Ksizeof(_Tp)[m[K, __alignof__(_Tp)>
+[1.345s]       |                            [01;31m[K^~~~~~~~~~~[m[K
+[1.345s] [01m[K/usr/include/c++/11/ext/aligned_buffer.h:91:28:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[KimageSub[m[K’
+[1.412s] gmake[2]: *** [CMakeFiles/image_pub.dir/build.make:76：CMakeFiles/image_pub.dir/src/image_pub.cpp.o] 错误 1
+[1.413s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/image_pub.dir/all] 错误 2
+[1.413s] gmake[1]: *** 正在等待未完成的任务....
+[1.455s] gmake[2]: *** [CMakeFiles/image_sub.dir/build.make:76：CMakeFiles/image_sub.dir/src/image_sub.cpp.o] 错误 1
+[1.456s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/image_sub.dir/all] 错误 2
+[1.456s] gmake: *** [Makefile:146：all] 错误 2
+[1.459s] Invoked command in '/home/stoair/ros2CV/cv_ws/build/topic' returned '2': CMAKE_PREFIX_PATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces:/home/stoair/ros2CV/cv_ws/install/webcam_topic:/home/stoair/learn_ws/install/service:/home/stoair/learn_ws/install/own_service:/home/stoair/learn_ws/install/ros_interfaces:/home/stoair/learn_ws/install/helloworld:/home/stoair/learn_ws/install/hellotopic:/home/stoair/dev_ws/install/learning_topic_cpp:/home/stoair/dev_ws/install/learning_tf_cpp:/home/stoair/dev_ws/install/learning_service_cpp:/home/stoair/dev_ws/install/learning_pkg_c:/home/stoair/dev_ws/install/learning_parameter_cpp:/home/stoair/dev_ws/install/learning_node_cpp:/home/stoair/dev_ws/install/learning_action_cpp:/home/stoair/dev_ws/install/learning_interface:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib:/usr/local/cuda-12.1/lib64:/home/stoair/learn_ws/install/ros_interfaces/lib:/home/stoair/dev_ws/install/learning_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.1/lib64:/usr/local/lib:/usr/local/lib /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/topic -- -j16 -l16

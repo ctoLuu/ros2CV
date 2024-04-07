@@ -1,4 +1,6 @@
 #include "global.h"
+#include "sensor_msgs/msg/image.hpp"
+#include "rclcpp/rclcpp.hpp"
 #define USE_CUDA true
 
 char coord[50];

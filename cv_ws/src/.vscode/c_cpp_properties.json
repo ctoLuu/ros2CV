@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/stoair/ros2CV/cv_ws/install/topic_interfaces/include/**",
+        "/home/stoair/learn_ws/install/ros_interfaces/include/**",
+        "/home/stoair/dev_ws/install/learning_interface/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/stoair/ros2CV/cv_ws/src/topic/include/**",
+        "/home/stoair/ros2CV/cv_ws/src/webcam_topic/include/**",
+        "/home/stoair/ros2CV/cv_ws/src/yolo_topic/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -16,3 +16,8 @@ rosAPI：https://docs.ros.org/en/api/
 
 未解决：cmake
 
+## 4.5-6
+
+解决cmake的问题——:cry: 新建话题接口，并修改cmake（ament_target_dependencies）
+
+未解决：加载onnx模型
