@@ -1,0 +1,26 @@
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:[m[K In member function ‘[01m[Kvoid imageSub::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:80:45:[m[K [01;31m[Kerror: [m[K‘[01m[Ktopic_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Kros2_interfaces[m[K’?
+   80 |         publisher_ = this->create_publisher<[01;31m[Ktopic_interfaces[m[K::msg::Coord>("coord", 10);
+      |                                             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                             [32m[Kros2_interfaces[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:80:28:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   80 |         publisher_ = this->[01;31m[Kcreate_publisher<topic_interfaces::msg::Coord>[m[K("coord", 10);
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:80:74:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KimageSub::create_publisher<<expression error> >(const char [6], int)[m[K’
+   80 |         publisher_ = [01;31m[Kthis->create_publisher<topic_interfaces::msg::Coord>("coord", 10)[m[K;
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:80:74:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   80 |         publisher_ = [01;31m[Kthis->create_publisher<topic_interfaces::msg::Coord>("coord", 10)[m[K;
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/image_sub.dir/build.make:76：CMakeFiles/image_sub.dir/src/image_sub.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/image_sub.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2

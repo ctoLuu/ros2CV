@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target image_pub[0m
+[35m[1mConsolidate compiler generated dependencies of target image_sub[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/image_pub.dir/src/image_pub.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/image_sub.dir/src/image_sub.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/image_sub.dir/src/yolo.cpp.o[0m
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/image.hpp: 没有那个文件或目录
+    2 | #include [01;31m[K"sensor_msgs/msg/image.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/image.hpp: 没有那个文件或目录
+    2 | #include [01;31m[K"sensor_msgs/msg/image.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/image_sub.dir/build.make:76：CMakeFiles/image_sub.dir/src/image_sub.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+gmake[2]: *** [CMakeFiles/image_pub.dir/build.make:76：CMakeFiles/image_pub.dir/src/image_pub.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/image_pub.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/image_sub.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2
