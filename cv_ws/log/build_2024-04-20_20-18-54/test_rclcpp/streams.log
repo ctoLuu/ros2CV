@@ -1,0 +1,121 @@
+[0.009s] Invoking command in '/home/stoair/ros2CV/cv_ws/build/test_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/test_rclcpp -- -j16 -l16
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target webcam_sub[0m
+[0.057s] [ 50%] Built target webcam_pub
+[0.066s] [ 75%] [32mBuilding CXX object CMakeFiles/webcam_sub.dir/src/webcam_sub.cpp.o[0m
+[1.987s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.988s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.988s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.988s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.988s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.988s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.988s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.988s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.989s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.989s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.989s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:1[m[K:
+[1.989s] [01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:[m[K In function ‘[01m[Kbool readModel(cv::dnn::dnn4_v20231225::Net&, std::string&, bool)[m[K’:
+[1.989s] [01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:80:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+[1.989s]    80 |         RCLCPP_ERROR([01;31m[Kget_logger[m[K(), "Standard exception caught: %s", e.what());
+[1.989s]       |                      [01;31m[K^~~~~~~~~~[m[K
+[1.989s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[1.989s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.989s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.990s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.990s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.990s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.990s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.990s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.990s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.990s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.990s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.990s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:1[m[K:
+[1.990s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+[1.990s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[1.991s]       |                 [01;36m[K^~~~~~[m[K
+[1.991s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.991s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.991s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.991s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.991s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.991s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.991s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.991s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.991s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.991s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.991s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:1[m[K:
+[1.992s] [01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:80:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.992s]    80 |         [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "Standard exception caught: %s", e.what());
+[1.992s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[1.992s] [01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:80:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.992s]    80 |         [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "Standard exception caught: %s", e.what());
+[1.992s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[1.992s] [01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:80:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.992s]    80 |         [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "Standard exception caught: %s", e.what());
+[1.992s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[1.992s] [01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:80:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.992s]    80 |         [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "Standard exception caught: %s", e.what());
+[1.992s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[1.993s] [01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:80:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.993s]    80 |         [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "Standard exception caught: %s", e.what());
+[1.993s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[1.993s] [01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:86:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+[1.993s]    86 |         RCLCPP_ERROR([01;31m[Kget_logger[m[K(), "OpenCV exception caught: %s", e.what());
+[1.993s]       |                      [01;31m[K^~~~~~~~~~[m[K
+[1.993s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.994s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.994s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.994s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.994s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.994s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:1[m[K:
+[1.994s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+[1.994s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[1.994s]       |                 [01;36m[K^~~~~~[m[K
+[1.994s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.994s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.994s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.994s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.995s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.995s]                  from [01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:1[m[K:
+[1.995s] [01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:86:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.995s]    86 |         [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "OpenCV exception caught: %s", e.what());
+[1.995s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[1.995s] [01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:86:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.995s]    86 |         [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "OpenCV exception caught: %s", e.what());
+[1.995s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[1.995s] [01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:86:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.995s]    86 |         [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "OpenCV exception caught: %s", e.what());
+[1.995s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[1.995s] [01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:86:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.995s]    86 |         [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "OpenCV exception caught: %s", e.what());
+[1.995s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[1.995s] [01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:86:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.995s]    86 |         [01;31m[KRCLCPP_ERROR[m[K(get_logger(), "OpenCV exception caught: %s", e.what());
+[1.995s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[1.996s] [01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:83:5:[m[K [01;35m[Kwarning: [m[Kexception of type ‘[01m[Kcv::Exception[m[K’ will be caught by earlier handler [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wexceptions-Wexceptions]8;;[m[K]
+[1.996s]    83 |     [01;35m[Kcatch[m[K (const cv::Exception & e)
+[1.996s]       |     [01;35m[K^~~~~[m[K
+[1.996s] [01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:77:5:[m[K [01;36m[Knote: [m[Kfor type ‘[01m[Kstd::exception[m[K’
+[1.996s]    77 |     [01;36m[Kcatch[m[K (const std::exception & e)
+[1.996s]       |     [01;36m[K^~~~~[m[K
+[1.996s] [01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.996s] [01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:103:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.996s]   103 | int main([01;35m[Kint argc[m[K, char ** argv)
+[1.996s]       |          [01;35m[K~~~~^~~~[m[K
+[1.996s] [01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:103:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.996s]   103 | int main(int argc, [01;35m[Kchar ** argv[m[K)
+[1.996s]       |                    [01;35m[K~~~~~~~~^~~~[m[K
+[3.546s] gmake[2]: *** [CMakeFiles/webcam_sub.dir/build.make:76：CMakeFiles/webcam_sub.dir/src/webcam_sub.cpp.o] 错误 1
+[3.546s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/webcam_sub.dir/all] 错误 2
+[3.546s] gmake: *** [Makefile:146：all] 错误 2
+[3.549s] Invoked command in '/home/stoair/ros2CV/cv_ws/build/test_rclcpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/test_rclcpp -- -j16 -l16

@@ -1,0 +1,177 @@
+[0.000000] (-) TimerEvent: {}
+[0.000092] (-) JobUnselected: {'identifier': 'ros2_interfaces'}
+[0.000115] (-) JobUnselected: {'identifier': 'test_rclcpp'}
+[0.000126] (-) JobUnselected: {'identifier': 'webcam_topic'}
+[0.000136] (-) JobUnselected: {'identifier': 'yolo_topic'}
+[0.000147] (topic2) JobQueued: {'identifier': 'topic2', 'dependencies': OrderedDict()}
+[0.000159] (topic2) JobStarted: {'identifier': 'topic2'}
+[0.006492] (topic2) JobProgress: {'identifier': 'topic2', 'progress': 'cmake'}
+[0.007372] (topic2) JobProgress: {'identifier': 'topic2', 'progress': 'build'}
+[0.007425] (topic2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/stoair/ros2CV/cv_ws/build/topic2', '--', '-j16', '-l16'], 'cwd': '/home/stoair/ros2CV/cv_ws/build/topic2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'stoair'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.1/lib64:/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib:/home/stoair/ros2CV/cv_ws/install/ros2_interfaces/lib:/home/stoair/learn_ws/install/ros_interfaces/lib:/home/stoair/dev_ws/install/learning_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.1/lib64::/usr/local/lib:/usr/local/lib'), ('HOME', '/home/stoair'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1431'), ('SYSTEMD_EXEC_PID', '1638'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15386'), ('COLCON_PREFIX_PATH', '/home/stoair/ros2CV/cv_ws/install:/home/stoair/learn_ws/install:/home/stoair/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'stoair'), ('JOURNAL_STREAM', '8:29201'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-12.1/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/stoair/.local/bin:/opt/ros/humble/bin:/home/stoair/anaconda3/bin:/home/stoair/anaconda3/condabin:/usr/local/cuda-12.1/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/stoair/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/stoair-ASUS-TUF-Gaming-F15-FX507VU-FX507VU:@/tmp/.ICE-unix/1620,unix/stoair-ASUS-TUF-Gaming-F15-FX507VU-FX507VU:/tmp/.ICE-unix/1620'), ('GDM_LANG', 'zh_CN'), ('INVOCATION_ID', '836ff486002e49b3b081b1d890a990f9'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/stoair/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7e3cfd152f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/stoair'), ('AMENT_PREFIX_PATH', '/home/stoair/ros2CV/cv_ws/install/webcam_topic:/home/stoair/ros2CV/cv_ws/install/test_rclcpp:/home/stoair/ros2CV/cv_ws/install/topic_interfaces:/home/stoair/ros2CV/cv_ws/install/topic2:/home/stoair/ros2CV/cv_ws/install/ros2_interfaces:/home/stoair/learn_ws/install/service:/home/stoair/learn_ws/install/own_service:/home/stoair/learn_ws/install/ros_interfaces:/home/stoair/learn_ws/install/helloworld:/home/stoair/learn_ws/install/hellotopic:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic_cpp:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf_cpp:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service_cpp:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_pkg_c:/home/stoair/dev_ws/install/learning_parameter_cpp:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node_cpp:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action_cpp:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_interface:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/stoair/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/stoair/ros2CV/cv_ws/build/topic2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/stoair/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages:/home/stoair/ros2CV/cv_ws/install/ros2_interfaces/local/lib/python3.10/dist-packages:/home/stoair/learn_ws/install/ros_interfaces/lib/python3.11/site-packages:/home/stoair/dev_ws/install/learning_urdf/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_topic/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_tf/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_service/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_qos/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_pkg_python/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_parameter/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_node/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_launch/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_action/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:/home/stoair/dev_ws/install/learning_gazebo_fortress/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_gazebo/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_cv/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/stoair/anaconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/stoair/ros2CV/cv_ws/install/webcam_topic:/home/stoair/ros2CV/cv_ws/install/test_rclcpp:/home/stoair/ros2CV/cv_ws/install/topic_interfaces:/home/stoair/ros2CV/cv_ws/install/topic2:/home/stoair/ros2CV/cv_ws/install/ros2_interfaces:/home/stoair/learn_ws/install/service:/home/stoair/learn_ws/install/own_service:/home/stoair/learn_ws/install/ros_interfaces:/home/stoair/learn_ws/install/helloworld:/home/stoair/learn_ws/install/hellotopic:/home/stoair/dev_ws/install/learning_topic_cpp:/home/stoair/dev_ws/install/learning_tf_cpp:/home/stoair/dev_ws/install/learning_service_cpp:/home/stoair/dev_ws/install/learning_pkg_c:/home/stoair/dev_ws/install/learning_parameter_cpp:/home/stoair/dev_ws/install/learning_node_cpp:/home/stoair/dev_ws/install/learning_action_cpp:/home/stoair/dev_ws/install/learning_interface:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble')]), 'shell': False}
+[0.027918] (topic2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099507] (-) TimerEvent: {}
+[0.138763] (topic2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.160084] (topic2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.162698] (topic2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.166793] (topic2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.174705] (topic2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.186743] (topic2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199668] (-) TimerEvent: {}
+[0.226458] (topic2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.228111] (topic2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299886] (-) TimerEvent: {}
+[0.323559] (topic2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400083] (-) TimerEvent: {}
+[0.426184] (topic2) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.500307] (-) TimerEvent: {}
+[0.520939] (topic2) StdoutLine: {'line': b'-- Found ros2_interfaces: 0.0.0 (/home/stoair/ros2CV/cv_ws/install/ros2_interfaces/share/ros2_interfaces/cmake)\n'}
+[0.534667] (topic2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.598419] (topic2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.598573] (topic2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/stoair/ros2CV/cv_ws/src/topic2/include/topic2\n'}
+[0.598617] (topic2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.598879] (topic2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.599538] (topic2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.599626] (topic2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.599669] (topic2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.600100] (topic2) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.600351] (-) TimerEvent: {}
+[0.611047] (topic2) StdoutLine: {'line': b'-- Generating done\n'}
+[0.612213] (topic2) StdoutLine: {'line': b'-- Build files have been written to: /home/stoair/ros2CV/cv_ws/build/topic2\n'}
+[0.633599] (topic2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target image_pub\x1b[0m\n'}
+[0.634031] (topic2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target image_sub\x1b[0m\n'}
+[0.649947] (topic2) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/image_pub.dir/src/image_pub.cpp.o\x1b[0m\n'}
+[0.651235] (topic2) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/image_sub.dir/src/image_sub.cpp.o\x1b[0m\n'}
+[0.651451] (topic2) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/image_sub.dir/src/yolo.cpp.o\x1b[0m\n'}
+[0.700510] (-) TimerEvent: {}
+[0.800813] (-) TimerEvent: {}
+[0.901266] (-) TimerEvent: {}
+[1.001721] (-) TimerEvent: {}
+[1.102184] (-) TimerEvent: {}
+[1.202651] (-) TimerEvent: {}
+[1.303113] (-) TimerEvent: {}
+[1.403576] (-) TimerEvent: {}
+[1.504020] (-) TimerEvent: {}
+[1.604495] (-) TimerEvent: {}
+[1.704891] (-) TimerEvent: {}
+[1.805354] (-) TimerEvent: {}
+[1.905824] (-) TimerEvent: {}
+[2.006290] (-) TimerEvent: {}
+[2.106713] (-) TimerEvent: {}
+[2.207055] (-) TimerEvent: {}
+[2.307495] (-) TimerEvent: {}
+[2.407946] (-) TimerEvent: {}
+[2.508392] (-) TimerEvent: {}
+[2.608838] (-) TimerEvent: {}
+[2.709276] (-) TimerEvent: {}
+[2.809751] (-) TimerEvent: {}
+[2.910216] (-) TimerEvent: {}
+[3.010689] (-) TimerEvent: {}
+[3.111138] (-) TimerEvent: {}
+[3.211597] (-) TimerEvent: {}
+[3.312040] (-) TimerEvent: {}
+[3.412483] (-) TimerEvent: {}
+[3.512921] (-) TimerEvent: {}
+[3.613369] (-) TimerEvent: {}
+[3.713815] (-) TimerEvent: {}
+[3.814280] (-) TimerEvent: {}
+[3.914755] (-) TimerEvent: {}
+[4.015148] (-) TimerEvent: {}
+[4.115610] (-) TimerEvent: {}
+[4.216071] (-) TimerEvent: {}
+[4.316512] (-) TimerEvent: {}
+[4.416855] (-) TimerEvent: {}
+[4.517286] (-) TimerEvent: {}
+[4.617748] (-) TimerEvent: {}
+[4.718200] (-) TimerEvent: {}
+[4.818676] (-) TimerEvent: {}
+[4.919136] (-) TimerEvent: {}
+[5.019609] (-) TimerEvent: {}
+[5.120061] (-) TimerEvent: {}
+[5.220519] (-) TimerEvent: {}
+[5.320989] (-) TimerEvent: {}
+[5.421440] (-) TimerEvent: {}
+[5.521900] (-) TimerEvent: {}
+[5.622337] (-) TimerEvent: {}
+[5.722717] (-) TimerEvent: {}
+[5.823153] (-) TimerEvent: {}
+[5.923590] (-) TimerEvent: {}
+[6.024021] (-) TimerEvent: {}
+[6.124459] (-) TimerEvent: {}
+[6.224810] (-) TimerEvent: {}
+[6.325149] (-) TimerEvent: {}
+[6.425476] (-) TimerEvent: {}
+[6.525803] (-) TimerEvent: {}
+[6.626240] (-) TimerEvent: {}
+[6.726704] (-) TimerEvent: {}
+[6.827101] (-) TimerEvent: {}
+[6.927526] (-) TimerEvent: {}
+[7.027951] (-) TimerEvent: {}
+[7.128378] (-) TimerEvent: {}
+[7.228822] (-) TimerEvent: {}
+[7.329261] (-) TimerEvent: {}
+[7.429747] (-) TimerEvent: {}
+[7.432066] (topic2) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable image_pub\x1b[0m\n'}
+[7.504579] (topic2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable image_sub\x1b[0m\n'}
+[7.529989] (-) TimerEvent: {}
+[7.630468] (-) TimerEvent: {}
+[7.730817] (-) TimerEvent: {}
+[7.827735] (topic2) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/image_pub.dir/src/image_pub.cpp.o: in function `imagePub::imagePub()':\n"}
+[7.828188] (topic2) StderrLine: {'line': b"image_pub.cpp:(.text._ZN8imagePubC2Ev[_ZN8imagePubC5Ev]+0x147): undefined reference to `cv::VideoCapture::VideoCapture()'\n"}
+[7.828341] (topic2) StderrLine: {'line': b"/usr/bin/ld: image_pub.cpp:(.text._ZN8imagePubC2Ev[_ZN8imagePubC5Ev]+0x494): undefined reference to `cv::VideoCapture::open(int, int)'\n"}
+[7.828563] (topic2) StderrLine: {'line': b"/usr/bin/ld: image_pub.cpp:(.text._ZN8imagePubC2Ev[_ZN8imagePubC5Ev]+0x4bb): undefined reference to `cv::VideoWriter::fourcc(char, char, char, char)'\n"}
+[7.828690] (topic2) StderrLine: {'line': b"/usr/bin/ld: image_pub.cpp:(.text._ZN8imagePubC2Ev[_ZN8imagePubC5Ev]+0x4da): undefined reference to `cv::VideoCapture::set(int, double)'\n"}
+[7.828787] (topic2) StderrLine: {'line': b"/usr/bin/ld: image_pub.cpp:(.text._ZN8imagePubC2Ev[_ZN8imagePubC5Ev]+0x501): undefined reference to `cv::VideoCapture::set(int, double)'\n"}
+[7.828897] (topic2) StderrLine: {'line': b"/usr/bin/ld: image_pub.cpp:(.text._ZN8imagePubC2Ev[_ZN8imagePubC5Ev]+0x528): undefined reference to `cv::VideoCapture::set(int, double)'\n"}
+[7.829000] (topic2) StderrLine: {'line': b"/usr/bin/ld: image_pub.cpp:(.text._ZN8imagePubC2Ev[_ZN8imagePubC5Ev]+0x651): undefined reference to `cv::VideoCapture::~VideoCapture()'\n"}
+[7.829091] (topic2) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/image_pub.dir/src/image_pub.cpp.o: in function `imagePub::timer_callback()':\n"}
+[7.829180] (topic2) StderrLine: {'line': b"image_pub.cpp:(.text._ZN8imagePub14timer_callbackEv[_ZN8imagePub14timer_callbackEv]+0x53): undefined reference to `cv::VideoCapture::operator>>(cv::Mat&)'\n"}
+[7.830887] (-) TimerEvent: {}
+[7.835017] (topic2) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/image_pub.dir/src/image_pub.cpp.o: in function `imagePub::~imagePub()':\n"}
+[7.835210] (topic2) StderrLine: {'line': b"image_pub.cpp:(.text._ZN8imagePubD2Ev[_ZN8imagePubD5Ev]+0x2c): undefined reference to `cv::VideoCapture::~VideoCapture()'\n"}
+[7.875405] (topic2) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[7.876959] (topic2) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/image_pub.dir/build.make:187\xef\xbc\x9aimage_pub] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[7.877281] (topic2) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139\xef\xbc\x9aCMakeFiles/image_pub.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[7.877422] (topic2) StderrLine: {'line': b'gmake[1]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[7.910483] (topic2) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/image_sub.dir/src/image_sub.cpp.o: in function `imageSub::imageSub()':\n"}
+[7.910779] (topic2) StderrLine: {'line': b"image_sub.cpp:(.text._ZN8imageSubC2Ev[_ZN8imageSubC5Ev]+0x147): undefined reference to `cv::VideoCapture::VideoCapture()'\n"}
+[7.910846] (topic2) StderrLine: {'line': b"/usr/bin/ld: image_sub.cpp:(.text._ZN8imageSubC2Ev[_ZN8imageSubC5Ev]+0x171): undefined reference to `cv::dnn::dnn4_v20211004::Net::Net()'\n"}
+[7.910905] (topic2) StderrLine: {'line': b"/usr/bin/ld: image_sub.cpp:(.text._ZN8imageSubC2Ev[_ZN8imageSubC5Ev]+0x186): undefined reference to `cv::dnn::dnn4_v20211004::Net::Net()'\n"}
+[7.910942] (topic2) StderrLine: {'line': b"/usr/bin/ld: image_sub.cpp:(.text._ZN8imageSubC2Ev[_ZN8imageSubC5Ev]+0x3fe): undefined reference to `cv::dnn::dnn4_v20211004::Net::~Net()'\n"}
+[7.911206] (topic2) StderrLine: {'line': b"/usr/bin/ld: image_sub.cpp:(.text._ZN8imageSubC2Ev[_ZN8imageSubC5Ev]+0x41c): undefined reference to `cv::dnn::dnn4_v20211004::Net::~Net()'\n"}
+[7.911451] (topic2) StderrLine: {'line': b"/usr/bin/ld: image_sub.cpp:(.text._ZN8imageSubC2Ev[_ZN8imageSubC5Ev]+0x458): undefined reference to `cv::VideoCapture::~VideoCapture()'\n"}
+[7.911826] (topic2) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/image_sub.dir/src/image_sub.cpp.o: in function `imageSub::image_callback(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >)':\n"}
+[7.911911] (topic2) StderrLine: {'line': b"image_sub.cpp:(.text._ZN8imageSub14image_callbackESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE[_ZN8imageSub14image_callbackESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE]+0x349): undefined reference to `cv::namedWindow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)'\n"}
+[7.912078] (topic2) StderrLine: {'line': b"/usr/bin/ld: image_sub.cpp:(.text._ZN8imageSub14image_callbackESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE[_ZN8imageSub14image_callbackESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE]+0x3c8): undefined reference to `cv::imshow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cv::_InputArray const&)'\n"}
+[7.912318] (topic2) StderrLine: {'line': b"/usr/bin/ld: image_sub.cpp:(.text._ZN8imageSub14image_callbackESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE[_ZN8imageSub14image_callbackESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE]+0x43d): undefined reference to `cv::resizeWindow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int)'\n"}
+[7.912523] (topic2) StderrLine: {'line': b"/usr/bin/ld: image_sub.cpp:(.text._ZN8imageSub14image_callbackESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE[_ZN8imageSub14image_callbackESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE]+0x4a3): undefined reference to `cv::moveWindow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int)'\n"}
+[7.912817] (topic2) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/image_sub.dir/src/image_sub.cpp.o: in function `imageSub::handle_image(cv::Mat, Yolo)':\n"}
+[7.912903] (topic2) StderrLine: {'line': b"image_sub.cpp:(.text._ZN8imageSub12handle_imageEN2cv3MatE4Yolo[_ZN8imageSub12handle_imageEN2cv3MatE4Yolo]+0x396): undefined reference to `cv::undistort(cv::_InputArray const&, cv::_OutputArray const&, cv::_InputArray const&, cv::_InputArray const&, cv::_InputArray const&)'\n"}
+[7.918530] (topic2) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/image_sub.dir/src/image_sub.cpp.o: in function `imageSub::~imageSub()':\n"}
+[7.918610] (topic2) StderrLine: {'line': b"image_sub.cpp:(.text._ZN8imageSubD2Ev[_ZN8imageSubD5Ev]+0x3e): undefined reference to `cv::dnn::dnn4_v20211004::Net::~Net()'\n"}
+[7.918827] (topic2) StderrLine: {'line': b"/usr/bin/ld: image_sub.cpp:(.text._ZN8imageSubD2Ev[_ZN8imageSubD5Ev]+0x50): undefined reference to `cv::dnn::dnn4_v20211004::Net::~Net()'\n"}
+[7.918982] (topic2) StderrLine: {'line': b"/usr/bin/ld: image_sub.cpp:(.text._ZN8imageSubD2Ev[_ZN8imageSubD5Ev]+0x74): undefined reference to `cv::VideoCapture::~VideoCapture()'\n"}
+[7.927110] (topic2) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/image_sub.dir/src/yolo.cpp.o: in function `Yolo::readModel(cv::dnn::dnn4_v20211004::Net&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, bool)':\n"}
+[7.927194] (topic2) StderrLine: {'line': b"yolo.cpp:(.text+0xa1): undefined reference to `cv::dnn::dnn4_v20211004::readNet(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[7.927237] (topic2) StderrLine: {'line': b"/usr/bin/ld: yolo.cpp:(.text+0xc3): undefined reference to `cv::dnn::dnn4_v20211004::Net::~Net()'\n"}
+[7.927273] (topic2) StderrLine: {'line': b"/usr/bin/ld: yolo.cpp:(.text+0x110): undefined reference to `cv::dnn::dnn4_v20211004::Net::setPreferableBackend(int)'\n"}
+[7.927306] (topic2) StderrLine: {'line': b"/usr/bin/ld: yolo.cpp:(.text+0x124): undefined reference to `cv::dnn::dnn4_v20211004::Net::setPreferableTarget(int)'\n"}
+[7.927346] (topic2) StderrLine: {'line': b"/usr/bin/ld: yolo.cpp:(.text+0x13a): undefined reference to `cv::dnn::dnn4_v20211004::Net::setPreferableBackend(int)'\n"}
+[7.927379] (topic2) StderrLine: {'line': b"/usr/bin/ld: yolo.cpp:(.text+0x14e): undefined reference to `cv::dnn::dnn4_v20211004::Net::setPreferableTarget(int)'\n"}
+[7.927411] (topic2) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/image_sub.dir/src/yolo.cpp.o: in function `Yolo::Detect(cv::Mat&, cv::dnn::dnn4_v20211004::Net&, std::vector<Output, std::allocator<Output> >&, int)':\n"}
+[7.927443] (topic2) StderrLine: {'line': b"yolo.cpp:(.text+0x445): undefined reference to `cv::dnn::dnn4_v20211004::Net::getLayerNames[abi:cxx11]() const'\n"}
+[7.927475] (topic2) StderrLine: {'line': b"/usr/bin/ld: yolo.cpp:(.text+0x52d): undefined reference to `cv::dnn::dnn4_v20211004::blobFromImage(cv::_InputArray const&, cv::_OutputArray const&, double, cv::Size_<int> const&, cv::Scalar_<double> const&, bool, bool, int)'\n"}
+[7.927507] (topic2) StderrLine: {'line': b"/usr/bin/ld: yolo.cpp:(.text+0x5d6): undefined reference to `cv::dnn::dnn4_v20211004::Net::setInput(cv::_InputArray const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, double, cv::Scalar_<double> const&)'\n"}
+[7.927538] (topic2) StderrLine: {'line': b"/usr/bin/ld: yolo.cpp:(.text+0x62b): undefined reference to `cv::dnn::dnn4_v20211004::Net::getUnconnectedOutLayersNames[abi:cxx11]() const'\n"}
+[7.927569] (topic2) StderrLine: {'line': b"/usr/bin/ld: yolo.cpp:(.text+0x664): undefined reference to `cv::dnn::dnn4_v20211004::Net::forward(cv::_OutputArray const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)'\n"}
+[7.927600] (topic2) StderrLine: {'line': b"/usr/bin/ld: yolo.cpp:(.text+0xbd0): undefined reference to `cv::dnn::dnn4_v20211004::NMSBoxes(std::vector<cv::Rect_<int>, std::allocator<cv::Rect_<int> > > const&, std::vector<float, std::allocator<float> > const&, float, float, std::vector<int, std::allocator<int> >&, float, int)'\n"}
+[7.927631] (topic2) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/image_sub.dir/src/yolo.cpp.o: in function `Yolo::target(cv::Mat, std::vector<Output, std::allocator<Output> >, int)':\n"}
+[7.927662] (topic2) StderrLine: {'line': b"yolo.cpp:(.text+0x1ccc): undefined reference to `cv::imshow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cv::_InputArray const&)'\n"}
+[7.927693] (topic2) StderrLine: {'line': b"/usr/bin/ld: yolo.cpp:(.text+0x1d03): undefined reference to `cv::moveWindow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int)'\n"}
+[7.930974] (-) TimerEvent: {}
+[7.960958] (topic2) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[7.962970] (topic2) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/image_sub.dir/build.make:203\xef\xbc\x9aimage_sub] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[7.963423] (topic2) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165\xef\xbc\x9aCMakeFiles/image_sub.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[7.963669] (topic2) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[7.965448] (topic2) CommandEnded: {'returncode': 2}
+[7.995111] (topic2) JobEnded: {'identifier': 'topic2', 'rc': 2}
+[8.005645] (-) EventReactorShutdown: {}

@@ -3,9 +3,14 @@
 #include "opencv2/opencv.hpp"
 #include "cv_bridge/cv_bridge.h"
 #include <iostream>
+#define USE_CUDA true
 
 using namespace cv;
 using namespace std;
+using namespace cv::dnn;
+
+string model_path = "/home/stoair/ros2CV/cv_ws/src/webcam_topic/src/models/bestv5.onnx";
+string model_path_circle = "models/best_circle.onnx";
 
 class imageSub : public rclcpp::Node
 {
@@ -55,13 +60,51 @@ private:
         waitKey(1);
     }
 };
-
+bool readModel(Net &net, string &netPath, bool isCuda = false)
+{
+    try
+    {
+        net = readNet(netPath);
+    }
+    catch (const cv::Exception &e)
+    {
+        cout << "An error occurred: " << e.what() << endl;
+        return false;
+    }
+    // cuda
+    if (isCuda)
+    {
+        net.setPreferableBackend(cv::dnn::DNN_BACKEND_CUDA);
+        net.setPreferableTarget(cv::dnn::DNN_TARGET_CUDA);
+    }
+    // cpu
+    else
+    {
+        net.setPreferableBackend(cv::dnn::DNN_BACKEND_DEFAULT);
+        net.setPreferableTarget(cv::dnn::DNN_TARGET_CPU);
+    }
+    return true;
+}
 int main(int argc, char ** argv)
 {
+    cout << CV_VERSION << endl;
+    Net net1, net2, net3;
+    if (readModel(net1, model_path, USE_CUDA))
+    {
+        cout << "read net1 ok!" << endl;
+    }else{
+        cout << "read onnx1 model failed!";
+    }
+    if (readModel(net2, model_path_circle, USE_CUDA))
+    {
+        cout << "read net2 ok!" << endl;
+    }else{
+        cout << "read onnx2 model failed!";
+    }
+    cout << "stop reading" << endl;
     rclcpp::init(argc, argv);
     auto node = std::make_shared<imageSub>();
     rclcpp::spin(node);
     rclcpp::shutdown();
     return 0;
-
 }

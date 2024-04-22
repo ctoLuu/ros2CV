@@ -1,0 +1,30 @@
+[0.009s] Invoking command in '/home/stoair/ros2CV/cv_ws/build/webcam_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/webcam_topic -- -j16 -l16
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target webcam_sub[0m
+[0.057s] [ 50%] Built target webcam_pub
+[0.060s] [ 75%] [32mBuilding CXX object CMakeFiles/webcam_sub.dir/src/webcam_sub.cpp.o[0m
+[5.830s] [100%] [32m[1mLinking CXX executable webcam_sub[0m
+[6.001s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.409
+[6.002s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.409
+[6.353s] [100%] Built target webcam_sub
+[6.364s] Invoked command in '/home/stoair/ros2CV/cv_ws/build/webcam_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/webcam_topic -- -j16 -l16
+[6.407s] Invoking command in '/home/stoair/ros2CV/cv_ws/build/webcam_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/stoair/ros2CV/cv_ws/build/webcam_topic
+[6.415s] -- Install configuration: ""
+[6.415s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/webcam_topic/lib/webcam_topic/webcam_pub
+[6.415s] -- Installing: /home/stoair/ros2CV/cv_ws/install/webcam_topic/lib/webcam_topic/webcam_sub
+[6.427s] -- Set runtime path of "/home/stoair/ros2CV/cv_ws/install/webcam_topic/lib/webcam_topic/webcam_sub" to ""
+[6.427s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/webcam_topic/share/ament_index/resource_index/package_run_dependencies/webcam_topic
+[6.427s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/webcam_topic/share/ament_index/resource_index/parent_prefix_path/webcam_topic
+[6.427s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/webcam_topic/share/webcam_topic/environment/ament_prefix_path.sh
+[6.427s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/webcam_topic/share/webcam_topic/environment/ament_prefix_path.dsv
+[6.428s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/webcam_topic/share/webcam_topic/environment/path.sh
+[6.428s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/webcam_topic/share/webcam_topic/environment/path.dsv
+[6.428s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/webcam_topic/share/webcam_topic/local_setup.bash
+[6.428s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/webcam_topic/share/webcam_topic/local_setup.sh
+[6.429s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/webcam_topic/share/webcam_topic/local_setup.zsh
+[6.429s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/webcam_topic/share/webcam_topic/local_setup.dsv
+[6.430s] -- Installing: /home/stoair/ros2CV/cv_ws/install/webcam_topic/share/webcam_topic/package.dsv
+[6.430s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/webcam_topic/share/ament_index/resource_index/packages/webcam_topic
+[6.431s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/webcam_topic/share/webcam_topic/cmake/webcam_topicConfig.cmake
+[6.432s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/webcam_topic/share/webcam_topic/cmake/webcam_topicConfig-version.cmake
+[6.432s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/webcam_topic/share/webcam_topic/package.xml
+[6.433s] Invoked command in '/home/stoair/ros2CV/cv_ws/build/webcam_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/stoair/ros2CV/cv_ws/build/webcam_topic

@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target webcam_sub[0m
+[ 50%] Built target webcam_pub
+[ 75%] [32mBuilding CXX object CMakeFiles/webcam_sub.dir/src/webcam_sub.cpp.o[0m
+[01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:[m[K In function ‘[01m[Kbool readModel(cv::dnn::dnn4_v20231225::Net&, std::string&, bool)[m[K’:
+[01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:79:21:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   79 |         return false
+      |                     [01;31m[K^[m[K
+      |                     [32m[K;[m[K
+   80 |     [32m[K}[m[K
+      |     [32m[K~[m[K                
+[01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:82:5:[m[K [01;35m[Kwarning: [m[Kexception of type ‘[01m[Kcv::Exception[m[K’ will be caught by earlier handler [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wexceptions-Wexceptions]8;;[m[K]
+   82 |     [01;35m[Kcatch[m[K (const cv::Exception & e)
+      |     [01;35m[K^~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:77:5:[m[K [01;36m[Knote: [m[Kfor type ‘[01m[Kstd::exception[m[K’
+   77 |     [01;36m[Kcatch[m[K (const std::exception & e)
+      |     [01;36m[K^~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:101:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  101 | int main([01;35m[Kint argc[m[K, char ** argv)
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:101:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  101 | int main(int argc, [01;35m[Kchar ** argv[m[K)
+      |                    [01;35m[K~~~~~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/webcam_sub.dir/build.make:76：CMakeFiles/webcam_sub.dir/src/webcam_sub.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/webcam_sub.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2
