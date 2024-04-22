@@ -54,7 +54,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic2/image_pub")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic2/image_pub"
-         OLD_RPATH "/opt/ros2/humble/lib:/opt/ros/humble/lib:/home/stoair/ros2CV/cv_ws/install/ros2_interfaces/lib:"
+         OLD_RPATH "/usr/local/cuda-12.1/lib64:/opt/ros2/humble/lib:/opt/ros/humble/lib:/home/stoair/ros2CV/cv_ws/install/ros2_interfaces/lib:/usr/local/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic2/image_pub")
@@ -74,7 +74,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic2/image_sub")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic2/image_sub"
-         OLD_RPATH "/opt/ros2/humble/lib:/opt/ros/humble/lib:/home/stoair/ros2CV/cv_ws/install/ros2_interfaces/lib:"
+         OLD_RPATH "/usr/local/cuda-12.1/lib64:/opt/ros2/humble/lib:/opt/ros/humble/lib:/home/stoair/ros2CV/cv_ws/install/ros2_interfaces/lib:/usr/local/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/topic2/image_sub")

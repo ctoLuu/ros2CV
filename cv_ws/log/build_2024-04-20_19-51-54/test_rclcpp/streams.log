@@ -1,0 +1,35 @@
+[0.009s] Invoking command in '/home/stoair/ros2CV/cv_ws/build/test_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/test_rclcpp -- -j16 -l16
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target webcam_sub[0m
+[0.050s] [ 50%] Built target webcam_pub
+[0.055s] [ 75%] [32mBuilding CXX object CMakeFiles/webcam_sub.dir/src/webcam_sub.cpp.o[0m
+[1.972s] [01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.972s] [01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:94:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.972s]    94 | int main([01;35m[Kint argc[m[K, char ** argv)
+[1.972s]       |          [01;35m[K~~~~^~~~[m[K
+[1.972s] [01m[K/home/stoair/ros2CV/cv_ws/src/test_rclcpp/src/webcam_sub.cpp:94:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.972s]    94 | int main(int argc, [01;35m[Kchar ** argv[m[K)
+[1.972s]       |                    [01;35m[K~~~~~~~~^~~~[m[K
+[3.639s] [100%] [32m[1mLinking CXX executable webcam_sub[0m
+[3.924s] [100%] Built target webcam_sub
+[3.934s] Invoked command in '/home/stoair/ros2CV/cv_ws/build/test_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/test_rclcpp -- -j16 -l16
+[3.981s] Invoking command in '/home/stoair/ros2CV/cv_ws/build/test_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/stoair/ros2CV/cv_ws/build/test_rclcpp
+[3.988s] -- Install configuration: ""
+[3.988s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/lib/test_rclcpp/webcam_pub
+[3.988s] -- Installing: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/lib/test_rclcpp/webcam_sub
+[3.999s] -- Set runtime path of "/home/stoair/ros2CV/cv_ws/install/test_rclcpp/lib/test_rclcpp/webcam_sub" to ""
+[3.999s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/share/ament_index/resource_index/package_run_dependencies/test_rclcpp
+[3.999s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/share/ament_index/resource_index/parent_prefix_path/test_rclcpp
+[3.999s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/share/test_rclcpp/environment/ament_prefix_path.sh
+[3.999s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/share/test_rclcpp/environment/ament_prefix_path.dsv
+[4.000s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/share/test_rclcpp/environment/path.sh
+[4.000s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/share/test_rclcpp/environment/path.dsv
+[4.000s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/share/test_rclcpp/local_setup.bash
+[4.000s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/share/test_rclcpp/local_setup.sh
+[4.000s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/share/test_rclcpp/local_setup.zsh
+[4.001s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/share/test_rclcpp/local_setup.dsv
+[4.001s] -- Installing: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/share/test_rclcpp/package.dsv
+[4.001s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/share/ament_index/resource_index/packages/test_rclcpp
+[4.001s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/share/test_rclcpp/cmake/test_rclcppConfig.cmake
+[4.001s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/share/test_rclcpp/cmake/test_rclcppConfig-version.cmake
+[4.001s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/share/test_rclcpp/package.xml
+[4.003s] Invoked command in '/home/stoair/ros2CV/cv_ws/build/test_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/stoair/ros2CV/cv_ws/build/test_rclcpp

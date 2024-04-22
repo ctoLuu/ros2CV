@@ -1,0 +1,4 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/webcam_sub.dir/src/webcam_sub.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable webcam_pub[0m
+[ 75%] [32m[1mLinking CXX executable webcam_sub[0m
+[ 75%] Built target webcam_sub

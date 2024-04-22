@@ -9,7 +9,7 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
-find_package(OpenCV REQUIRED)
+find_package(OpenCV 4.9.0 REQUIRED)
 find_package(cv_bridge REQUIRED)
 # find_package(topic_interfaces REQUIRED)
 

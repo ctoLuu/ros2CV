@@ -19,8 +19,8 @@ int flag_servo = 0;
 int count_servo = 0;
 int count_nomove = 0;
 int model_flag = 0;
-string model_path = "../models/bestv5.onnx";
-string model_path_circle = "../models/best_circle.onnx";
+string model_path = "/home/stoair/ros2CV/cv_ws/src/webcam_topic/src/models/bestv5.onnx";
+string model_path_circle = "/home/stoair/ros2CV/cv_ws/src/webcam_topic/src/models/best_circle.onnx";
 Matrix3d K; // 内参矩阵
 Vector2d D; // 畸变矩阵
 
@@ -28,8 +28,12 @@ class imageSub : public rclcpp::Node
 {
 public:
     imageSub() : Node("webcam_sub"){
+        std::cout << "OpenCV version: " << CV_VERSION << std::endl;
         readmodel();
         subscriber_ = this->create_subscription<sensor_msgs::msg::Image>("image", 10, std::bind(&imageSub::image_callback, this, std::placeholders::_1));
+        publisher_ = this->create_publisher<ros2_interfaces::msg::Coord>("coord", 10);
+        timer_ = this->create_wall_timer(std::chrono::milliseconds(1000), std::bind(&imageSub::timer_callback, this));
+        strcpy(coord_last_frame, coord);
     }
 
 private:
@@ -69,7 +73,7 @@ private:
         namedWindow("frame", WINDOW_NORMAL);
         imshow("frame", img);
         resizeWindow("frame", 1040, 780);
-        moveWindow("frame", 0, 330);
+        waitKey(1);
 
         drive_servo(coord, target_x, target_y, 60);
         if (strcmp(coord, coord_last_frame) == 0)
@@ -82,9 +86,7 @@ private:
             }
         }
 
-        publisher_ = this->create_publisher<ros2_interfaces::msg::Coord>("coord", 10);
-        timer_ = this->create_wall_timer(std::chrono::milliseconds(1000), std::bind(&imageSub::timer_callback, this));
-        strcpy(coord_last_frame, coord);
+
     }
 
     Mat handle_image(Mat frame, Yolo test)

@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target webcam_sub[0m
+[ 50%] Built target webcam_pub
+[ 75%] [32mBuilding CXX object CMakeFiles/webcam_sub.dir/src/webcam_sub.cpp.o[0m
+[100%] [32m[1mLinking CXX executable webcam_sub[0m
+/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.409
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.409
+[100%] Built target webcam_sub
+-- Install configuration: ""
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/lib/test_rclcpp/webcam_pub
+-- Installing: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/lib/test_rclcpp/webcam_sub
+-- Set runtime path of "/home/stoair/ros2CV/cv_ws/install/test_rclcpp/lib/test_rclcpp/webcam_sub" to ""
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/share/ament_index/resource_index/package_run_dependencies/test_rclcpp
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/share/ament_index/resource_index/parent_prefix_path/test_rclcpp
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/share/test_rclcpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/share/test_rclcpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/share/test_rclcpp/environment/path.sh
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/share/test_rclcpp/environment/path.dsv
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/share/test_rclcpp/local_setup.bash
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/share/test_rclcpp/local_setup.sh
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/share/test_rclcpp/local_setup.zsh
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/share/test_rclcpp/local_setup.dsv
+-- Installing: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/share/test_rclcpp/package.dsv
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/share/ament_index/resource_index/packages/test_rclcpp
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/share/test_rclcpp/cmake/test_rclcppConfig.cmake
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/share/test_rclcpp/cmake/test_rclcppConfig-version.cmake
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/test_rclcpp/share/test_rclcpp/package.xml

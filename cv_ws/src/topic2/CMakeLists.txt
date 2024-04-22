@@ -10,17 +10,16 @@ endif()
 list(APPEND CMAKE_PREFIX_PATH /)
 
 # find dependencies
-# set(OpenCV_DIR /usr/local/include/opencv4/opencv2)
 
+find_package(OpenCV 4.9.0 REQUIRED)
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
-find_package(OpenCV REQUIRED)
 find_package(cv_bridge REQUIRED)
 find_package(ros2_interfaces REQUIRED)
 find_package(sensor_msgs REQUIRED)
 
 include_directories( "/usr/include/eigen3" )
-include_directories( "/home/stoair/ros2CV/cv_ws/src/topic2/include/topic2")
+# include_directories( "/home/stoair/ros2CV/cv_ws/src/topic2/include/topic2")
 LINK_DIRECTORIES("/opt/ros2/humble/lib")
 
 # Declare executables and set dependencies

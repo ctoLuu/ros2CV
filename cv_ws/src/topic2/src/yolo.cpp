@@ -1,7 +1,6 @@
 #include "global.hpp"
 #include "yolo.hpp"
 
-using namespace Eigen;
 using namespace std;
 using namespace cv;
 using namespace cv::dnn;
@@ -10,9 +9,10 @@ bool Yolo::readModel(Net &net, string &netPath, bool isCuda = false)
 {
 	try
 	{
+		cout << "reading..." << endl;
 		net = readNet(netPath);
 	}
-	catch (const std::exception &)
+	catch (const cv::Exception &)
 	{
 		return false;
 	}
