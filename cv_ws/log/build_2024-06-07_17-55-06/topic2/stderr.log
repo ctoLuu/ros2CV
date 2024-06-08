@@ -1,0 +1,10 @@
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:[m[K In member function ‘[01m[Kvoid imagePub::coord_callback(ros2_interfaces::msg::Coord_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:59:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct ros2_interfaces::msg::Coord_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct ros2_interfaces::msg::Coord_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kflag[m[K’
+   59 |         int flag = msg->[01;31m[Kflag[m[K;
+      |                         [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/image_pub.dir/build.make:76：CMakeFiles/image_pub.dir/src/image_pub.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/image_pub.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.409
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.409
+gmake: *** [Makefile:146：all] 错误 2
