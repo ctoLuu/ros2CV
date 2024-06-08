@@ -18,8 +18,17 @@ public:
     imagePub() : Node("image_pub")
     {
         publisher_ = this->create_publisher<sensor_msgs::msg::Image>("image", 10);
-        timer_ = this->create_wall_timer(std::chrono::milliseconds(100), std::bind(&imagePub::timer_callback, this));
-        subscriber_ = this->create_subscription<ros2_interfaces::msg::Coord>("coord", 10, std::bind(&imagePub::coord_callback, this, std::placeholders::_1));
+
+        timer_ = this->create_wall_timer(
+            std::chrono::milliseconds(100), 
+            std::bind(&imagePub::timer_callback, this)
+        );
+
+        subscriber_ = this->create_subscription<ros2_interfaces::msg::Coord>(
+            "coord", 
+            10, 
+            std::bind(&imagePub::coord_callback, this, std::placeholders::_1)
+        );
         cap.open(0, CAP_V4L2);
         cap.set(CAP_PROP_FOURCC, VideoWriter::fourcc('M','J','P','G'));
         cap.set(CAP_PROP_FRAME_WIDTH, 640);//图像的宽
@@ -47,7 +56,8 @@ private:
     {
         int x = msg->x;
         int y = msg->y;
-        RCLCPP_INFO(this->get_logger(), "收到坐标(%d, %d)", x, y);
+        int flag = msg->flag_servo;
+        RCLCPP_INFO(this->get_logger(), "收到坐标(%d, %d), flag_servo = %d", x, y, flag);
     }
     
 };
