@@ -1,0 +1,26 @@
+<annotation>
+    <folder>labels</folder>
+    <filename>243.jpg</filename>
+    <path>/home/stoair/Datasets/circle/labels/243.jpg</path>
+    <source>
+        <database>None</database>
+    </source>
+    <size>
+        <width>803</width>
+        <height>715</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>0</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>341</xmin>
+            <ymin>649</ymin>
+            <xmax>399</xmax>
+            <ymax>707</ymax>
+        </bndbox>
+    </object>
+</annotation>

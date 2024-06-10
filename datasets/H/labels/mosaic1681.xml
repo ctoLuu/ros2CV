@@ -1,0 +1,44 @@
+<annotation>
+    <folder>VOC</folder>
+    <filename>newImage/H/1681.jpg</filename>
+    <source>
+        <database>My Database</database>
+        <annotation>COCO</annotation>
+        <image>flickr</image>
+        <flickrid>NULL</flickrid>
+    </source>
+    <owner>
+        <flickrid>NULL</flickrid>
+        <name>company</name>
+    </owner>
+    <size>
+        <width>640</width>
+        <height>640</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>H</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>473</xmin>
+            <ymin>279</ymin>
+            <xmax>531</xmax>
+            <ymax>304</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>H</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>384</xmin>
+            <ymin>0</ymin>
+            <xmax>470</xmax>
+            <ymax>40</ymax>
+        </bndbox>
+    </object>
+</annotation>

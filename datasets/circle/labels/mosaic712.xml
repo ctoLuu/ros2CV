@@ -1,0 +1,44 @@
+<annotation>
+    <folder>VOC</folder>
+    <filename>newImage/circle/712.jpg</filename>
+    <source>
+        <database>My Database</database>
+        <annotation>COCO</annotation>
+        <image>flickr</image>
+        <flickrid>NULL</flickrid>
+    </source>
+    <owner>
+        <flickrid>NULL</flickrid>
+        <name>company</name>
+    </owner>
+    <size>
+        <width>640</width>
+        <height>640</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>0</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>502</xmin>
+            <ymin>518</ymin>
+            <xmax>538</xmax>
+            <ymax>540</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>0</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>446</xmin>
+            <ymin>250</ymin>
+            <xmax>474</xmax>
+            <ymax>271</ymax>
+        </bndbox>
+    </object>
+</annotation>
