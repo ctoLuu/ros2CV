@@ -221,8 +221,8 @@ bool Yolo::Detect(Mat &SrcImg, Net &net, vector<Output> &output, int model_flag)
 
 Mat Yolo::drawPred(Mat src, vector<Output> result, vector<Scalar> color, int model_flag)
 {
-	int left_max = 0, right_max = 0, up_max = 0, down_max = 0;
 	int left[10], top[10];
+	printf("result.size() = %ld\n", result.size());
 	for (size_t i = 0; i < result.size(); i++)
 	{
 		
@@ -239,21 +239,9 @@ Mat Yolo::drawPred(Mat src, vector<Output> result, vector<Scalar> color, int mod
 
 		int center_x = left[i] + (result[i].box.width / 2);
 		int center_y = top[i] + (result[i].box.height / 2);
-
-		if((left[left_max] + (result[left_max].box.width / 2)) > center_x)
-			left_max = i;
-		if((left[right_max] + (result[right_max].box.width / 2)) < center_x)
-			right_max = i;
-		if((top[up_max] + (result[up_max].box.height / 2)) > center_y)
-			up_max = i;
-		if((top[down_max] + (result[down_max].box.height / 2)) < center_y)
-			down_max = i;
-
-		
 	}
-
+	findCircle(result);
 	//int left_x = left[left_max] + result[left_max].box.width/2, left_y = top[left_max] + result[left_max].box.height/2;
-	int right_x = left[right_max] + result[right_max].box.width/2, right_y = top[right_max] + result[right_max].box.height/2;
 	//int up_x = left[up_max] + result[up_max].box.width/2, up_y = top[up_max] + result[up_max].box.height/2;
 	//int down_x = left[down_max] + result[down_max].box.width/2, down_y = top[down_max] + result[down_max].box.height/2;
 
@@ -261,8 +249,6 @@ Mat Yolo::drawPred(Mat src, vector<Output> result, vector<Scalar> color, int mod
 	// cv::circle(src, cv::Point(right_x,right_y), 2, cv::Scalar(0,255,0), 3, cv::LINE_AA);// 绿色
 	// cv::circle(src, cv::Point(up_x,up_y), 2, cv::Scalar(0,0,255), 3, cv::LINE_AA);// 红色
 	// cv::circle(src, cv::Point(down_x,down_y), 2, cv::Scalar(0,255,255), 3, cv::LINE_AA);// 黄色
-
-	sprintf(coord, "%d,%d,%d", right_x, right_y, flag_servo);
 	return src;
 }
 
@@ -307,4 +293,43 @@ void Yolo::target(Mat src, vector<Output> result, int model_flag)
 		moveWindow(window, 70+300*i, 0);
 	}
 	// return dst[0];
+}
+
+void Yolo::findCircle(vector<Output> result)
+{
+	if (result.size() == 0) return;
+	else if (result.size() == 1)
+	{
+		int right_x = result[0].box.x + result[0].box.width/2, right_y = result[0].box.y + result[0].box.height/2;
+		sprintf(coord, "%d,%d,%d", right_x, right_y, flag_servo);
+	} else if (result.size() == 3)
+	{
+		int flag = findMiddle(result);
+		int right_x = result[flag].box.x + result[flag].box.width/2, right_y = result[flag].box.y + result[flag].box.height/2;
+		sprintf(coord, "%d,%d,%d", right_x, right_y, flag_servo);
+	} else if (result.size() == 2)
+	{
+		if (result[0].box.width * result[0].box.height > result[1].box.width * result[1].box.height)
+		{
+			int right_x = result[0].box.x + result[0].box.width/2, right_y = result[0].box.y + result[0].box.height/2;
+			sprintf(coord, "%d,%d,%d", right_x, right_y, flag_servo);
+		} else {
+			int up_x = result[1].box.x + result[1].box.width/2, up_y = result[1].box.y + result[1].box.height/2;
+			sprintf(coord, "%d,%d,%d", up_x, up_y, flag_servo);
+		}
+	}
+}
+
+int Yolo::findMiddle(vector<Output> result)
+{
+	int a = result[0].box.width * result[0].box.height;
+	int b = result[1].box.width * result[1].box.height;
+	int c = result[2].box.width * result[2].box.height;
+	if((a > b && a < c) || (a < b && a > c)) {
+        return 0;
+    } else if((b > a && b < c) || (b < a && b > c)) {
+        return 1;
+    } else {
+        return 2;
+    }
 }

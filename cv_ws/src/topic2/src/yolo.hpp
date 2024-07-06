@@ -3,6 +3,7 @@
 #include <opencv2/opencv.hpp>
 #include "global.hpp"
 #include <opencv2/dnn/dnn.hpp>
+#include <algorithm>
 
 #ifndef YOLOV5
 #define YOLOV5 true  //true:Yolov5, false:yolov7
@@ -29,7 +30,8 @@ public:
 	bool Detect(cv::Mat& SrcImg, cv::dnn::Net& net, std::vector<Output>& output, int model_flag);
 	cv::Mat drawPred(cv::Mat img, std::vector<Output> result, std::vector<cv::Scalar> color, int model_flag);
 	void target(cv::Mat src, std::vector<Output> result, int model_flag);
-
+	void findCircle(std::vector<Output> result);
+	int findMiddle(std::vector<Output> result);
 private:
 
 	float sigmoid_x(float x)

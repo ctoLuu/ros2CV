@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.000242] (-) JobUnselected: {'identifier': 'ros2_interfaces'}
+[0.000462] (-) JobUnselected: {'identifier': 'test_rclcpp'}
+[0.000611] (-) JobUnselected: {'identifier': 'webcam_topic'}
+[0.000729] (-) JobUnselected: {'identifier': 'yolo_topic'}
+[0.000778] (topic2) JobQueued: {'identifier': 'topic2', 'dependencies': OrderedDict()}
+[0.000873] (topic2) JobStarted: {'identifier': 'topic2'}
+[0.014188] (topic2) JobProgress: {'identifier': 'topic2', 'progress': 'cmake'}
+[0.015026] (topic2) JobProgress: {'identifier': 'topic2', 'progress': 'build'}
+[0.015651] (topic2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/stoair/ros2CV/cv_ws/build/topic2', '--', '-j16', '-l16'], 'cwd': '/home/stoair/ros2CV/cv_ws/build/topic2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'stoair'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib:/home/stoair/ros2CV/cv_ws/install/ros2_interfaces/lib:/home/stoair/learn_ws/install/ros_interfaces/lib:/home/stoair/dev_ws/install/learning_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.1/lib64::/usr/local/lib'), ('HOME', '/home/stoair'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/stoair/ros2CV'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1505'), ('SYSTEMD_EXEC_PID', '1971'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3861'), ('COLCON_PREFIX_PATH', '/home/stoair/ros2CV/cv_ws/install:/home/stoair/learn_ws/install:/home/stoair/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'stoair'), ('JOURNAL_STREAM', '8:41019'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/stoair/.local/bin:/opt/ros/humble/bin:/home/stoair/anaconda3/bin:/home/stoair/anaconda3/condabin:/usr/local/cuda-12.1/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/stoair/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/stoair-ASUS-TUF-Gaming-F15-FX507VU-FX507VU:@/tmp/.ICE-unix/1746,unix/stoair-ASUS-TUF-Gaming-F15-FX507VU-FX507VU:/tmp/.ICE-unix/1746'), ('GDM_LANG', 'zh_CN'), ('INVOCATION_ID', '1d92fd39227d4a918800af6f7af3087a'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/stoair/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/stoair'), ('AMENT_PREFIX_PATH', '/home/stoair/ros2CV/cv_ws/install/webcam_topic:/home/stoair/ros2CV/cv_ws/install/topic_interfaces:/home/stoair/ros2CV/cv_ws/install/topic2:/home/stoair/ros2CV/cv_ws/install/ros2_interfaces:/home/stoair/learn_ws/install/service:/home/stoair/learn_ws/install/own_service:/home/stoair/learn_ws/install/ros_interfaces:/home/stoair/learn_ws/install/helloworld:/home/stoair/learn_ws/install/hellotopic:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic_cpp:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf_cpp:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service_cpp:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_pkg_c:/home/stoair/dev_ws/install/learning_parameter_cpp:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node_cpp:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action_cpp:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_interface:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/stoair/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8b95ad8b-1d7a-4940-9569-03d4a1ed0aef'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/stoair/ros2CV/cv_ws/build/topic2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/stoair/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/stoair/ros2CV/cv_ws/install/topic_interfaces/lib/python3.11/site-packages:/home/stoair/ros2CV/cv_ws/install/ros2_interfaces/local/lib/python3.10/dist-packages:/home/stoair/learn_ws/install/ros_interfaces/lib/python3.11/site-packages:/home/stoair/dev_ws/install/learning_urdf/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_topic/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_tf/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_service/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_qos/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_pkg_python/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_parameter/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_node/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_launch/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_action/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:/home/stoair/dev_ws/install/learning_gazebo_fortress/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_gazebo/lib/python3.10/site-packages:/home/stoair/dev_ws/install/learning_cv/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/stoair/anaconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/stoair/ros2CV/cv_ws/install/webcam_topic:/home/stoair/ros2CV/cv_ws/install/topic_interfaces:/home/stoair/ros2CV/cv_ws/install/topic2:/home/stoair/ros2CV/cv_ws/install/ros2_interfaces:/home/stoair/learn_ws/install/service:/home/stoair/learn_ws/install/own_service:/home/stoair/learn_ws/install/ros_interfaces:/home/stoair/learn_ws/install/helloworld:/home/stoair/learn_ws/install/hellotopic:/home/stoair/dev_ws/install/learning_topic_cpp:/home/stoair/dev_ws/install/learning_tf_cpp:/home/stoair/dev_ws/install/learning_service_cpp:/home/stoair/dev_ws/install/learning_pkg_c:/home/stoair/dev_ws/install/learning_parameter_cpp:/home/stoair/dev_ws/install/learning_node_cpp:/home/stoair/dev_ws/install/learning_action_cpp:/home/stoair/dev_ws/install/learning_interface:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble')]), 'shell': False}
+[0.091577] (topic2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target image_pub\x1b[0m\n'}
+[0.099731] (-) TimerEvent: {}
+[0.110793] (topic2) StdoutLine: {'line': b'[ 60%] Built target image_sub\n'}
+[0.121399] (topic2) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/image_pub.dir/src/image_pub.cpp.o\x1b[0m\n'}
+[0.199882] (-) TimerEvent: {}
+[0.300221] (-) TimerEvent: {}
+[0.400607] (-) TimerEvent: {}
+[0.500890] (-) TimerEvent: {}
+[0.601196] (-) TimerEvent: {}
+[0.701563] (-) TimerEvent: {}
+[0.801898] (-) TimerEvent: {}
+[0.902194] (-) TimerEvent: {}
+[1.002532] (-) TimerEvent: {}
+[1.102965] (-) TimerEvent: {}
+[1.203262] (-) TimerEvent: {}
+[1.303608] (-) TimerEvent: {}
+[1.403925] (-) TimerEvent: {}
+[1.504265] (-) TimerEvent: {}
+[1.604571] (-) TimerEvent: {}
+[1.704886] (-) TimerEvent: {}
+[1.805179] (-) TimerEvent: {}
+[1.905514] (-) TimerEvent: {}
+[2.005821] (-) TimerEvent: {}
+[2.106137] (-) TimerEvent: {}
+[2.206477] (-) TimerEvent: {}
+[2.306788] (-) TimerEvent: {}
+[2.407130] (-) TimerEvent: {}
+[2.507442] (-) TimerEvent: {}
+[2.607740] (-) TimerEvent: {}
+[2.708099] (-) TimerEvent: {}
+[2.808443] (-) TimerEvent: {}
+[2.908748] (-) TimerEvent: {}
+[3.009119] (-) TimerEvent: {}
+[3.109444] (-) TimerEvent: {}
+[3.209743] (-) TimerEvent: {}
+[3.310063] (-) TimerEvent: {}
+[3.410382] (-) TimerEvent: {}
+[3.510774] (-) TimerEvent: {}
+[3.556170] (topic2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid imagePub::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.556405] (topic2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:52:127:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KJPEG\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::image_encodings\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcv_bridge::JPEG\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.556522] (topic2) StderrLine: {'line': b'   52 |             sensor_msgs::msg::CompressedImage img_msg_compressed = img_msg.toCompressedImageMsg(sensor_msgs::image_encodings::\x1b[01;31m\x1b[KJPEG\x1b[m\x1b[K);\n'}
+[3.556611] (topic2) StderrLine: {'line': b'      |                                                                                                                               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.556695] (topic2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:7\x1b[m\x1b[K:\n'}
+[3.556776] (topic2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:73:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcv_bridge::JPEG\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[3.556858] (topic2) StderrLine: {'line': b'   73 |   JPG, \x1b[01;36m\x1b[KJPEG\x1b[m\x1b[K, JPE,\n'}
+[3.556937] (topic2) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.610878] (-) TimerEvent: {}
+[3.711201] (-) TimerEvent: {}
+[3.811544] (-) TimerEvent: {}
+[3.911873] (-) TimerEvent: {}
+[4.012193] (-) TimerEvent: {}
+[4.112503] (-) TimerEvent: {}
+[4.212810] (-) TimerEvent: {}
+[4.313141] (-) TimerEvent: {}
+[4.413447] (-) TimerEvent: {}
+[4.513808] (-) TimerEvent: {}
+[4.614149] (-) TimerEvent: {}
+[4.714493] (-) TimerEvent: {}
+[4.814829] (-) TimerEvent: {}
+[4.915147] (-) TimerEvent: {}
+[5.015487] (-) TimerEvent: {}
+[5.115888] (-) TimerEvent: {}
+[5.216218] (-) TimerEvent: {}
+[5.316563] (-) TimerEvent: {}
+[5.416884] (-) TimerEvent: {}
+[5.517244] (-) TimerEvent: {}
+[5.617605] (-) TimerEvent: {}
+[5.632927] (topic2) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/image_pub.dir/build.make:76\xef\xbc\x9aCMakeFiles/image_pub.dir/src/image_pub.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[5.633171] (topic2) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139\xef\xbc\x9aCMakeFiles/image_pub.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[5.633434] (topic2) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[5.635518] (topic2) CommandEnded: {'returncode': 2}
+[5.681391] (topic2) JobEnded: {'identifier': 'topic2', 'rc': 2}
+[5.692103] (-) EventReactorShutdown: {}

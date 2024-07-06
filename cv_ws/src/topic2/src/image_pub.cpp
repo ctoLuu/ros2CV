@@ -1,6 +1,8 @@
 #include "global.hpp"
 #include "yolo.hpp"
 #include "sensor_msgs/msg/image.hpp"
+#include "sensor_msgs/msg/compressed_image.hpp"
+#include "sensor_msgs/image_encodings.hpp"
 #include "rclcpp/rclcpp.hpp"
 #include "cv_bridge/cv_bridge.h"
 #include "ros2_interfaces/msg/coord.hpp"
@@ -17,7 +19,7 @@ class imagePub : public rclcpp::Node
 public:
     imagePub() : Node("image_pub")
     {
-        publisher_ = this->create_publisher<sensor_msgs::msg::Image>("image", 10);
+        publisher_ = this->create_publisher<sensor_msgs::msg::CompressedImage>("image", 10);
 
         timer_ = this->create_wall_timer(
             std::chrono::milliseconds(100), 
@@ -35,7 +37,7 @@ public:
         cap.set(CAP_PROP_FRAME_HEIGHT, 480);//图像的高
     }
 private:
-    rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr publisher_;
+    rclcpp::Publisher<sensor_msgs::msg::CompressedImage>::SharedPtr publisher_;
     rclcpp::Subscription<ros2_interfaces::msg::Coord>::SharedPtr subscriber_;
     rclcpp::TimerBase::SharedPtr timer_;
     VideoCapture cap;
@@ -46,7 +48,7 @@ private:
         cap >> frame;
         if (frame.rows > 0 && frame.cols > 0)
         {
-            auto img_msg = cv_bridge::CvImage(std_msgs::msg::Header(), "bgr8", frame).toImageMsg();
+            auto img_msg = cv_bridge::CvImage(std_msgs::msg::Header(), "bgr8", frame).toCompressedImageMsg(cv_bridge::JPEG);
             publisher_->publish(*img_msg);
         }
         RCLCPP_INFO(this->get_logger(), "Publishing video frame");

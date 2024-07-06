@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target image_pub[0m
+[ 60%] Built target image_sub
+[ 80%] [32mBuilding CXX object CMakeFiles/image_pub.dir/src/image_pub.cpp.o[0m
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:[m[K In member function ‘[01m[Kvoid imagePub::timer_callback()[m[K’:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:52:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass cv_bridge::CvImage[m[K’ has no member named ‘[01m[KtoCompressedImage[m[K’; did you mean ‘[01m[KtoCompressedImageMsg[m[K’?
+   52 |             sensor_msgs::msg::CompressedImage img_msg_compressed = img_msg.[01;31m[KtoCompressedImage[m[K(std::string("jpeg"));
+      |                                                                            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                                                                            [32m[KtoCompressedImageMsg[m[K
+gmake[2]: *** [CMakeFiles/image_pub.dir/build.make:76：CMakeFiles/image_pub.dir/src/image_pub.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/image_pub.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

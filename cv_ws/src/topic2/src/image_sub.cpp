@@ -1,6 +1,8 @@
 #include "global.hpp"
 #include "yolo.hpp"
 #include "sensor_msgs/msg/image.hpp"
+#include "sensor_msgs/msg/compressed_image.hpp"
+#include "sensor_msgs/image_encodings.hpp"
 #include "rclcpp/rclcpp.hpp"
 #include "cv_bridge/cv_bridge.h"
 #include "ros2_interfaces/msg/coord.hpp"
