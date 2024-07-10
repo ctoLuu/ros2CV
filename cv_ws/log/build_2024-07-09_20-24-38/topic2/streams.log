@@ -1,0 +1,26 @@
+[0.009s] Invoking command in '/home/stoair/ros2CV/cv_ws/build/topic2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/topic2 -- -j16 -l16
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target image_sub[0m
+[0.054s] [ 40%] Built target image_pub
+[0.061s] [ 60%] [32mBuilding CXX object CMakeFiles/image_sub.dir/src/image_sub.cpp.o[0m
+[0.312s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:76:33:[m[K [01;31m[Kerror: [m[Kextended character “ is not valid in an identifier
+[0.313s]    76 |         std::string& encoding = [01;31m[K“[m[K8UC1”
+[0.313s]       |                                 [01;31m[K^[m[K
+[0.313s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:76:33:[m[K [01;31m[Kerror: [m[Kextended character ” is not valid in an identifier
+[2.715s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:[m[K In member function ‘[01m[Kvoid imageSub::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.715s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:76:22:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kstd::string& encoding[m[K’
+[2.715s]    76 |         std::string& [01;31m[Kencoding[m[K = “8UC1”
+[2.715s]       |                      [01;31m[K^~~~~~~~[m[K
+[2.715s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:74:21:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::string encoding[m[K’
+[2.716s]    74 |         std::string [01;36m[Kencoding[m[K = msg->encoding;
+[2.716s]       |                     [01;36m[K^~~~~~~~[m[K
+[2.723s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:76:33:[m[K [01;31m[Kerror: [m[K‘[01m[K“8UC1”[m[K’ was not declared in this scope
+[2.723s]    76 |         std::string& encoding = [01;31m[K“8UC1”[m[K
+[2.723s]       |                                 [01;31m[K^~~~~~[m[K
+[2.728s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:78:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv_ptr[m[K’ was not declared in this scope; did you mean ‘[01m[Ksi_ptr[m[K’?
+[2.728s]    78 |         Mat src = [01;31m[Kcv_ptr[m[K->image;
+[2.728s]       |                   [01;31m[K^~~~~~[m[K
+[2.728s]       |                   [32m[Ksi_ptr[m[K
+[4.423s] gmake[2]: *** [CMakeFiles/image_sub.dir/build.make:76：CMakeFiles/image_sub.dir/src/image_sub.cpp.o] 错误 1
+[4.423s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/image_sub.dir/all] 错误 2
+[4.424s] gmake: *** [Makefile:146：all] 错误 2
+[4.425s] Invoked command in '/home/stoair/ros2CV/cv_ws/build/topic2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/topic2 -- -j16 -l16

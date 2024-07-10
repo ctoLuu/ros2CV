@@ -1,17 +1,15 @@
 #include "global.hpp"
 #include "yolo.hpp"
 #include "sensor_msgs/msg/image.hpp"
-#include "sensor_msgs/msg/compressed_image.hpp"
-#include "sensor_msgs/image_encodings.hpp"
 #include "rclcpp/rclcpp.hpp"
 #include "cv_bridge/cv_bridge.h"
+#include "Mat2image.hpp"
 #include "ros2_interfaces/msg/coord.hpp"
 
 #define USE_CUDA true
 using namespace Eigen;
 using namespace std;
 using namespace cv;
-using namespace cv::dnn;
 
 char coord[50];
 char coord_last_frame[50];
@@ -34,7 +32,7 @@ public:
         readmodel();
 
         subscriber_ = this->create_subscription<sensor_msgs::msg::Image>(
-            "image", 
+            "image_raw", 
             10, 
             std::bind(&imageSub::image_callback, this, std::placeholders::_1)
         );
@@ -54,7 +52,7 @@ private:
     rclcpp::TimerBase::SharedPtr timer_;
     VideoCapture cap;
     Yolo test;
-    Net net1, net2;
+    dnn::Net net1, net2;
     vector<Output> result;
 
     void readmodel() {
@@ -71,11 +69,18 @@ private:
     void image_callback(const sensor_msgs::msg::Image::SharedPtr msg) {
         RCLCPP_INFO(this->get_logger(), "Receiving video frames");
         //auto image = cv_bridge::CvImage::toCompressedImageMsg(cv_bridge::JPG);
-        cv_bridge::CvImagePtr cv_ptr = cv_bridge::toCvCopy(msg, sensor_msgs::image_encodings::BGR8);
-        Mat src = cv_ptr->image;
+        std::string encoding = msg->encoding;
+        std::cout << "encoding: " << encoding << std::endl;
+        // cv_bridge::CvImagePtr cv_ptr = cv_bridge::toCvCopy(msg, sensor_msgs::image_encodings::MONO8);
+        // Mat src = cv_ptr->image;
 
-        Mat img;
-        img = handle_image(src, test);
+        Mat src;
+        std::string base64 = std::string((msg->data).begin(), (msg->data).end()); 
+        if (Mat2Img::Base2Mat(base64, src)) {
+            RCLCPP_INFO(this->get_logger(), "Base64 to Mat successfully");
+            return;
+        }
+        Mat img = handle_image(src, test);
         namedWindow("frame", WINDOW_NORMAL);
         imshow("frame", img);
         resizeWindow("frame", 1040, 780);
@@ -93,7 +98,7 @@ private:
         strcpy(coord_last_frame, coord);
     }
 
-    Mat handle_image(Mat frame, Yolo test)
+    Mat handle_image(Mat img, Yolo test)
     {
         cv::Mat K = (cv::Mat_<double>(3, 3) << 514.0045, 0, 321.6074,
                                                0, 514.6655, 260.0872,

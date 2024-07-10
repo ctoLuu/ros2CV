@@ -1,0 +1,3 @@
+[console_scripts]
+cam2image = pyPublish.cam2image:main
+

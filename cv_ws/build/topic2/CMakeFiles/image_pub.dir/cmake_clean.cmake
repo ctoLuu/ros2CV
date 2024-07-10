@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/image_pub.dir/src/image_base64.cpp.o"
+  "CMakeFiles/image_pub.dir/src/image_base64.cpp.o.d"
   "CMakeFiles/image_pub.dir/src/image_pub.cpp.o"
   "CMakeFiles/image_pub.dir/src/image_pub.cpp.o.d"
   "image_pub"

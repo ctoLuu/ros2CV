@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target image_sub[0m
+[35m[1mConsolidate compiler generated dependencies of target image_pub[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/image_sub.dir/src/image_sub.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/image_pub.dir/src/image_pub.cpp.o[0m
+In file included from [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:6[m[K:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/Mat2image.hpp:[m[K In static member function ‘[01m[Kstatic int Mat2Img::JPEGToMat(cv::Mat&, std::vector<unsigned char>)[m[K’:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/Mat2image.hpp:32:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv2[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv[m[K’?
+   32 |             [01;31m[Kcv2[m[K.imshow("frame", matImage);
+      |             [01;31m[K^~~[m[K
+      |             [32m[Kcv[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/Mat2image.hpp:40:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv2[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv[m[K’?
+   40 |             [01;31m[Kcv2[m[K.imshow("frame", matImage);
+      |             [01;31m[K^~~[m[K
+      |             [32m[Kcv[m[K
+In file included from [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:8[m[K:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/Mat2image.hpp:[m[K In static member function ‘[01m[Kstatic int Mat2Img::JPEGToMat(cv::Mat&, std::vector<unsigned char>)[m[K’:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/Mat2image.hpp:32:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv2[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv[m[K’?
+   32 |             [01;31m[Kcv2[m[K.imshow("frame", matImage);
+      |             [01;31m[K^~~[m[K
+      |             [32m[Kcv[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/Mat2image.hpp:40:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv2[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv[m[K’?
+   40 |             [01;31m[Kcv2[m[K.imshow("frame", matImage);
+      |             [01;31m[K^~~[m[K
+      |             [32m[Kcv[m[K
+gmake[2]: *** [CMakeFiles/image_pub.dir/build.make:76：CMakeFiles/image_pub.dir/src/image_pub.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/image_pub.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake[2]: *** [CMakeFiles/image_sub.dir/build.make:76：CMakeFiles/image_sub.dir/src/image_sub.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/image_sub.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

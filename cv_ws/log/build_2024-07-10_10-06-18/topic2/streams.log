@@ -1,0 +1,13 @@
+[0.011s] Invoking command in '/home/stoair/ros2CV/cv_ws/build/topic2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/topic2 -- -j16 -l16
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target image_pub[0m
+[0.056s] [ 57%] Built target image_sub
+[0.062s] [ 71%] [32mBuilding CXX object CMakeFiles/image_pub.dir/src/image_pub.cpp.o[0m
+[2.607s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:[m[K In member function ‘[01m[Kvoid imagePub::timer_callback()[m[K’:
+[2.607s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:51:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kbucharvector[m[K’ was not declared in this scope; did you mean ‘[01m[Kucharvector[m[K’?
+[2.607s]    51 |             img_msg->data = [01;31m[Kbucharvector[m[K;
+[2.607s]       |                             [01;31m[K^~~~~~~~~~~~[m[K
+[2.607s]       |                             [32m[Kucharvector[m[K
+[4.250s] gmake[2]: *** [CMakeFiles/image_pub.dir/build.make:76：CMakeFiles/image_pub.dir/src/image_pub.cpp.o] 错误 1
+[4.250s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/image_pub.dir/all] 错误 2
+[4.250s] gmake: *** [Makefile:146：all] 错误 2
+[4.253s] Invoked command in '/home/stoair/ros2CV/cv_ws/build/topic2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/topic2 -- -j16 -l16

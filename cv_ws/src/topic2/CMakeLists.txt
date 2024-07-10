@@ -23,9 +23,9 @@ include_directories( "/usr/include/eigen3" )
 LINK_DIRECTORIES("/opt/ros2/humble/lib")
 
 # Declare executables and set dependencies
-add_executable(image_pub src/image_pub.cpp)
+add_executable(image_pub src/image_pub.cpp src/image_base64.cpp)
 ament_target_dependencies(image_pub rclcpp OpenCV cv_bridge ros2_interfaces sensor_msgs)
-add_executable(image_sub src/image_sub.cpp src/yolo.cpp)
+add_executable(image_sub src/image_sub.cpp src/yolo.cpp src/image_base64.cpp)
 ament_target_dependencies(image_sub rclcpp OpenCV cv_bridge ros2_interfaces sensor_msgs)
 install(TARGETS
   image_pub

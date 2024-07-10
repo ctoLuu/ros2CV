@@ -1,0 +1,54 @@
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_base64.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kopencv2\opencv.hpp: 没有那个文件或目录
+    3 | #include [01;31m[K"opencv2\opencv.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/image_pub.dir/build.make:90：CMakeFiles/image_pub.dir/src/image_base64.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+In file included from [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/yolo.cpp:1[m[K:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/global.hpp:7:11:[m[K [01;31m[Kerror: [m[Kmissing terminating > character
+    7 | #include <
+      |           [01;31m[K^[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/global.hpp:7:10:[m[K [01;31m[Kerror: [m[Kempty filename in #include
+    7 | #include [01;31m[K<[m[K
+      |          [01;31m[K^[m[K
+In file included from [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:1[m[K:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/global.hpp:7:11:[m[K [01;31m[Kerror: [m[Kmissing terminating > character
+    7 | #include <
+      |           [01;31m[K^[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/global.hpp:7:10:[m[K [01;31m[Kerror: [m[Kempty filename in #include
+    7 | #include [01;31m[K<[m[K
+      |          [01;31m[K^[m[K
+In file included from [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:1[m[K:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/global.hpp:7:11:[m[K [01;31m[Kerror: [m[Kmissing terminating > character
+    7 | #include <
+      |           [01;31m[K^[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/global.hpp:7:10:[m[K [01;31m[Kerror: [m[Kempty filename in #include
+    7 | #include [01;31m[K<[m[K
+      |          [01;31m[K^[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/yolo.cpp:[m[K In member function ‘[01m[Kcv::Mat Yolo::drawPred(cv::Mat, std::vector<Output>, std::vector<cv::Scalar_<double> >, int)[m[K’:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/yolo.cpp:240:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcenter_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  240 |                 int [01;35m[Kcenter_x[m[K = left[i] + (result[i].box.width / 2);
+      |                     [01;35m[K^~~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/yolo.cpp:241:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcenter_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  241 |                 int [01;35m[Kcenter_y[m[K = top[i] + (result[i].box.height / 2);
+      |                     [01;35m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/image_sub.dir/build.make:90：CMakeFiles/image_sub.dir/src/yolo.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+In file included from [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:6[m[K:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/Mat2image.hpp:[m[K In static member function ‘[01m[Kstatic int Mat2Img::MatToByteArray(cv::Mat, std::vector<unsigned char>&)[m[K’:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/Mat2image.hpp:18:28:[m[K [01;31m[Kerror: [m[K‘[01m[KCV_IMWRITE_JPEG_QUALITY[m[K’ was not declared in this scope
+   18 |                 param[0] = [01;31m[KCV_IMWRITE_JPEG_QUALITY[m[K;
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/Mat2image.hpp:[m[K In static member function ‘[01m[Kstatic int Mat2Img::JPEGToMat(cv::Mat&, std::vector<unsigned char>)[m[K’:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/Mat2image.hpp:31:55:[m[K [01;31m[Kerror: [m[K‘[01m[KCV_LOAD_IMAGE_COLOR[m[K’ was not declared in this scope
+   31 |                         matImage = cv::imdecode(buff, [01;31m[KCV_LOAD_IMAGE_COLOR[m[K);
+      |                                                       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/Mat2image.hpp:37:55:[m[K [01;31m[Kerror: [m[K‘[01m[KCV_LOAD_IMAGE_COLOR[m[K’ was not declared in this scope
+   37 |                         matImage = cv::imdecode(buff, [01;31m[KCV_LOAD_IMAGE_COLOR[m[K);
+      |                                                       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/image_pub.dir/build.make:76：CMakeFiles/image_pub.dir/src/image_pub.cpp.o] 错误 1
+gmake[2]: *** [CMakeFiles/image_sub.dir/build.make:76：CMakeFiles/image_sub.dir/src/image_sub.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/image_pub.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/image_sub.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

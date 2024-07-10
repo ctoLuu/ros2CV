@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target image_pub[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/image_sub.dir/src/image_sub.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/image_pub.dir/src/image_pub.cpp.o[0m
+[ 42%] [32m[1mLinking CXX executable image_pub[0m
+[ 57%] [32m[1mLinking CXX executable image_sub[0m
+[ 71%] Built target image_pub
+[100%] Built target image_sub
+-- Install configuration: ""
+-- Installing: /home/stoair/ros2CV/cv_ws/install/topic2/lib/topic2/image_pub
+-- Set runtime path of "/home/stoair/ros2CV/cv_ws/install/topic2/lib/topic2/image_pub" to ""
+-- Installing: /home/stoair/ros2CV/cv_ws/install/topic2/lib/topic2/image_sub
+-- Set runtime path of "/home/stoair/ros2CV/cv_ws/install/topic2/lib/topic2/image_sub" to ""
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/ament_index/resource_index/package_run_dependencies/topic2
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/ament_index/resource_index/parent_prefix_path/topic2
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/environment/ament_prefix_path.sh
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/environment/path.sh
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/environment/path.dsv
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/local_setup.bash
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/local_setup.sh
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/local_setup.zsh
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/local_setup.dsv
+-- Installing: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/package.dsv
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/ament_index/resource_index/packages/topic2
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/cmake/topic2Config.cmake
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/cmake/topic2Config-version.cmake
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/package.xml

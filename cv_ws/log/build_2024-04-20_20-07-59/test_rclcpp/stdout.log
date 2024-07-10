@@ -1,5 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target testssss[0m
-[35m[1mConsolidate compiler generated dependencies of target webcam_sub[0m
-[ 33%] Built target webcam_pub
-[ 50%] [32mBuilding CXX object CMakeFiles/testssss.dir/src/test.cpp.o[0m
-[ 83%] Built target webcam_sub

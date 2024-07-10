@@ -1,0 +1,52 @@
+In file included from [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:8[m[K:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/Mat2image.hpp:[m[K In static member function ‘[01m[Kstatic int Mat2Img::JPEGToMat(cv::Mat&, std::vector<unsigned char>)[m[K’:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/Mat2image.hpp:33:13:[m[K [01;31m[Kerror: [m[K‘[01m[KwaitKey[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::waitKey[m[K’?
+   33 |             [01;31m[KwaitKey[m[K(1);
+      |             [01;31m[K^~~~~~~[m[K
+      |             [32m[Kcv::waitKey[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:68[m[K,
+                 from [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/global.hpp:6[m[K,
+                 from [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:1[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/highgui.hpp:359:18:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::waitKey[m[K’ declared here
+  359 | CV_EXPORTS_W int [01;36m[KwaitKey[m[K(int delay = 0);
+      |                  [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:8[m[K:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/Mat2image.hpp:41:13:[m[K [01;31m[Kerror: [m[K‘[01m[KwaitKey[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::waitKey[m[K’?
+   41 |             [01;31m[KwaitKey[m[K(1);
+      |             [01;31m[K^~~~~~~[m[K
+      |             [32m[Kcv::waitKey[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:68[m[K,
+                 from [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/global.hpp:6[m[K,
+                 from [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:1[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/highgui.hpp:359:18:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::waitKey[m[K’ declared here
+  359 | CV_EXPORTS_W int [01;36m[KwaitKey[m[K(int delay = 0);
+      |                  [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:6[m[K:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/Mat2image.hpp:[m[K In static member function ‘[01m[Kstatic int Mat2Img::JPEGToMat(cv::Mat&, std::vector<unsigned char>)[m[K’:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/Mat2image.hpp:33:13:[m[K [01;31m[Kerror: [m[K‘[01m[KwaitKey[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::waitKey[m[K’?
+   33 |             [01;31m[KwaitKey[m[K(1);
+      |             [01;31m[K^~~~~~~[m[K
+      |             [32m[Kcv::waitKey[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:68[m[K,
+                 from [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/global.hpp:6[m[K,
+                 from [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:1[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/highgui.hpp:359:18:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::waitKey[m[K’ declared here
+  359 | CV_EXPORTS_W int [01;36m[KwaitKey[m[K(int delay = 0);
+      |                  [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:6[m[K:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/Mat2image.hpp:41:13:[m[K [01;31m[Kerror: [m[K‘[01m[KwaitKey[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::waitKey[m[K’?
+   41 |             [01;31m[KwaitKey[m[K(1);
+      |             [01;31m[K^~~~~~~[m[K
+      |             [32m[Kcv::waitKey[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:68[m[K,
+                 from [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/global.hpp:6[m[K,
+                 from [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:1[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/highgui.hpp:359:18:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::waitKey[m[K’ declared here
+  359 | CV_EXPORTS_W int [01;36m[KwaitKey[m[K(int delay = 0);
+      |                  [01;36m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/image_pub.dir/build.make:76：CMakeFiles/image_pub.dir/src/image_pub.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/image_pub.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake[2]: *** [CMakeFiles/image_sub.dir/build.make:76：CMakeFiles/image_sub.dir/src/image_sub.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/image_sub.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,18 @@
+[0.008s] Invoking command in '/home/stoair/ros2CV/cv_ws/build/topic2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/topic2 -- -j16 -l16
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target image_sub[0m
+[0.058s] [ 42%] Built target image_pub
+[0.064s] [ 57%] [32mBuilding CXX object CMakeFiles/image_sub.dir/src/image_sub.cpp.o[0m
+[2.643s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:[m[K In member function ‘[01m[Kvoid imageSub::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.644s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:81:36:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::vector<unsigned char>[m[K’} to ‘[01m[Kstd::string&[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>&[m[K’}
+[2.644s]    81 |         if (Mat2Img::Base2Mat([01;31m[Kmsg->data[m[K, src)) {
+[2.644s]       |                               [01;31m[K~~~~~^~~~[m[K
+[2.644s]       |                                    [01;31m[K|[m[K
+[2.644s]       |                                    [01;31m[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type {aka std::vector<unsigned char>}[m[K
+[2.644s] In file included from [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:8[m[K:
+[2.644s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/Mat2image.hpp:52:42:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstatic int Mat2Img::Base2Mat(std::string&, cv::Mat&)[m[K’
+[2.644s]    52 |         static int Base2Mat([01;36m[Kstd::string &base64[m[K, cv::Mat &image)
+[2.644s]       |                             [01;36m[K~~~~~~~~~~~~~^~~~~~[m[K
+[4.222s] gmake[2]: *** [CMakeFiles/image_sub.dir/build.make:76：CMakeFiles/image_sub.dir/src/image_sub.cpp.o] 错误 1
+[4.222s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/image_sub.dir/all] 错误 2
+[4.222s] gmake: *** [Makefile:146：all] 错误 2
+[4.224s] Invoked command in '/home/stoair/ros2CV/cv_ws/build/topic2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/topic2 -- -j16 -l16

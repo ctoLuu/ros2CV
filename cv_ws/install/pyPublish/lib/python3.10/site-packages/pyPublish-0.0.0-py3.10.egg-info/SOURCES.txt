@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/pyPublish/pyPublish.egg-info/PKG-INFO
+../../build/pyPublish/pyPublish.egg-info/SOURCES.txt
+../../build/pyPublish/pyPublish.egg-info/dependency_links.txt
+../../build/pyPublish/pyPublish.egg-info/entry_points.txt
+../../build/pyPublish/pyPublish.egg-info/requires.txt
+../../build/pyPublish/pyPublish.egg-info/top_level.txt
+../../build/pyPublish/pyPublish.egg-info/zip-safe
+pyPublish/__init__.py
+pyPublish/cam2image.py
+resource/pyPublish
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

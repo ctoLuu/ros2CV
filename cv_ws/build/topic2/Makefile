@@ -223,6 +223,33 @@ image_sub/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_sub.dir/build.make CMakeFiles/image_sub.dir/build
 .PHONY : image_sub/fast
 
+src/image_base64.o: src/image_base64.cpp.o
+.PHONY : src/image_base64.o
+
+# target to build an object file
+src/image_base64.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_pub.dir/build.make CMakeFiles/image_pub.dir/src/image_base64.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_sub.dir/build.make CMakeFiles/image_sub.dir/src/image_base64.cpp.o
+.PHONY : src/image_base64.cpp.o
+
+src/image_base64.i: src/image_base64.cpp.i
+.PHONY : src/image_base64.i
+
+# target to preprocess a source file
+src/image_base64.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_pub.dir/build.make CMakeFiles/image_pub.dir/src/image_base64.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_sub.dir/build.make CMakeFiles/image_sub.dir/src/image_base64.cpp.i
+.PHONY : src/image_base64.cpp.i
+
+src/image_base64.s: src/image_base64.cpp.s
+.PHONY : src/image_base64.s
+
+# target to generate assembly for a file
+src/image_base64.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_pub.dir/build.make CMakeFiles/image_pub.dir/src/image_base64.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_sub.dir/build.make CMakeFiles/image_sub.dir/src/image_base64.cpp.s
+.PHONY : src/image_base64.cpp.s
+
 src/image_pub.o: src/image_pub.cpp.o
 .PHONY : src/image_pub.o
 
@@ -312,6 +339,9 @@ help:
 	@echo "... uninstall"
 	@echo "... image_pub"
 	@echo "... image_sub"
+	@echo "... src/image_base64.o"
+	@echo "... src/image_base64.i"
+	@echo "... src/image_base64.s"
 	@echo "... src/image_pub.o"
 	@echo "... src/image_pub.i"
 	@echo "... src/image_pub.s"

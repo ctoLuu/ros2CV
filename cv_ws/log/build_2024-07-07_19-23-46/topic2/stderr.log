@@ -1,0 +1,24 @@
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/yolo.cpp:[m[K In member function ‘[01m[Kcv::Mat Yolo::drawPred(cv::Mat, std::vector<Output>, std::vector<cv::Scalar_<double> >, int)[m[K’:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/yolo.cpp:240:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcenter_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  240 |                 int [01;35m[Kcenter_x[m[K = left[i] + (result[i].box.width / 2);
+      |                     [01;35m[K^~~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/yolo.cpp:241:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcenter_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  241 |                 int [01;35m[Kcenter_y[m[K = top[i] + (result[i].box.height / 2);
+      |                     [01;35m[K^~~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:[m[K In member function ‘[01m[Kvoid imagePub::timer_callback()[m[K’:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:69:51:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kstd::vector<unsigned char>&[m[K’ from expression of type ‘[01m[Kstd::vector<int>[m[K’
+   69 |         bool result = cv::imencode(".jpg", frame, [01;31m[Kencode_param[m[K, &encimg);
+      |                                                   [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/highgui.hpp:48[m[K,
+                 from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:68[m[K,
+                 from [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/global.hpp:6[m[K,
+                 from [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:1[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/imgcodecs.hpp:356:56:[m[K [01;36m[Knote: [m[Kin passing argument 3 of ‘[01m[Kbool cv::imencode(const String&, cv::InputArray, std::vector<unsigned char>&, const std::vector<int>&)[m[K’
+  356 |                             CV_OUT [01;36m[Kstd::vector<uchar>& buf[m[K,
+      |                                    [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/image_pub.dir/build.make:76：CMakeFiles/image_pub.dir/src/image_pub.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/image_pub.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.409
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.409
+gmake: *** [Makefile:146：all] 错误 2

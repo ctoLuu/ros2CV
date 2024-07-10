@@ -1,0 +1,77 @@
+[0.010s] Invoking command in '/home/stoair/ros2CV/cv_ws/build/topic2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/topic2 -- -j16 -l16
+[0.065s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.172s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.191s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.193s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.197s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.207s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.220s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.268s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.270s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.369s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.478s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.575s] -- Found ros2_interfaces: 0.0.0 (/home/stoair/ros2CV/cv_ws/install/ros2_interfaces/share/ros2_interfaces/cmake)
+[0.596s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.664s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.664s] -- Configured cppcheck include dirs: 
+[0.664s] -- Configured cppcheck exclude dirs and/or files: 
+[0.664s] -- Added test 'lint_cmake' to check CMake code style
+[0.665s] -- Added test 'uncrustify' to check C / C++ code style
+[0.665s] -- Configured uncrustify additional arguments: 
+[0.665s] -- Added test 'xmllint' to check XML markup files
+[0.666s] -- Configuring done
+[0.680s] -- Generating done
+[0.681s] -- Build files have been written to: /home/stoair/ros2CV/cv_ws/build/topic2
+[0.701s] [35m[1mConsolidate compiler generated dependencies of target image_pub[0m
+[0.702s] [35m[1mConsolidate compiler generated dependencies of target image_sub[0m
+[0.719s] [ 16%] [32mBuilding CXX object CMakeFiles/image_pub.dir/src/image_pub.cpp.o[0m
+[0.719s] [ 33%] [32mBuilding CXX object CMakeFiles/image_pub.dir/src/image_base64.cpp.o[0m
+[0.721s] [ 50%] [32mBuilding CXX object CMakeFiles/image_sub.dir/src/image_sub.cpp.o[0m
+[0.725s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_base64.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kimage_base64.h: 没有那个文件或目录
+[0.725s]     1 | #include [01;31m[K"image_base64.h"[m[K
+[0.725s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[0.725s] compilation terminated.
+[0.726s] gmake[2]: *** [CMakeFiles/image_pub.dir/build.make:90：CMakeFiles/image_pub.dir/src/image_base64.cpp.o] 错误 1
+[0.726s] gmake[2]: *** 正在等待未完成的任务....
+[0.726s] [ 66%] [32mBuilding CXX object CMakeFiles/image_sub.dir/src/yolo.cpp.o[0m
+[0.829s] In file included from [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:1[m[K:
+[0.829s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/global.hpp:7:11:[m[K [01;31m[Kerror: [m[Kmissing terminating > character
+[0.829s]     7 | #include <
+[0.829s]       |           [01;31m[K^[m[K
+[0.829s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/global.hpp:7:10:[m[K [01;31m[Kerror: [m[Kempty filename in #include
+[0.829s]     7 | #include [01;31m[K<[m[K
+[0.829s]       |          [01;31m[K^[m[K
+[0.829s] In file included from [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:1[m[K:
+[0.829s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/global.hpp:7:11:[m[K [01;31m[Kerror: [m[Kmissing terminating > character
+[0.829s]     7 | #include <
+[0.829s]       |           [01;31m[K^[m[K
+[0.829s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/global.hpp:7:10:[m[K [01;31m[Kerror: [m[Kempty filename in #include
+[0.829s]     7 | #include [01;31m[K<[m[K
+[0.829s]       |          [01;31m[K^[m[K
+[0.833s] In file included from [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/yolo.cpp:1[m[K:
+[0.833s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/global.hpp:7:11:[m[K [01;31m[Kerror: [m[Kmissing terminating > character
+[0.833s]     7 | #include <
+[0.833s]       |           [01;31m[K^[m[K
+[0.833s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/global.hpp:7:10:[m[K [01;31m[Kerror: [m[Kempty filename in #include
+[0.833s]     7 | #include [01;31m[K<[m[K
+[0.833s]       |          [01;31m[K^[m[K
+[0.966s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:6:10:[m[K [01;31m[Kfatal error: [m[KMat2image.hpp: 没有那个文件或目录
+[0.966s]     6 | #include [01;31m[K<Mat2image.hpp>[m[K
+[0.966s]       |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[0.966s] compilation terminated.
+[0.969s] gmake[2]: *** [CMakeFiles/image_pub.dir/build.make:76：CMakeFiles/image_pub.dir/src/image_pub.cpp.o] 错误 1
+[0.969s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/image_pub.dir/all] 错误 2
+[0.969s] gmake[1]: *** 正在等待未完成的任务....
+[1.912s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/yolo.cpp:[m[K In member function ‘[01m[Kcv::Mat Yolo::drawPred(cv::Mat, std::vector<Output>, std::vector<cv::Scalar_<double> >, int)[m[K’:
+[1.912s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/yolo.cpp:240:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcenter_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.912s]   240 |                 int [01;35m[Kcenter_x[m[K = left[i] + (result[i].box.width / 2);
+[1.912s]       |                     [01;35m[K^~~~~~~~[m[K
+[1.912s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/yolo.cpp:241:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcenter_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.912s]   241 |                 int [01;35m[Kcenter_y[m[K = top[i] + (result[i].box.height / 2);
+[1.912s]       |                     [01;35m[K^~~~~~~~[m[K
+[2.225s] gmake[2]: *** [CMakeFiles/image_sub.dir/build.make:90：CMakeFiles/image_sub.dir/src/yolo.cpp.o] 错误 1
+[2.225s] gmake[2]: *** 正在等待未完成的任务....
+[4.806s] gmake[2]: *** [CMakeFiles/image_sub.dir/build.make:76：CMakeFiles/image_sub.dir/src/image_sub.cpp.o] 错误 1
+[4.806s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/image_sub.dir/all] 错误 2
+[4.806s] gmake: *** [Makefile:146：all] 错误 2
+[4.808s] Invoked command in '/home/stoair/ros2CV/cv_ws/build/topic2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/topic2 -- -j16 -l16

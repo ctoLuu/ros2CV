@@ -1,0 +1,40 @@
+[35m[1mConsolidate compiler generated dependencies of target image_pub[0m
+[ 50%] Built target image_sub
+[ 66%] [32mBuilding CXX object CMakeFiles/image_pub.dir/src/image_base64.cpp.o[0m
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_base64.cpp:[m[K In static member function ‘[01m[Kstatic const string ImageBase64::decode(const char*, int, int&)[m[K’:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_base64.cpp:85:35:[m[K [01;35m[Kwarning: [m[Karray subscript has type ‘[01m[Kchar[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wchar-subscripts-Wchar-subscripts]8;;[m[K]
+   85 |             n_value = DecodeTable[[01;35m[K*Data++[m[K] << 18;
+      |                                   [01;35m[K^~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_base64.cpp:86:36:[m[K [01;35m[Kwarning: [m[Karray subscript has type ‘[01m[Kchar[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wchar-subscripts-Wchar-subscripts]8;;[m[K]
+   86 |             n_value += DecodeTable[[01;35m[K*Data++[m[K] << 12;
+      |                                    [01;35m[K^~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_base64.cpp:91:40:[m[K [01;35m[Kwarning: [m[Karray subscript has type ‘[01m[Kchar[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wchar-subscripts-Wchar-subscripts]8;;[m[K]
+   91 |                 n_value += DecodeTable[[01;35m[K*Data++[m[K] << 6;
+      |                                        [01;35m[K^~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_base64.cpp:96:44:[m[K [01;35m[Kwarning: [m[Karray subscript has type ‘[01m[Kchar[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wchar-subscripts-Wchar-subscripts]8;;[m[K]
+   96 |                     n_value += DecodeTable[[01;35m[K*Data++[m[K];
+      |                                            [01;35m[K^~~~~~~[m[K
+[ 83%] [32m[1mLinking CXX executable image_pub[0m
+/usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.409
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.409
+[100%] Built target image_pub
+-- Install configuration: ""
+-- Installing: /home/stoair/ros2CV/cv_ws/install/topic2/lib/topic2/image_pub
+-- Set runtime path of "/home/stoair/ros2CV/cv_ws/install/topic2/lib/topic2/image_pub" to ""
+-- Installing: /home/stoair/ros2CV/cv_ws/install/topic2/lib/topic2/image_sub
+-- Set runtime path of "/home/stoair/ros2CV/cv_ws/install/topic2/lib/topic2/image_sub" to ""
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/ament_index/resource_index/package_run_dependencies/topic2
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/ament_index/resource_index/parent_prefix_path/topic2
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/environment/ament_prefix_path.sh
+-- Installing: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/environment/path.sh
+-- Installing: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/environment/path.dsv
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/local_setup.bash
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/local_setup.sh
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/local_setup.zsh
+-- Installing: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/local_setup.dsv
+-- Installing: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/package.dsv
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/ament_index/resource_index/packages/topic2
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/cmake/topic2Config.cmake
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/cmake/topic2Config-version.cmake
+-- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/package.xml

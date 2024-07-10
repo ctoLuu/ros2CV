@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/image_sub.dir/src/image_base64.cpp.o"
+  "CMakeFiles/image_sub.dir/src/image_base64.cpp.o.d"
   "CMakeFiles/image_sub.dir/src/image_sub.cpp.o"
   "CMakeFiles/image_sub.dir/src/image_sub.cpp.o.d"
   "CMakeFiles/image_sub.dir/src/yolo.cpp.o"

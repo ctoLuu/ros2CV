@@ -1,0 +1,51 @@
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found ros2_interfaces: 0.0.0 (/home/stoair/ros2CV/cv_ws/install/ros2_interfaces/share/ros2_interfaces/cmake)
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/stoair/ros2CV/cv_ws/build/topic2
+[35m[1mConsolidate compiler generated dependencies of target image_pub[0m
+[35m[1mConsolidate compiler generated dependencies of target image_sub[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/image_sub.dir/src/image_sub.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/image_sub.dir/src/image_base64.cpp.o[0m
+[ 71%] Built target image_pub
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_base64.cpp:[m[K In static member function ‘[01m[Kstatic const string ImageBase64::decode(const char*, int, int&)[m[K’:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_base64.cpp:85:35:[m[K [01;35m[Kwarning: [m[Karray subscript has type ‘[01m[Kchar[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wchar-subscripts-Wchar-subscripts]8;;[m[K]
+   85 |             n_value = DecodeTable[[01;35m[K*Data++[m[K] << 18;
+      |                                   [01;35m[K^~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_base64.cpp:86:36:[m[K [01;35m[Kwarning: [m[Karray subscript has type ‘[01m[Kchar[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wchar-subscripts-Wchar-subscripts]8;;[m[K]
+   86 |             n_value += DecodeTable[[01;35m[K*Data++[m[K] << 12;
+      |                                    [01;35m[K^~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_base64.cpp:91:40:[m[K [01;35m[Kwarning: [m[Karray subscript has type ‘[01m[Kchar[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wchar-subscripts-Wchar-subscripts]8;;[m[K]
+   91 |                 n_value += DecodeTable[[01;35m[K*Data++[m[K] << 6;
+      |                                        [01;35m[K^~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_base64.cpp:96:44:[m[K [01;35m[Kwarning: [m[Karray subscript has type ‘[01m[Kchar[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wchar-subscripts-Wchar-subscripts]8;;[m[K]
+   96 |                     n_value += DecodeTable[[01;35m[K*Data++[m[K];
+      |                                            [01;35m[K^~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:[m[K In member function ‘[01m[Kvoid imageSub::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:81:13:[m[K [01;31m[Kerror: [m[K‘[01m[KBase2Mat[m[K’ was not declared in this scope
+   81 |         if ([01;31m[KBase2Mat[m[K(msg->data, img)) {
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:85:28:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrc[m[K’ was not declared in this scope
+   85 |         img = handle_image([01;31m[Ksrc[m[K, test);
+      |                            [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/image_sub.dir/build.make:76：CMakeFiles/image_sub.dir/src/image_sub.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/image_sub.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

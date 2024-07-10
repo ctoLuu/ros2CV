@@ -1,0 +1,15 @@
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_base64.cpp:[m[K In static member function ‘[01m[Kstatic const string ImageBase64::decode(const char*, int, int&)[m[K’:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_base64.cpp:85:35:[m[K [01;35m[Kwarning: [m[Karray subscript has type ‘[01m[Kchar[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wchar-subscripts-Wchar-subscripts]8;;[m[K]
+   85 |             n_value = DecodeTable[[01;35m[K*Data++[m[K] << 18;
+      |                                   [01;35m[K^~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_base64.cpp:86:36:[m[K [01;35m[Kwarning: [m[Karray subscript has type ‘[01m[Kchar[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wchar-subscripts-Wchar-subscripts]8;;[m[K]
+   86 |             n_value += DecodeTable[[01;35m[K*Data++[m[K] << 12;
+      |                                    [01;35m[K^~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_base64.cpp:91:40:[m[K [01;35m[Kwarning: [m[Karray subscript has type ‘[01m[Kchar[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wchar-subscripts-Wchar-subscripts]8;;[m[K]
+   91 |                 n_value += DecodeTable[[01;35m[K*Data++[m[K] << 6;
+      |                                        [01;35m[K^~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_base64.cpp:96:44:[m[K [01;35m[Kwarning: [m[Karray subscript has type ‘[01m[Kchar[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wchar-subscripts-Wchar-subscripts]8;;[m[K]
+   96 |                     n_value += DecodeTable[[01;35m[K*Data++[m[K];
+      |                                            [01;35m[K^~~~~~~[m[K
+/usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.409
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.409

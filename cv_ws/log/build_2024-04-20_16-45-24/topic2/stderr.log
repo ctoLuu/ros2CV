@@ -1,8 +1,0 @@
-[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:[m[K In constructor ‘[01m[KimageSub::imageSub()[m[K’:
-[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:31:44:[m[K [01;31m[Kerror: [m[K‘[01m[KOpenCV_VERSION[m[K’ was not declared in this scope; did you mean ‘[01m[KCV_VERSION[m[K’?
-   31 |         std::cout << "OpenCV version: " << [01;31m[KOpenCV_VERSION[m[K << std::endl;
-      |                                            [01;31m[K^~~~~~~~~~~~~~[m[K
-      |                                            [32m[KCV_VERSION[m[K
-gmake[2]: *** [CMakeFiles/image_sub.dir/build.make:76：CMakeFiles/image_sub.dir/src/image_sub.cpp.o] 错误 1
-gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/image_sub.dir/all] 错误 2
-gmake: *** [Makefile:146：all] 错误 2

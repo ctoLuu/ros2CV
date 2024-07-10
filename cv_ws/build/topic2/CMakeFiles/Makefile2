@@ -137,12 +137,12 @@ CMakeFiles/topic2_uninstall.dir/clean:
 CMakeFiles/image_pub.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_pub.dir/build.make CMakeFiles/image_pub.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_pub.dir/build.make CMakeFiles/image_pub.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stoair/ros2CV/cv_ws/build/topic2/CMakeFiles --progress-num=1,2 "Built target image_pub"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stoair/ros2CV/cv_ws/build/topic2/CMakeFiles --progress-num=1,2,3 "Built target image_pub"
 .PHONY : CMakeFiles/image_pub.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/image_pub.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stoair/ros2CV/cv_ws/build/topic2/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stoair/ros2CV/cv_ws/build/topic2/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/image_pub.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/stoair/ros2CV/cv_ws/build/topic2/CMakeFiles 0
 .PHONY : CMakeFiles/image_pub.dir/rule
@@ -163,12 +163,12 @@ CMakeFiles/image_pub.dir/clean:
 CMakeFiles/image_sub.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_sub.dir/build.make CMakeFiles/image_sub.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_sub.dir/build.make CMakeFiles/image_sub.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stoair/ros2CV/cv_ws/build/topic2/CMakeFiles --progress-num=3,4,5 "Built target image_sub"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stoair/ros2CV/cv_ws/build/topic2/CMakeFiles --progress-num=4,5,6,7 "Built target image_sub"
 .PHONY : CMakeFiles/image_sub.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/image_sub.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stoair/ros2CV/cv_ws/build/topic2/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stoair/ros2CV/cv_ws/build/topic2/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/image_sub.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/stoair/ros2CV/cv_ws/build/topic2/CMakeFiles 0
 .PHONY : CMakeFiles/image_sub.dir/rule
