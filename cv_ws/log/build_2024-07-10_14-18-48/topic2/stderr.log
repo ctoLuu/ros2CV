@@ -1,7 +1,0 @@
-[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:[m[K In member function ‘[01m[Kvoid imageSub::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
-[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:79:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
-   79 |         Mat2Img::Base2Mat(base64, src)[01;31m[K)[m[K;
-      |                                       [01;31m[K^[m[K
-gmake[2]: *** [CMakeFiles/image_sub.dir/build.make:76：CMakeFiles/image_sub.dir/src/image_sub.cpp.o] 错误 1
-gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/image_sub.dir/all] 错误 2
-gmake: *** [Makefile:146：all] 错误 2

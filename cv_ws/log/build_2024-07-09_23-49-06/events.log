@@ -1,8 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000197] (-) JobUnselected: {'identifier': 'pyPublish'}
-[0.000288] (-) JobUnselected: {'identifier': 'ros2_interfaces'}
-[0.000323] (-) JobUnselected: {'identifier': 'test_rclcpp'}
-[0.000333] (-) JobUnselected: {'identifier': 'topic2'}
-[0.000343] (-) JobUnselected: {'identifier': 'webcam_topic'}
-[0.000357] (-) JobUnselected: {'identifier': 'yolo_topic'}
-[0.000452] (-) EventReactorShutdown: {}

@@ -1,9 +1,0 @@
-/home/stoair/ros2CV/cv_ws/build/yolo_topic/CMakeFiles/uninstall.dir
-/home/stoair/ros2CV/cv_ws/build/yolo_topic/CMakeFiles/yolo_topic_uninstall.dir
-/home/stoair/ros2CV/cv_ws/build/yolo_topic/CMakeFiles/test.dir
-/home/stoair/ros2CV/cv_ws/build/yolo_topic/CMakeFiles/edit_cache.dir
-/home/stoair/ros2CV/cv_ws/build/yolo_topic/CMakeFiles/rebuild_cache.dir
-/home/stoair/ros2CV/cv_ws/build/yolo_topic/CMakeFiles/list_install_components.dir
-/home/stoair/ros2CV/cv_ws/build/yolo_topic/CMakeFiles/install.dir
-/home/stoair/ros2CV/cv_ws/build/yolo_topic/CMakeFiles/install/local.dir
-/home/stoair/ros2CV/cv_ws/build/yolo_topic/CMakeFiles/install/strip.dir

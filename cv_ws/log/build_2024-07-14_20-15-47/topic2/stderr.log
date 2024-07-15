@@ -1,4 +1,0 @@
-[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:[m[K In member function ‘[01m[Kcv::Mat imageSub::handle_image(cv::Mat, Yolo)[m[K’:
-[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:101:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-  101 |     Mat handle_image(Mat frame, [01;35m[KYolo test[m[K)
-      |                                 [01;35m[K~~~~~^~~~[m[K

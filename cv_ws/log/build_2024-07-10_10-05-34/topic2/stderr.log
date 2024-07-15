@@ -1,7 +1,0 @@
-[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:[m[K In member function ‘[01m[Kvoid imagePub::timer_callback()[m[K’:
-[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_pub.cpp:51:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kimg_msg[m[K’
-   51 |             [01;31m[Kimg_msg[m[K->data = base64;
-      |             [01;31m[K^~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/image_pub.dir/build.make:76：CMakeFiles/image_pub.dir/src/image_pub.cpp.o] 错误 1
-gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/image_pub.dir/all] 错误 2
-gmake: *** [Makefile:146：all] 错误 2
