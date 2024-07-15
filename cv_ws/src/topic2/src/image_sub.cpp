@@ -19,7 +19,7 @@ int flag_servo = 0;
 int count_servo = 0;
 int count_nomove = 0;
 int model_flag = 0;
-string model_path = "/home/stoair/ros2CV/cv_ws/src/webcam_topic/src/models/bestv5.onnx";
+string model_path = "/home/stoair/ros2CV/cv_ws/src/webcam_topic/src/models/best_H.onnx";
 string model_path_circle = "/home/stoair/ros2CV/cv_ws/src/webcam_topic/src/models/best_circle.onnx";
 Matrix3d K; // 内参矩阵
 Vector2d D; // 畸变矩阵
@@ -40,7 +40,7 @@ public:
         publisher_ = this->create_publisher<ros2_interfaces::msg::Coord>("coord", 10);
         
         timer_ = this->create_wall_timer(
-            std::chrono::milliseconds(1000), 
+            std::chrono::milliseconds(100), 
             std::bind(&imageSub::timer_callback, this)
         );
 
@@ -69,8 +69,8 @@ private:
     void image_callback(const sensor_msgs::msg::Image::SharedPtr msg) {
         RCLCPP_INFO(this->get_logger(), "Receiving video frames");
         //auto image = cv_bridge::CvImage::toCompressedImageMsg(cv_bridge::JPG);
-        std::string encoding = msg->encoding;
-        std::cout << "encoding: " << encoding << std::endl;
+        // std::string encoding = msg->encoding;
+        // std::cout << "encoding: " << encoding << std::endl;
         // cv_bridge::CvImagePtr cv_ptr = cv_bridge::toCvCopy(msg, sensor_msgs::image_encodings::MONO8);
         // Mat src = cv_ptr->image;
 
@@ -98,7 +98,7 @@ private:
         strcpy(coord_last_frame, coord);
     }
 
-    Mat handle_image(Mat img, Yolo test)
+    Mat handle_image(Mat frame, Yolo test)
     {
         cv::Mat K = (cv::Mat_<double>(3, 3) << 514.0045, 0, 321.6074,
                                                0, 514.6655, 260.0872,

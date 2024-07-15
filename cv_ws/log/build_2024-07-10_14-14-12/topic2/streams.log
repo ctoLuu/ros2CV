@@ -1,0 +1,30 @@
+[0.008s] Invoking command in '/home/stoair/ros2CV/cv_ws/build/topic2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/ros2CV/cv_ws/install/pyPublish:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/topic2 -- -j16 -l16
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target image_pub[0m
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target image_sub[0m
+[0.066s] [ 42%] Built target image_pub
+[0.067s] [ 57%] [32mBuilding CXX object CMakeFiles/image_sub.dir/src/image_sub.cpp.o[0m
+[6.785s] [ 71%] [32m[1mLinking CXX executable image_sub[0m
+[7.269s] [100%] Built target image_sub
+[7.277s] Invoked command in '/home/stoair/ros2CV/cv_ws/build/topic2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/ros2CV/cv_ws/install/pyPublish:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/topic2 -- -j16 -l16
+[7.318s] Invoking command in '/home/stoair/ros2CV/cv_ws/build/topic2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/ros2CV/cv_ws/install/pyPublish:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/stoair/ros2CV/cv_ws/build/topic2
+[7.333s] -- Install configuration: ""
+[7.334s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic2/lib/topic2/image_pub
+[7.336s] -- Set runtime path of "/home/stoair/ros2CV/cv_ws/install/topic2/lib/topic2/image_pub" to ""
+[7.336s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic2/lib/topic2/image_sub
+[7.341s] -- Set runtime path of "/home/stoair/ros2CV/cv_ws/install/topic2/lib/topic2/image_sub" to ""
+[7.341s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/ament_index/resource_index/package_run_dependencies/topic2
+[7.341s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/ament_index/resource_index/parent_prefix_path/topic2
+[7.341s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/environment/ament_prefix_path.sh
+[7.341s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/environment/ament_prefix_path.dsv
+[7.342s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/environment/path.sh
+[7.342s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/environment/path.dsv
+[7.342s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/local_setup.bash
+[7.342s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/local_setup.sh
+[7.342s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/local_setup.zsh
+[7.342s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/local_setup.dsv
+[7.342s] -- Installing: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/package.dsv
+[7.342s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/ament_index/resource_index/packages/topic2
+[7.342s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/cmake/topic2Config.cmake
+[7.343s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/cmake/topic2Config-version.cmake
+[7.343s] -- Up-to-date: /home/stoair/ros2CV/cv_ws/install/topic2/share/topic2/package.xml
+[7.344s] Invoked command in '/home/stoair/ros2CV/cv_ws/build/topic2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/ros2CV/cv_ws/install/pyPublish:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/stoair/ros2CV/cv_ws/build/topic2

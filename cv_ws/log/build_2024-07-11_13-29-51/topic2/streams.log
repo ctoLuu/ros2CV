@@ -1,0 +1,21 @@
+[0.011s] Invoking command in '/home/stoair/ros2CV/cv_ws/build/topic2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/ros2CV/cv_ws/install/pyPublish:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/topic2 -- -j16 -l16
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target image_sub[0m
+[0.089s] [ 42%] Built target image_pub
+[0.095s] [ 57%] [32mBuilding CXX object CMakeFiles/image_sub.dir/src/image_sub.cpp.o[0m
+[2.992s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:[m[K In member function ‘[01m[Kcv::Mat imageSub::handle_image(cv::Mat, Yolo)[m[K’:
+[2.992s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:117:13:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kcv::Mat img[m[K’ shadows a parameter
+[2.992s]   117 |         Mat [01;31m[Kimg[m[K;
+[2.992s]       |             [01;31m[K^~~[m[K
+[2.992s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:101:26:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat img[m[K’ previously declared here
+[2.992s]   101 |     Mat handle_image([01;36m[KMat img[m[K, Yolo test)
+[2.992s]       |                      [01;36m[K~~~~^~~[m[K
+[2.997s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:118:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe[m[K’ was not declared in this scope
+[2.997s]   118 |         undistort([01;31m[Kframe[m[K, img, K, D, K);
+[2.997s]       |                   [01;31m[K^~~~~[m[K
+[2.997s] [01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:101:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kimg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.997s]   101 |     Mat handle_image([01;35m[KMat img[m[K, Yolo test)
+[2.997s]       |                      [01;35m[K~~~~^~~[m[K
+[4.711s] gmake[2]: *** [CMakeFiles/image_sub.dir/build.make:76：CMakeFiles/image_sub.dir/src/image_sub.cpp.o] 错误 1
+[4.712s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/image_sub.dir/all] 错误 2
+[4.712s] gmake: *** [Makefile:146：all] 错误 2
+[4.714s] Invoked command in '/home/stoair/ros2CV/cv_ws/build/topic2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stoair/ros2CV/cv_ws/install/pyPublish:/home/stoair/dev_ws/install/learning_urdf:/home/stoair/dev_ws/install/learning_topic:/home/stoair/dev_ws/install/learning_tf:/home/stoair/dev_ws/install/learning_service:/home/stoair/dev_ws/install/learning_qos:/home/stoair/dev_ws/install/learning_pkg_python:/home/stoair/dev_ws/install/learning_parameter:/home/stoair/dev_ws/install/learning_node:/home/stoair/dev_ws/install/learning_launch:/home/stoair/dev_ws/install/learning_action:/home/stoair/dev_ws/install/learning_gazebo_fortress:/home/stoair/dev_ws/install/learning_gazebo:/home/stoair/dev_ws/install/learning_cv:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/stoair/ros2CV/cv_ws/build/topic2 -- -j16 -l16
