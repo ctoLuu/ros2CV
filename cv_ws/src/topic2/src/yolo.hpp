@@ -18,7 +18,7 @@
 struct Output {
 	int id;             //结果类别id
 	float confidence;   //结果置信度
-	cv::Rect box;       //矩形框
+	cv::Rect box;       //矩形#include <ctime>框
 };
 
 class Yolo {

@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target image_sub[0m
+[ 42%] Built target image_pub
+[ 57%] [32mBuilding CXX object CMakeFiles/image_sub.dir/src/image_sub.cpp.o[0m
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:[m[K In member function ‘[01m[Kvoid imageSub::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:82:64:[m[K [01;31m[Kerror: [m[K‘[01m[Km[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+   82 |         std::string base64 = std::string((msg->data).begin(), ([01;31m[Km[m[K./video/sg->data).end());
+      |                                                                [01;31m[K^[m[K
+      |                                                                [32m[Ktm[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:82:41:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K([m[K’ token
+   82 |         std::string base64 = std::string[01;31m[K([m[K(msg->data).begin(), (m./video/sg->data).end());
+      |                                         [01;31m[K^[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:82:66:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K/[m[K’ token
+   82 |         std::string base64 = std::string((msg->data).begin(), (m.[01;31m[K/[m[Kvideo/sg->data).end());
+      |                                                                  [01;31m[K^[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:82:73:[m[K [01;31m[Kerror: [m[K‘[01m[Ksg[m[K’ was not declared in this scope; did you mean ‘[01m[Kmsg[m[K’?
+   82 |         std::string base64 = std::string((msg->data).begin(), (m./video/[01;31m[Ksg[m[K->data).end());
+      |                                                                         [01;31m[K^~[m[K
+      |                                                                         [32m[Kmsg[m[K
+gmake[2]: *** [CMakeFiles/image_sub.dir/build.make:76：CMakeFiles/image_sub.dir/src/image_sub.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/image_sub.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

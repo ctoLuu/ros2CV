@@ -1,0 +1,10 @@
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:[m[K In member function ‘[01m[Kvoid imageSub::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:78:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KMat[m[K’
+   78 |         [01;31m[KMat[m[K img = handle_image(src, test);
+      |         [01;31m[K^~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:80:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kimg[m[K’ was not declared in this scope
+   80 |         imshow("frame", [01;31m[Kimg[m[K);
+      |                         [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/image_sub.dir/build.make:76：CMakeFiles/image_sub.dir/src/image_sub.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/image_sub.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2
