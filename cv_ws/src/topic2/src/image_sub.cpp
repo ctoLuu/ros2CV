@@ -34,7 +34,7 @@ public:
 
         subscriber_ = this->create_subscription<sensor_msgs::msg::Image>(
             "image_raw", 
-            1, 
+            10, 
             std::bind(&imageSub::image_callback, this, std::placeholders::_1)
         );
 
@@ -122,7 +122,7 @@ private:
         rclcpp::Time current_time = this->get_clock()->now();
         if ((current_time - last_message_time_).seconds() >= 1.0) {
             // 如果3秒内没有接收到新的消息，执行操作
-            RCLCPP_INFO(this->get_logger(), "No message received in the last 3 seconds. Executing operation.");
+            RCLCPP_INFO(this->get_logger(), "No message received in the last 1 seconds. Executing operation.");
 
             // 执行操作...
             strcpy(coord, "0");

@@ -1,0 +1,11 @@
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/yolo.cpp:[m[K In member function ‘[01m[Kcv::Mat Yolo::drawPred(cv::Mat, std::vector<Output>, std::vector<cv::Scalar_<double> >, int)[m[K’:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/yolo.cpp:240:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcenter_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  240 |                 int [01;35m[Kcenter_x[m[K = left[i] + (result[i].box.width / 2);
+      |                     [01;35m[K^~~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/yolo.cpp:241:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcenter_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  241 |                 int [01;35m[Kcenter_y[m[K = top[i] + (result[i].box.height / 2);
+      |                     [01;35m[K^~~~~~~~[m[K
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:[m[K In member function ‘[01m[Kcv::Mat imageSub::handle_image(cv::Mat, Yolo)[m[K’:
+[01m[K/home/stoair/ros2CV/cv_ws/src/topic2/src/image_sub.cpp:134:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kframe[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  134 |     Mat handle_image([01;35m[KMat frame[m[K, Yolo test)
+      |                      [01;35m[K~~~~^~~~~[m[K

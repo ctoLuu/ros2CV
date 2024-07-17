@@ -309,17 +309,17 @@ void Yolo::findCircle(vector<Output> result)
 		sprintf(coord, "%d,%d,%d", right_x, right_y, flag_servo);
 	} else if (result.size() == 2)
 	{
-		// if (result[0].box.width * result[0].box.height > result[1].box.width * result[1].box.height)
-		// {
-		// 	int right_x = result[0].box.x + result[0].box.width/2, right_y = result[0].box.y + result[0].box.height/2;
-		// 	sprintf(coord, "%d,%d,%d", right_x, right_y, flag_servo);
-		// } else {
-		// 	int up_x = result[1].box.x + result[1].box.width/2, up_y = result[1].box.y + result[1].box.height/2;
-		// 	sprintf(coord, "%d,%d,%d", up_x, up_y, flag_servo);
-		// }
-		if (result[0].box.x > result[1].box.x) {
-			int right_x = result[0].box.x + result[0].box.width/2, right_y = result[0].box.y + result[0].box.height/2;
-		 	sprintf(coord, "%d,%d,%d", right_x, right_y, flag_servo);
+		int previous_x = 0, previous_y = 0;
+		if (sscanf(coord, "%d,%d", &previous_x, &previous_y) == 2) {
+			int distance1 = (result[0].box.x - previous_x)*(result[0].box.x - previous_x) + (result[0].box.y - previous_y)*(result[0].box.y - previous_y);
+			int distance2 = (result[1].box.x - previous_x)*(result[1].box.x - previous_x) + (result[1].box.y - previous_y)*(result[1].box.y - previous_y);
+			if (distance1 < distance2) {
+				int right_x = result[0].box.x + result[0].box.width/2, right_y = result[0].box.y + result[0].box.height/2;
+				sprintf(coord, "%d,%d,%d", right_x, right_y, flag_servo);
+			} else {
+				int right_x = result[1].box.x + result[1].box.width/2, right_y = result[1].box.y + result[1].box.height/2;
+				sprintf(coord, "%d,%d,%d", right_x, right_y, flag_servo);
+			}
 		}
 	}
 }
